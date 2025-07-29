@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Team Countdown Clock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .header {
+            background: rgba(255, 0, 0, 0.1);
+            border-bottom: 2px solid #ff0000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        .main-display {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .next-event {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .event-name {
+            font-size: 2.5rem;
+            color: #ffff00;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+        }
+
+        .countdown-display {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #00ff00;
+            text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            font-family: 'Courier New', monospace;
+            margin-bottom: 20px;
+        }
+
+        .event-duration {
+            font-size: 1.5rem;
+            color: #ffffff;
+            opacity: 0.8;
+        }
+
+        .upcoming-events {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            max-width: 400px;
+        }
+
+        .upcoming-title {
+            font-size: 1.2rem;
+            color: #ffff00;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .event-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid #ff0000;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+
+        .event-item-name {
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .event-item-time {
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        .settings-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .settings-btn:hover {
+            background: #cc0000;
+        }
+
+        .settings-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+
+        .settings-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #2d2d2d;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #ff0000;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .settings-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .settings-title {
+            font-size: 1.8rem;
+            color: #ff0000;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #ffffff;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ffff00;
+            font-weight: bold;
+        }
+
+        .form-input, .form-select {
+            width: 100%;
+            padding: 10px;
+            background: #1a1a1a;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        .form-input:focus, .form-select:focus {
+            outline: none;
+            border-color: #ff0000;
+        }
+
+        .events-list {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 10px;
+            background: #1a1a1a;
+        }
+
+        .event-checkbox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .event-checkbox input {
+            margin-right: 10px;
+        }
+
+        .btn {
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background: #cc0000;
+        }
+
+        .btn-secondary {
+            background: #555;
+        }
+
+        .btn-secondary:hover {
+            background: #777;
+        }
+
+        .profile-section {
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .current-time {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.2rem;
+            color: #cccccc;
+        }
+
+        .no-events {
+            text-align: center;
+            color: #888;
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="team-name">RACING TEAM COUNTDOWN</div>
+            <div class="current-time" id="currentTime"></div>
+        </div>
+
+        <button class="settings-btn" onclick="openSettings()">⚙️ Settings</button>
+
+        <div class="main-display">
+            <div id="mainContent">
+                <div class="no-events">Configure events in settings to get started</div>
+            </div>
+        </div>
+
+        <div class="upcoming-events" id="upcomingEvents" style="display: none;">
+            <div class="upcoming-title">Upcoming Events</div>
+            <div id="upcomingList"></div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="settings-modal" id="settingsModal">
+        <div class="settings-content">
+            <div class="settings-header">
+                <h2 class="settings-title">Settings</h2>
+                <button class="close-btn" onclick="closeSettings()">&times;</button>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Team Name</label>
+                <input type="text" class="form-input" id="teamName" value="RACING TEAM COUNTDOWN">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Timezone</label>
+                <select class="form-select" id="timezone">
+                    <option value="America/New_York">Eastern Time (ET)</option>
+                    <option value="America/Chicago">Central Time (CT)</option>
+                    <option value="America/Denver">Mountain Time (MT)</option>
+                    <option value="America/Los_Angeles">Pacific Time (PT)</option>
+                    <option value="Europe/London">GMT</option>
+                    <option value="Europe/Paris">Central European Time</option>
+                    <option value="Asia/Tokyo">Japan Standard Time</option>
+                    <option value="Australia/Sydney">Australian Eastern Time</option>
+                    <option value="UTC">UTC</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Add New Event</label>
+                <input type="text" class="form-input" id="eventName" placeholder="Event Name" style="margin-bottom: 10px;">
+                <input type="datetime-local" class="form-input" id="eventStart" style="margin-bottom: 10px;">
+                <input type="number" class="form-input" id="eventDuration" placeholder="Duration (minutes)" style="margin-bottom: 10px;">
+                <button class="btn" onclick="addEvent()">Add Event</button>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Available Events</label>
+                <div class="events-list" id="eventsList"></div>
+            </div>
+
+            <div class="profile-section">
+                <div class="form-group">
+                    <label class="form-label">User Profiles</label>
+                    <input type="text" class="form-input" id="profileName" placeholder="Profile Name" style="margin-bottom: 10px;">
+                    <button class="btn" onclick="saveProfile()">Save Current Profile</button>
+                    <button class="btn btn-secondary" onclick="loadProfile()">Load Profile</button>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" id="savedProfiles">
+                        <option value="">Select a saved profile...</option>
+                    </select>
+                    <button class="btn btn-secondary" onclick="deleteProfile()" style="margin-top: 10px;">Delete Selected Profile</button>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn" onclick="applySettings()">Apply Settings</button>
+                <button class="btn btn-secondary" onclick="closeSettings()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let events = [];
+        let selectedEvents = new Set();
+        let currentTimezone = 'America/New_York';
+        let teamName = 'RACING TEAM COUNTDOWN';
+        let countdownInterval;
+
+        // Initialize with sample events
+        function initializeSampleEvents() {
+            const now = new Date();
+            const sampleEvents = [
+                {
+                    id: 1,
+                    name: 'Practice Session 1',
+                    start: new Date(now.getTime() + 2 * 60 * 60 * 1000), // 2 hours from now
+                    duration: 90
+                },
+                {
+                    id: 2,
+                    name: 'Qualifying Round',
+                    start: new Date(now.getTime() + 6 * 60 * 60 * 1000), // 6 hours from now
+                    duration: 60
+                },
+                {
+                    id: 3,
+                    name: 'Main Race',
+                    start: new Date(now.getTime() + 24 * 60 * 60 * 1000), // 24 hours from now
+                    duration: 120
+                }
+            ];
+            
+            events = sampleEvents;
+            selectedEvents = new Set([1, 2, 3]);
+            updateEventsList();
+            updateDisplay();
+        }
+
+        function formatTime(date, timezone) {
+            return new Intl.DateTimeFormat('en-US', {
+                timeZone: timezone,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            }).format(date);
+        }
+
+        function formatDateTime(date, timezone) {
+            return new Intl.DateTimeFormat('en-US', {
+                timeZone: timezone,
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            }).format(date);
+        }
+
+        function updateDisplay() {
+            const now = new Date();
+            const currentTimeEl = document.getElementById('currentTime');
+            currentTimeEl.textContent = formatTime(now, currentTimezone);
+
+            const activeEvents = events.filter(event => selectedEvents.has(event.id));
+            const upcomingEvents = activeEvents.filter(event => event.start > now).sort((a, b) => a.start - b.start);
+
+            if (upcomingEvents.length === 0) {
+                document.getElementById('mainContent').innerHTML = '<div class="no-events">No upcoming events</div>';
+                document.getElementById('upcomingEvents').style.display = 'none';
+                return;
+            }
+
+            const nextEvent = upcomingEvents[0];
+            const timeUntil = nextEvent.start - now;
+
+            // Format countdown
+            const hours = Math.floor(timeUntil / (1000 * 60 * 60));
+            const minutes = Math.floor((timeUntil % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeUntil % (1000 * 60)) / 1000);
+
+            let countdownText;
+            if (hours > 0) {
+                countdownText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            } else {
+                countdownText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
+
+            document.getElementById('mainContent').innerHTML = `
+                <div class="next-event">
+                    <div class="event-name">${nextEvent.name}</div>
+                    <div class="countdown-display">${countdownText}</div>
+                    <div class="event-duration">Duration: ${nextEvent.duration} minutes</div>
+                </div>
+            `;
+
+            // Update upcoming events list
+            if (upcomingEvents.length > 1) {
+                const upcomingList = upcomingEvents.slice(1, 6).map(event => `
+                    <div class="event-item">
+                        <div class="event-item-name">${event.name}</div>
+                        <div class="event-item-time">${formatDateTime(event.start, currentTimezone)} • ${event.duration}min</div>
+                    </div>
+                `).join('');
+
+                document.getElementById('upcomingList').innerHTML = upcomingList;
+                document.getElementById('upcomingEvents').style.display = 'block';
+            } else {
+                document.getElementById('upcomingEvents').style.display = 'none';
+            }
+        }
+
+        function updateEventsList() {
+            const eventsList = document.getElementById('eventsList');
+            eventsList.innerHTML = events.map(event => `
+                <div class="event-checkbox">
+                    <input type="checkbox" id="event_${event.id}" ${selectedEvents.has(event.id) ? 'checked' : ''} 
+                           onchange="toggleEvent(${event.id})">
+                    <label for="event_${event.id}">
+                        ${event.name} - ${formatDateTime(event.start, currentTimezone)} (${event.duration}min)
+                    </label>
+                    <button class="btn btn-secondary" onclick="deleteEvent(${event.id})" style="margin-left: auto; padding: 5px 10px;">Delete</button>
+                </div>
+            `).join('');
+        }
+
+        function toggleEvent(eventId) {
+            if (selectedEvents.has(eventId)) {
+                selectedEvents.delete(eventId);
+            } else {
+                selectedEvents.add(eventId);
+            }
+        }
+
+        function addEvent() {
+            const name = document.getElementById('eventName').value;
+            const start = document.getElementById('eventStart').value;
+            const duration = parseInt(document.getElementById('eventDuration').value);
+
+            if (!name || !start || !duration) {
+                alert('Please fill in all event fields');
+                return;
+            }
+
+            const event = {
+                id: Date.now(),
+                name: name,
+                start: new Date(start),
+                duration: duration
+            };
+
+            events.push(event);
+            selectedEvents.add(event.id);
+            updateEventsList();
+
+            // Clear form
+            document.getElementById('eventName').value = '';
+            document.getElementById('eventStart').value = '';
+            document.getElementById('eventDuration').value = '';
+        }
+
+        function deleteEvent(eventId) {
+            if (confirm('Are you sure you want to delete this event?')) {
+                events = events.filter(event => event.id !== eventId);
+                selectedEvents.delete(eventId);
+                updateEventsList();
+            }
+        }
+
+        function openSettings() {
+            document.getElementById('settingsModal').style.display = 'block';
+            document.getElementById('teamName').value = teamName;
+            document.getElementById('timezone').value = currentTimezone;
+            updateEventsList();
+            loadSavedProfiles();
+        }
+
+        function closeSettings() {
+            document.getElementById('settingsModal').style.display = 'none';
+        }
+
+        function applySettings() {
+            teamName = document.getElementById('teamName').value;
+            currentTimezone = document.getElementById('timezone').value;
+            
+            document.querySelector('.team-name').textContent = teamName;
+            updateEventsList();
+            updateDisplay();
+            closeSettings();
+        }
+
+        function saveProfile() {
+            const profileName = document.getElementById('profileName').value;
+            if (!profileName) {
+                alert('Please enter a profile name');
+                return;
+            }
+
+            const profile = {
+                name: profileName,
+                teamName: teamName,
+                timezone: currentTimezone,
+                events: events,
+                selectedEvents: Array.from(selectedEvents)
+            };
+
+            let savedProfiles = JSON.parse(localStorage.getItem('racingProfiles') || '[]');
+            savedProfiles = savedProfiles.filter(p => p.name !== profileName); // Remove existing
+            savedProfiles.push(profile);
+            localStorage.setItem('racingProfiles', JSON.stringify(savedProfiles));
+
+            document.getElementById('profileName').value = '';
+            loadSavedProfiles();
+            alert('Profile saved successfully!');
+        }
+
+        function loadSavedProfiles() {
+            const savedProfiles = JSON.parse(localStorage.getItem('racingProfiles') || '[]');
+            const select = document.getElementById('savedProfiles');
+            select.innerHTML = '<option value="">Select a saved profile...</option>';
+            
+            savedProfiles.forEach(profile => {
+                const option = document.createElement('option');
+                option.value = profile.name;
+                option.textContent = profile.name;
+                select.appendChild(option);
+            });
+        }
+
+        function loadProfile() {
+            const profileName = document.getElementById('savedProfiles').value;
+            if (!profileName) {
+                alert('Please select a profile to load');
+                return;
+            }
+
+            const savedProfiles = JSON.parse(localStorage.getItem('racingProfiles') || '[]');
+            const profile = savedProfiles.find(p => p.name === profileName);
+
+            if (profile) {
+                teamName = profile.teamName;
+                currentTimezone = profile.timezone;
+                events = profile.events.map(event => ({
+                    ...event,
+                    start: new Date(event.start)
+                }));
+                selectedEvents = new Set(profile.selectedEvents);
+
+                document.getElementById('teamName').value = teamName;
+                document.getElementById('timezone').value = currentTimezone;
+                updateEventsList();
+                alert('Profile loaded successfully!');
+            }
+        }
+
+        function deleteProfile() {
+            const profileName = document.getElementById('savedProfiles').value;
+            if (!profileName) {
+                alert('Please select a profile to delete');
+                return;
+            }
+
+            if (confirm(`Are you sure you want to delete the profile "${profileName}"?`)) {
+                let savedProfiles = JSON.parse(localStorage.getItem('racingProfiles') || '[]');
+                savedProfiles = savedProfiles.filter(p => p.name !== profileName);
+                localStorage.setItem('racingProfiles', JSON.stringify(savedProfiles));
+                loadSavedProfiles();
+                alert('Profile deleted successfully!');
+            }
+        }
+
+        // Initialize the application
+        function init() {
+            initializeSampleEvents();
+            
+            // Update display every second
+            countdownInterval = setInterval(updateDisplay, 1000);
+            updateDisplay();
+
+            // Set default timezone to user's local timezone
+            const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const timezoneSelect = document.getElementById('timezone');
+            if ([...timezoneSelect.options].some(option => option.value === userTimezone)) {
+                currentTimezone = userTimezone;
+                timezoneSelect.value = userTimezone;
+            }
+        }
+
+        // Start the application
+        init();
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('settingsModal');
+            if (event.target === modal) {
+                closeSettings();
+            }
+        }
+    </script>
+</body>
+</html>
