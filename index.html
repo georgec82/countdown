@@ -13,8 +13,8 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-            color: #ffffff;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+            color: #000000;
             overflow: hidden;
         }
 
@@ -26,17 +26,29 @@
         }
 
         .header {
-            background: rgba(255, 0, 0, 0.1);
-            border-bottom: 2px solid #ff0000;
+            background: #ffffff;
+            border-bottom: 3px solid #dc143c;
             padding: 20px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-left, .logo-right {
+            height: 60px;
+            width: auto;
+            padding: 8px;
         }
 
         .team-name {
             font-size: 2rem;
             font-weight: bold;
-            color: #ff0000;
-            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            color: #dc143c;
+            text-shadow: none;
+            flex: 1;
+            margin: 0 20px;
         }
 
         .main-display {
@@ -55,24 +67,29 @@
 
         .event-name {
             font-size: 2.5rem;
-            color: #ffff00;
+            color: #dc143c;
             margin-bottom: 10px;
-            text-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(220, 20, 60, 0.2);
+            font-weight: bold;
         }
 
         .countdown-display {
             font-size: 6rem;
             font-weight: bold;
-            color: #00ff00;
-            text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            color: #8b0000;
+            text-shadow: 3px 3px 6px rgba(139, 0, 0, 0.3);
             font-family: 'Courier New', monospace;
             margin-bottom: 20px;
+            border: 3px solid #dc143c;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(220, 20, 60, 0.05);
         }
 
         .event-duration {
             font-size: 1.5rem;
-            color: #ffffff;
-            opacity: 0.8;
+            color: #333333;
+            font-weight: bold;
         }
 
         .upcoming-events {
@@ -84,34 +101,35 @@
 
         .upcoming-title {
             font-size: 1.2rem;
-            color: #ffff00;
+            color: #dc143c;
             margin-bottom: 15px;
             font-weight: bold;
         }
 
         .event-item {
-            background: rgba(255, 255, 255, 0.1);
-            border-left: 4px solid #ff0000;
+            background: rgba(220, 20, 60, 0.1);
+            border-left: 4px solid #dc143c;
             padding: 10px;
             margin-bottom: 8px;
             border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .event-item-name {
             font-weight: bold;
-            color: #ffffff;
+            color: #8b0000;
         }
 
         .event-item-time {
             font-size: 0.9rem;
-            color: #cccccc;
+            color: #666666;
         }
 
         .settings-btn {
             position: absolute;
             top: 20px;
             right: 20px;
-            background: #ff0000;
+            background: #dc143c;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -119,10 +137,11 @@
             cursor: pointer;
             font-size: 1rem;
             transition: background 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
         .settings-btn:hover {
-            background: #cc0000;
+            background: #8b0000;
         }
 
         .settings-modal {
@@ -265,7 +284,15 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="team-name">RACING TEAM COUNTDOWN</div>
+            <div class="logo-left">
+                <!-- Dick Johnson Racing Logo -->
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiBmaWxsPSJibGFjayIvPgo8dGV4dCB4PSI1MCIgeT0iMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwiPkRKUjwvdGV4dD4KPHN2Zz4K" alt="DJR Logo" style="height: 60px;">
+            </div>
+            <div class="team-name">Shell V-Power Racing Team</div>
+            <div class="logo-right">
+                <!-- Shell V-Power Logo -->
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxNSIgZmlsbD0iI0ZGRDcwMCIvPgo8dGV4dCB4PSI0NSIgeT0iMTYiIGZpbGw9IiNEQzE0M0MiIGZvbnQtc2l6ZT0iOCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCI+U2hlbGw8L3RleHQ+Cjx0ZXh0IHg9IjQ1IiB5PSIyNiIgZmlsbD0iI0RDMTQzQyIgZm9udC1zaXplPSI4IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSJib2xkIj5WLVBvd2VyPC90ZXh0Pgo8L3N2Zz4K" alt="Shell V-Power Logo" style="height: 60px;">
+            </div>
             <div class="current-time" id="currentTime"></div>
         </div>
 
@@ -293,21 +320,19 @@
 
             <div class="form-group">
                 <label class="form-label">Team Name</label>
-                <input type="text" class="form-input" id="teamName" value="RACING TEAM COUNTDOWN">
+                <input type="text" class="form-input" id="teamName" value="Shell V-Power Racing Team">
             </div>
 
             <div class="form-group">
                 <label class="form-label">Timezone</label>
                 <select class="form-select" id="timezone">
-                    <option value="America/New_York">Eastern Time (ET)</option>
-                    <option value="America/Chicago">Central Time (CT)</option>
-                    <option value="America/Denver">Mountain Time (MT)</option>
-                    <option value="America/Los_Angeles">Pacific Time (PT)</option>
-                    <option value="Europe/London">GMT</option>
-                    <option value="Europe/Paris">Central European Time</option>
-                    <option value="Asia/Tokyo">Japan Standard Time</option>
-                    <option value="Australia/Sydney">Australian Eastern Time</option>
-                    <option value="UTC">UTC</option>
+                    <option value="Australia/Sydney">Australian Eastern Time (Sydney, Melbourne)</option>
+                    <option value="Australia/Brisbane">Australian Eastern Standard Time (Brisbane)</option>
+                    <option value="Australia/Adelaide">Australian Central Time (Adelaide)</option>
+                    <option value="Australia/Darwin">Australian Central Standard Time (Darwin)</option>
+                    <option value="Australia/Perth">Australian Western Time (Perth)</option>
+                    <option value="Pacific/Auckland">New Zealand Standard Time (Auckland)</option>
+                    <option value="Pacific/Chatham">Chatham Islands Time</option>
                 </select>
             </div>
 
@@ -349,8 +374,8 @@
     <script>
         let events = [];
         let selectedEvents = new Set();
-        let currentTimezone = 'America/New_York';
-        let teamName = 'RACING TEAM COUNTDOWN';
+        let currentTimezone = 'Australia/Sydney';
+        let teamName = 'Shell V-Power Racing Team';
         let countdownInterval;
 
         // Initialize with sample events
@@ -623,12 +648,18 @@
             countdownInterval = setInterval(updateDisplay, 1000);
             updateDisplay();
 
-            // Set default timezone to user's local timezone
+            // Set default timezone to Australian Eastern Time
             const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
             const timezoneSelect = document.getElementById('timezone');
-            if ([...timezoneSelect.options].some(option => option.value === userTimezone)) {
+            
+            // Check if user is in Australia/NZ, otherwise default to Sydney
+            const anzTimezones = ['Australia/Sydney', 'Australia/Brisbane', 'Australia/Adelaide', 'Australia/Darwin', 'Australia/Perth', 'Pacific/Auckland', 'Pacific/Chatham'];
+            if (anzTimezones.includes(userTimezone)) {
                 currentTimezone = userTimezone;
                 timezoneSelect.value = userTimezone;
+            } else {
+                currentTimezone = 'Australia/Sydney';
+                timezoneSelect.value = 'Australia/Sydney';
             }
         }
 
