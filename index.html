@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Racing Team Countdown Clock</title>
+    <title>Shell V-Power Racing Team Countdown</title>
     <style>
         * {
             margin: 0;
@@ -46,7 +46,6 @@
             font-size: 2rem;
             font-weight: bold;
             color: #dc143c;
-            text-shadow: none;
             flex: 1;
             margin: 0 20px;
         }
@@ -58,6 +57,17 @@
             justify-content: center;
             align-items: center;
             padding: 40px;
+        }
+
+        .current-time {
+            font-size: 1.2rem;
+            color: #8b0000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: 1px solid #dc143c;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
 
         .next-event {
@@ -160,14 +170,15 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: #2d2d2d;
+            background: #ffffff;
             padding: 30px;
             border-radius: 10px;
-            border: 2px solid #ff0000;
+            border: 2px solid #dc143c;
             max-width: 600px;
             width: 90%;
             max-height: 80vh;
             overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
         .settings-header {
@@ -179,13 +190,13 @@
 
         .settings-title {
             font-size: 1.8rem;
-            color: #ff0000;
+            color: #dc143c;
         }
 
         .close-btn {
             background: none;
             border: none;
-            color: #ffffff;
+            color: #8b0000;
             font-size: 2rem;
             cursor: pointer;
         }
@@ -197,32 +208,33 @@
         .form-label {
             display: block;
             margin-bottom: 8px;
-            color: #ffff00;
+            color: #dc143c;
             font-weight: bold;
         }
 
         .form-input, .form-select {
             width: 100%;
             padding: 10px;
-            background: #1a1a1a;
-            border: 1px solid #555;
+            background: #f8f8f8;
+            border: 1px solid #ddd;
             border-radius: 5px;
-            color: #ffffff;
+            color: #333333;
             font-size: 1rem;
         }
 
         .form-input:focus, .form-select:focus {
             outline: none;
-            border-color: #ff0000;
+            border-color: #dc143c;
+            box-shadow: 0 0 5px rgba(220, 20, 60, 0.3);
         }
 
         .events-list {
             max-height: 200px;
             overflow-y: auto;
-            border: 1px solid #555;
+            border: 1px solid #ddd;
             border-radius: 5px;
             padding: 10px;
-            background: #1a1a1a;
+            background: #f8f8f8;
         }
 
         .event-checkbox {
@@ -236,7 +248,7 @@
         }
 
         .btn {
-            background: #ff0000;
+            background: #dc143c;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -244,38 +256,30 @@
             cursor: pointer;
             margin-right: 10px;
             margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .btn:hover {
-            background: #cc0000;
+            background: #8b0000;
         }
 
         .btn-secondary {
-            background: #555;
+            background: #666666;
         }
 
         .btn-secondary:hover {
-            background: #777;
+            background: #555555;
         }
 
         .profile-section {
-            border-top: 1px solid #555;
+            border-top: 1px solid #ddd;
             padding-top: 20px;
             margin-top: 20px;
         }
 
-        .current-time {
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 1.2rem;
-            color: #cccccc;
-        }
-
         .no-events {
             text-align: center;
-            color: #888;
+            color: #666666;
             font-size: 1.5rem;
             margin-top: 50px;
         }
@@ -285,15 +289,14 @@
     <div class="container">
         <div class="header">
             <div class="logo-left">
-                <!-- Dick Johnson Racing Logo - Replace with actual image -->
+                <!-- Dick Johnson Racing Logo -->
                 <img src="djr-logo.png" alt="DJR Logo" style="height: 60px;" onerror="this.style.display='none'">
             </div>
             <div class="team-name">Shell V-Power Racing Team</div>
             <div class="logo-right">
-                <!-- Shell V-Power Logo - Replace with actual image -->
+                <!-- Shell V-Power Logo -->
                 <img src="shell-vpower-logo.png" alt="Shell V-Power Logo" style="height: 60px;" onerror="this.style.display='none'">
             </div>
-            <div class="current-time" id="currentTime"></div>
         </div>
 
         <button class="settings-btn" onclick="openSettings()">⚙️ Settings</button>
@@ -380,30 +383,35 @@
 
         // Initialize with sample events
         function initializeSampleEvents() {
-            const now = new Date();
             const sampleEvents = [
                 {
                     id: 1,
                     name: 'Practice Session 1',
-                    start: new Date(now.getTime() + 2 * 60 * 60 * 1000), // 2 hours from now
+                    start: new Date('2025-08-01T09:00:00'),
                     duration: 90
                 },
                 {
                     id: 2,
-                    name: 'Qualifying Round',
-                    start: new Date(now.getTime() + 6 * 60 * 60 * 1000), // 6 hours from now
-                    duration: 60
+                    name: 'Practice Session 2',
+                    start: new Date('2025-08-01T13:30:00'),
+                    duration: 90
                 },
                 {
                     id: 3,
+                    name: 'Qualifying Round',
+                    start: new Date('2025-08-02T14:00:00'),
+                    duration: 60
+                },
+                {
+                    id: 4,
                     name: 'Main Race',
-                    start: new Date(now.getTime() + 24 * 60 * 60 * 1000), // 24 hours from now
+                    start: new Date('2025-08-03T15:00:00'),
                     duration: 120
                 }
             ];
             
             events = sampleEvents;
-            selectedEvents = new Set([1, 2, 3]);
+            selectedEvents = new Set([1, 2, 3, 4]);
             updateEventsList();
             updateDisplay();
         }
@@ -430,14 +438,14 @@
 
         function updateDisplay() {
             const now = new Date();
-            const currentTimeEl = document.getElementById('currentTime');
-            currentTimeEl.textContent = formatTime(now, currentTimezone);
-
             const activeEvents = events.filter(event => selectedEvents.has(event.id));
             const upcomingEvents = activeEvents.filter(event => event.start > now).sort((a, b) => a.start - b.start);
 
             if (upcomingEvents.length === 0) {
-                document.getElementById('mainContent').innerHTML = '<div class="no-events">No upcoming events</div>';
+                document.getElementById('mainContent').innerHTML = `
+                    <div class="current-time">${formatTime(now, currentTimezone)}</div>
+                    <div class="no-events">No upcoming events</div>
+                `;
                 document.getElementById('upcomingEvents').style.display = 'none';
                 return;
             }
@@ -445,7 +453,6 @@
             const nextEvent = upcomingEvents[0];
             const timeUntil = nextEvent.start - now;
 
-            // Format countdown
             const hours = Math.floor(timeUntil / (1000 * 60 * 60));
             const minutes = Math.floor((timeUntil % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeUntil % (1000 * 60)) / 1000);
@@ -458,6 +465,7 @@
             }
 
             document.getElementById('mainContent').innerHTML = `
+                <div class="current-time">${formatTime(now, currentTimezone)}</div>
                 <div class="next-event">
                     <div class="event-name">${nextEvent.name}</div>
                     <div class="countdown-display">${countdownText}</div>
@@ -465,7 +473,6 @@
                 </div>
             `;
 
-            // Update upcoming events list
             if (upcomingEvents.length > 1) {
                 const upcomingList = upcomingEvents.slice(1, 6).map(event => `
                     <div class="event-item">
@@ -524,7 +531,6 @@
             selectedEvents.add(event.id);
             updateEventsList();
 
-            // Clear form
             document.getElementById('eventName').value = '';
             document.getElementById('eventStart').value = '';
             document.getElementById('eventDuration').value = '';
@@ -576,7 +582,7 @@
             };
 
             let savedProfiles = JSON.parse(localStorage.getItem('racingProfiles') || '[]');
-            savedProfiles = savedProfiles.filter(p => p.name !== profileName); // Remove existing
+            savedProfiles = savedProfiles.filter(p => p.name !== profileName);
             savedProfiles.push(profile);
             localStorage.setItem('racingProfiles', JSON.stringify(savedProfiles));
 
@@ -640,19 +646,14 @@
             }
         }
 
-        // Initialize the application
         function init() {
             initializeSampleEvents();
-            
-            // Update display every second
             countdownInterval = setInterval(updateDisplay, 1000);
             updateDisplay();
 
-            // Set default timezone to Australian Eastern Time
             const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
             const timezoneSelect = document.getElementById('timezone');
             
-            // Check if user is in Australia/NZ, otherwise default to Sydney
             const anzTimezones = ['Australia/Sydney', 'Australia/Brisbane', 'Australia/Adelaide', 'Australia/Darwin', 'Australia/Perth', 'Pacific/Auckland', 'Pacific/Chatham'];
             if (anzTimezones.includes(userTimezone)) {
                 currentTimezone = userTimezone;
@@ -663,10 +664,8 @@
             }
         }
 
-        // Start the application
         init();
 
-        // Close modal when clicking outside
         window.onclick = function(event) {
             const modal = document.getElementById('settingsModal');
             if (event.target === modal) {
