@@ -1,0 +1,807 @@
+{
+  "lastUpdated": "2025-08-05T08:36:16.547989",
+  "teamGroup": "engineers",
+  "eventCount": 80,
+  "events": [
+    {
+      "id": 1,
+      "name": "PIRTEK IPSWICH APPEARANCE",
+      "start": "2025-08-07T11:00:00",
+      "duration": 30,
+      "description": "PIRTEK IPSWICH APPEARANCE",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "THOSE STAYING - ALL DEPART IN WORKSHOP VAN",
+      "start": "2025-08-07T12:00:00",
+      "duration": null,
+      "description": "THOSE STAYING - ALL DEPART IN WORKSHOP VAN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "LUNCH",
+      "start": "2025-08-07T13:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "TRACK WALK",
+      "start": "2025-08-07T13:30:00",
+      "duration": null,
+      "description": "TRACK WALK",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "TRUCK UNLAOD COMMENCES",
+      "start": "2025-08-07T14:00:00",
+      "duration": null,
+      "description": "TRUCK UNLAOD COMMENCES",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "RYGG- FILIMING SET UP OF GARAGE - CREW PLEASE BE AWARE",
+      "start": "2025-08-07T14:00:00",
+      "duration": 90,
+      "description": "RYGG- FILIMING SET UP OF GARAGE - CREW PLEASE BE AWARE",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "RYGG- PRODUCT CONTENT FILMING",
+      "start": "2025-08-07T15:30:00",
+      "duration": 30,
+      "description": "RYGG- PRODUCT CONTENT FILMING",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "IPSWICH SUPERFEST - ALL DRIVER SIGNING",
+      "start": "2025-08-07T17:00:00",
+      "duration": 60,
+      "description": "IPSWICH SUPERFEST - ALL DRIVER SIGNING",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "REPCO CREW NIGHT - LOCATION TBC",
+      "start": "2025-08-07T18:15:00",
+      "duration": 30,
+      "description": "REPCO CREW NIGHT - LOCATION TBC",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DINNER",
+      "start": "2025-08-07T19:30:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "BREAKFAST",
+      "start": "2025-08-08T07:10:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "VCS PADDOCK OPEN & TYRE FITTING COMMENCES",
+      "start": "2025-08-08T07:30:00",
+      "duration": null,
+      "description": "VCS PADDOCK OPEN & TYRE FITTING COMMENCES",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "JUNIOR PRESS CONFERENCE - LOCATION TBC",
+      "start": "2025-08-08T09:45:00",
+      "duration": 15,
+      "description": "JUNIOR PRESS CONFERENCE - LOCATION TBC",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "DRIVER SIGNING SESSION: FRONT OF TEAM TRUCK",
+      "start": "2025-08-08T10:40:00",
+      "duration": 30,
+      "description": "DRIVER SIGNING SESSION: FRONT OF TEAM TRUCK",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-08T11:20:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "PRACTICE 1",
+      "start": "2025-08-08T12:05:00",
+      "duration": 30,
+      "description": "PRACTICE 1",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "PRACTICE STARTS",
+      "start": "2025-08-08T12:35:00",
+      "duration": 5,
+      "description": "PRACTICE STARTS",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-08T12:35:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "LUNCH",
+      "start": "2025-08-08T13:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "DRIVER BALCKOUT PERIOD",
+      "start": "2025-08-08T13:40:00",
+      "duration": 55,
+      "description": "DRIVER BALCKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "PRACTICE 2",
+      "start": "2025-08-08T14:35:00",
+      "duration": 30,
+      "description": "PRACTICE 2",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-08T15:05:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "EVENT RIDES",
+      "start": "2025-08-08T16:45:00",
+      "duration": 30,
+      "description": "EVENT RIDES",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "DINNER",
+      "start": "2025-08-08T18:15:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-08-08T18:30:00",
+      "duration": null,
+      "description": "ENGINEERING DEBRIEF",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "PADDOCK CLOSED",
+      "start": "2025-08-08T20:15:00",
+      "duration": null,
+      "description": "PADDOCK CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "BREAKFAST",
+      "start": "2025-08-09T06:45:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "VCS PADDOCK OPEN",
+      "start": "2025-08-09T07:00:00",
+      "duration": null,
+      "description": "VCS PADDOCK OPEN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "PITSTOP PRACTICE",
+      "start": "2025-08-09T07:00:00",
+      "duration": 20,
+      "description": "PITSTOP PRACTICE",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-08-09T08:00:00",
+      "duration": 40,
+      "description": "ENGINEERING PREBRIEF",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-09T08:45:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "QUALIFYING PART 1 - RACE 23",
+      "start": "2025-08-09T09:30:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 1 - RACE 23",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "QUALIFYING PART 2 - RACE 23",
+      "start": "2025-08-09T09:50:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 23",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "QUALIFYING PART 1 - RACE 24",
+      "start": "2025-08-09T10:20:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 1 - RACE 24",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "QUALIFYING PART 2 - RACE 24",
+      "start": "2025-08-09T10:40:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 24",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-09T10:50:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "LUNCH",
+      "start": "2025-08-09T11:30:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-09T11:45:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "15 MINUTE SIGNAL",
+      "start": "2025-08-09T12:30:00",
+      "duration": null,
+      "description": "15 MINUTE SIGNAL",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "PIT EXIT OPEN",
+      "start": "2025-08-09T12:35:00",
+      "duration": null,
+      "description": "PIT EXIT OPEN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "PIT EXIT CLOSED",
+      "start": "2025-08-09T12:40:00",
+      "duration": null,
+      "description": "PIT EXIT CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "RACE 23 - 120KM",
+      "start": "2025-08-09T12:45:00",
+      "duration": 63,
+      "description": "RACE 23 - 120KM",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-09T13:50:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-09T14:55:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "30 MINUTE SIGNAL",
+      "start": "2025-08-09T15:40:00",
+      "duration": null,
+      "description": "30 MINUTE SIGNAL",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "PIT EXIT OPEN",
+      "start": "2025-08-09T15:45:00",
+      "duration": null,
+      "description": "PIT EXIT OPEN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "PIT EXIT CLOSED",
+      "start": "2025-08-09T15:55:00",
+      "duration": null,
+      "description": "PIT EXIT CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "RACE 24 - 120KM",
+      "start": "2025-08-09T16:10:00",
+      "duration": 65,
+      "description": "RACE 24 - 120KM",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "DINNER",
+      "start": "2025-08-09T17:15:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "ENGINEERING DREBRIEF",
+      "start": "2025-08-09T19:00:00",
+      "duration": null,
+      "description": "ENGINEERING DREBRIEF",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "TYRE FITTING CLOSED",
+      "start": "2025-08-09T19:00:00",
+      "duration": null,
+      "description": "TYRE FITTING CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "PADDOCK CLOSED",
+      "start": "2025-08-09T21:00:00",
+      "duration": null,
+      "description": "PADDOCK CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
+      "start": "2025-08-10T07:25:00",
+      "duration": null,
+      "description": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "BREAKFAST",
+      "start": "2025-08-10T07:30:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-08-10T07:30:00",
+      "duration": 30,
+      "description": "ENGINEERING PREBRIEF",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "SIGNING SESSION - MERCH",
+      "start": "2025-08-10T08:20:00",
+      "duration": 30,
+      "description": "SIGNING SESSION - MERCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-10T09:35:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "QUALIFYING PART 1 - RACE 25",
+      "start": "2025-08-10T10:20:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 1 - RACE 25",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "QUALIFYING PART 2 - RACE 25",
+      "start": "2025-08-10T10:40:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 25",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-10T10:50:00",
+      "duration": 50,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "QUALIFYING PART 3 - RACE 25 - TTSO",
+      "start": "2025-08-10T11:40:00",
+      "duration": 30,
+      "description": "QUALIFYING PART 3 - RACE 25 - TTSO",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-10T12:10:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "LUNCH",
+      "start": "2025-08-10T12:30:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-08-10T14:00:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "30 MINUTE SIGNAL",
+      "start": "2025-08-10T14:45:00",
+      "duration": null,
+      "description": "30 MINUTE SIGNAL",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "PIT EXIT OPEN",
+      "start": "2025-08-10T14:50:00",
+      "duration": null,
+      "description": "PIT EXIT OPEN",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "PIT EXIT CLOSED",
+      "start": "2025-08-10T15:00:00",
+      "duration": null,
+      "description": "PIT EXIT CLOSED",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "RACE 25 - 200KM",
+      "start": "2025-08-10T15:15:00",
+      "duration": 93,
+      "description": "RACE 25 - 200KM",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "ARRIVE AT TRACK",
+      "start": "2025-08-11T07:30:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "LUNCH",
+      "start": "2025-08-11T12:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "DEPART TRACK - HEAD HOME",
+      "start": "2025-08-11T17:30:00",
+      "duration": null,
+      "description": "DEPART TRACK - HEAD HOME",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "ARRIVE AT TRACK",
+      "start": "2025-08-12T07:30:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "BREAKFAST",
+      "start": "2025-08-12T08:00:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "TESTING COMMENCES",
+      "start": "2025-08-12T08:30:00",
+      "duration": null,
+      "description": "TESTING COMMENCES",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "LUNCH",
+      "start": "2025-08-12T12:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "DEPART TRACK - HEAD HOME",
+      "start": "2025-08-12T17:30:00",
+      "duration": null,
+      "description": "DEPART TRACK - HEAD HOME",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "ARRIVE AT TRACK",
+      "start": "2025-08-13T06:30:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "BREAKFAST",
+      "start": "2025-08-13T07:30:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "LUNCH",
+      "start": "2025-08-13T12:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "DEPART TRACK - HEAD HOME",
+      "start": "2025-08-13T17:00:00",
+      "duration": null,
+      "description": "DEPART TRACK - HEAD HOME",
+      "profiles": [
+        "engineers"
+      ]
+    }
+  ]
+}
