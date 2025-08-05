@@ -376,7 +376,7 @@
 
             if (filteredEvents.length === 0) {
                 document.getElementById('mainContent').innerHTML = `
-                    <div style="font-size: 1.2rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                    <div style="font-size: 2.4rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
                     <div class="no-events">No upcoming events for ${currentProfile}</div>
                 `;
                 document.getElementById('upcomingEvents').style.display = 'none';
@@ -401,7 +401,7 @@
             }
 
             document.getElementById('mainContent').innerHTML = `
-                <div style="font-size: 1.2rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                                    <div style="font-size: 2.4rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
                 <div class="next-event">
                     <div class="event-name">${nextEvent.name}</div>
                     <div class="countdown-display">${countdownText}</div>
