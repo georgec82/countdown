@@ -37,7 +37,7 @@
         }
 
         .logo-left, .logo-right {
-            height: 60px;
+            height: 120px;
             width: auto;
             padding: 8px;
         }
@@ -96,14 +96,21 @@
         .countdown-display {
             font-size: 7.5rem;
             font-weight: bold;
-            color: #cc0000;
-            text-shadow: 3px 3px 6px rgba(204, 0, 0, 0.3);
-            font-family: 'Courier New', monospace;
+            font-family: 'Arial', sans-serif;
             margin-bottom: 20px;
-            border: 3px solid #ff0000;
+            border: 3px solid #000000;
             padding: 20px;
             border-radius: 15px;
+            background: rgba(0, 0, 0, 0.05);
+            color: #000000;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .countdown-display.urgent {
+            color: #cc0000;
+            border-color: #ff0000;
             background: rgba(255, 0, 0, 0.05);
+            text-shadow: 3px 3px 6px rgba(204, 0, 0, 0.3);
         }
 
         .event-duration {
@@ -219,7 +226,7 @@
 
         .auto-refresh {
             position: absolute;
-            top: 70px;
+            bottom: 80px;
             right: 20px;
             background: rgba(255, 255, 255, 0.9);
             padding: 5px 10px;
@@ -232,9 +239,18 @@
             .countdown-display {
                 font-size: 3.75rem;
                 padding: 15px;
-                border: 3px solid #ff0000;
+                border: 3px solid #000000;
                 border-radius: 15px;
+                background: rgba(0, 0, 0, 0.05);
+                color: #000000;
+                text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            }
+
+            .countdown-display.urgent {
+                color: #cc0000;
+                border-color: #ff0000;
                 background: rgba(255, 0, 0, 0.05);
+                text-shadow: 3px 3px 6px rgba(204, 0, 0, 0.3);
             }
             
             .event-name {
@@ -259,11 +275,11 @@
     <div class="container">
         <div class="header">
             <div class="logo-left">
-                <img src="djr-logo.png" alt="DJR Logo" style="height: 60px;" onerror="this.style.display='none'">
+                <img src="djr-logo.png" alt="DJR Logo" style="height: 120px;" onerror="this.style.display='none'">
             </div>
             <div class="team-name">Shell V-Power Racing Team</div>
             <div class="logo-right">
-                <img src="shell-vpower-logo.png" alt="Shell V-Power Logo" style="height: 60px;" onerror="this.style.display='none'">
+                <img src="shell-vpower-logo.png" alt="Shell V-Power Logo" style="height: 120px;" onerror="this.style.display='none'">
             </div>
         </div>
 
@@ -376,7 +392,7 @@
 
             if (filteredEvents.length === 0) {
                 document.getElementById('mainContent').innerHTML = `
-                    <div style="font-size: 2.4rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
                     <div class="no-events">No upcoming events for ${currentProfile}</div>
                 `;
                 document.getElementById('upcomingEvents').style.display = 'none';
@@ -401,7 +417,7 @@
             }
 
             document.getElementById('mainContent').innerHTML = `
-                                    <div style="font-size: 2.4rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
                 <div class="next-event">
                     <div class="event-name">${nextEvent.name}</div>
                     <div class="countdown-display">${countdownText}</div>
