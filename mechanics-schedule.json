@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-08T16:19:34.998670",
+  "lastUpdated": "2025-08-08T16:51:50.367866",
   "teamGroup": "mechanics",
-  "eventCount": 76,
+  "eventCount": 75,
   "events": [
     {
       "id": 1,
@@ -205,18 +205,8 @@
     },
     {
       "id": 33,
-      "name": "TYRE FITTING CLOSES",
-      "start": "2025-08-08T18:00:00",
-      "duration": null,
-      "description": "TYRE FITTING CLOSES",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 35,
       "name": "ENGINEERING DEBRIEF",
-      "start": "2025-08-08T18:30:00",
+      "start": "2025-08-08T17:45:00",
       "duration": null,
       "description": "ENGINEERING DEBRIEF",
       "profiles": [
