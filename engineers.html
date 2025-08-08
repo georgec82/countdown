@@ -133,33 +133,49 @@
             position: absolute;
             bottom: 20px;
             left: 20px;
-            max-width: 400px;
+            max-width: 500px;
         }
 
         .upcoming-title {
-            font-size: 1.2rem;
+            font-size: 1.44rem;
             color: #ff0000;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
             font-weight: bold;
         }
 
         .event-item {
             background: rgba(255, 0, 0, 0.1);
             border-left: 4px solid #ff0000;
-            padding: 10px;
-            margin-bottom: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
         }
 
         .event-item-name {
             font-weight: bold;
             color: #cc0000;
+            font-size: 1.08rem;
         }
 
         .event-item-time {
-            font-size: 0.9rem;
+            font-size: 1.08rem;
             color: #666666;
+        }
+
+        .event-countdown {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ff0000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #ff0000;
         }
 
         .settings-btn {
@@ -384,6 +400,23 @@
             return `${mins}m`;
         }
 
+        function formatTimeUntil(targetTime) {
+            const now = new Date();
+            const timeUntil = targetTime - now;
+            
+            if (timeUntil <= 0) return '00:00';
+            
+            const totalMinutes = Math.floor(timeUntil / (1000 * 60));
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            
+            if (hours > 0) {
+                return `${hours}:${minutes.toString().padStart(2, '0')}h`;
+            } else {
+                return `${minutes}m`;
+            }
+        }
+
         function getFilteredEvents() {
             const now = new Date();
             return events.filter(event => {
@@ -495,6 +528,7 @@
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                        <div class="event-countdown">${formatTimeUntil(event.start)}</div>
                     </div>
                 `).join('');
 
@@ -505,6 +539,7 @@
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                        <div class="event-countdown">${formatTimeUntil(event.start)}</div>
                     </div>
                 `).join('');
 
