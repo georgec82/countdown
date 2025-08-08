@@ -384,6 +384,18 @@
             return `${mins}m`;
         }
 
+        function getFilteredEvents() {
+            const now = new Date();
+            return events.filter(event => {
+                // Filter by profile
+                if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
+                    // Only show future events
+                    return event.start > now;
+                }
+                return false;
+            }).sort((a, b) => a.start - b.start);
+        }
+
         function getCurrentAndUpcomingEvents() {
             const now = new Date();
             const filteredEvents = events.filter(event => {
