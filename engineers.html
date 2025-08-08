@@ -384,16 +384,27 @@
             return `${mins}m`;
         }
 
-        function getFilteredEvents() {
+        function getCurrentAndUpcomingEvents() {
             const now = new Date();
-            return events.filter(event => {
-                // Filter by profile
+            const filteredEvents = events.filter(event => {
                 if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
-                    // Only show future events
-                    return event.start > now;
+                    return true;
                 }
                 return false;
             }).sort((a, b) => a.start - b.start);
+
+            // Check if there's a current event (in progress)
+            const currentEvent = filteredEvents.find(event => {
+                if (!event.duration) return false; // Only events with duration can be "current"
+                const eventStart = event.start;
+                const eventEnd = new Date(eventStart.getTime() + (event.duration * 60 * 1000));
+                return now >= eventStart && now <= eventEnd;
+            });
+
+            // Get upcoming events (events that haven't started yet)
+            const upcomingEvents = filteredEvents.filter(event => event.start > now);
+
+            return { currentEvent, upcomingEvents };
         }
 
         function updateDisplay() {
