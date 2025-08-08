@@ -423,10 +423,6 @@
             const now = new Date();
             const { currentEvent, upcomingEvents } = getCurrentAndUpcomingEvents();
 
-            // Debug logging - check if this function is being called
-            console.log('=== updateDisplay() called ===');
-            console.log('Current events and upcoming:', { currentEvent, upcomingEvents: upcomingEvents.length });
-
             // Determine what to show
             let targetEvent, timeUntil, displayMode;
 
@@ -436,16 +432,13 @@
                 const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
                 timeUntil = eventEnd - now;
                 displayMode = 'current';
-                console.log('MODE: Current event detected:', currentEvent.name);
             } else if (upcomingEvents.length > 0) {
                 // Show countdown to next upcoming event
                 targetEvent = upcomingEvents[0];
                 timeUntil = targetEvent.start - now;
                 displayMode = 'upcoming';
-                console.log('MODE: Upcoming event:', targetEvent.name);
             } else {
                 // No events
-                console.log('MODE: No events available');
                 document.getElementById('mainContent').innerHTML = `
                     <div class="countdown-container">
                         <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
@@ -482,15 +475,6 @@
             } else {
                 eventInfo = `Start Time: ${formatTime(targetEvent.start, currentTimezone)}${targetEvent.duration ? ` • Duration: ${formatDuration(targetEvent.duration)}` : ''}`;
                 statusText = 'STARTS IN';
-            }
-
-            // Debug logging
-            console.log(`Mode: ${displayMode}, Time until: ${totalMinutesLeft} minutes, isUrgent: ${isUrgent}`);
-            console.log(`Current time: ${formatTime(now, currentTimezone)}`);
-            console.log(`Target event: ${targetEvent.name}, Start: ${formatTime(targetEvent.start, currentTimezone)}, Duration: ${targetEvent.duration}`);
-            if (currentEvent) {
-                const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
-                console.log(`Current event ends at: ${formatTime(eventEnd, currentTimezone)}`);
             }
 
             document.getElementById('mainContent').innerHTML = `
@@ -564,7 +548,6 @@
                 document.getElementById('scheduleInfo').style.display = 'block';
                 
                 updateDisplay();
-                console.log(`Loaded ${events.length} events for ${currentProfile} profile`);
                 
             } catch (error) {
                 console.error('Schedule loading error:', error);
@@ -582,14 +565,12 @@
         }
 
         function refreshSchedule() {
-            console.log('Refreshing schedule...');
             loadSchedule();
         }
 
         function setupAutoRefresh() {
             // Refresh schedule every 5 minutes
             refreshInterval = setInterval(() => {
-                console.log('Auto-refreshing schedule...');
                 loadSchedule();
             }, 5 * 60 * 1000);
         }
@@ -597,7 +578,6 @@
         function init() {
             // Determine profile and schedule file from filename
             const config = determineProfileFromFilename();
-            console.log(`Initialized for profile: ${config.profile}, schedule file: ${config.file}`);
             
             // Set timezone to Brisbane (Queensland racing)
             currentTimezone = 'Australia/Brisbane';
