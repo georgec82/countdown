@@ -360,7 +360,7 @@
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit',
-                hour12: false
+                hour12: true
             }).format(date);
         }
 
@@ -396,11 +396,49 @@
             }).sort((a, b) => a.start - b.start);
         }
 
+        function getCurrentAndUpcomingEvents() {
+            const now = new Date();
+            const filteredEvents = events.filter(event => {
+                if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
+                    return true;
+                }
+                return false;
+            }).sort((a, b) => a.start - b.start);
+
+            // Check if there's a current event (in progress)
+            const currentEvent = filteredEvents.find(event => {
+                if (!event.duration) return false; // Only events with duration can be "current"
+                const eventStart = event.start;
+                const eventEnd = new Date(eventStart.getTime() + (event.duration * 60 * 1000));
+                return now >= eventStart && now <= eventEnd;
+            });
+
+            // Get upcoming events (events that haven't started yet)
+            const upcomingEvents = filteredEvents.filter(event => event.start > now);
+
+            return { currentEvent, upcomingEvents };
+        }
+
         function updateDisplay() {
             const now = new Date();
-            const filteredEvents = getFilteredEvents();
+            const { currentEvent, upcomingEvents } = getCurrentAndUpcomingEvents();
 
-            if (filteredEvents.length === 0) {
+            // Determine what to show
+            let targetEvent, timeUntil, displayMode;
+
+            if (currentEvent) {
+                // Show countdown to end of current event
+                targetEvent = currentEvent;
+                const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
+                timeUntil = eventEnd - now;
+                displayMode = 'current';
+            } else if (upcomingEvents.length > 0) {
+                // Show countdown to next upcoming event
+                targetEvent = upcomingEvents[0];
+                timeUntil = targetEvent.start - now;
+                displayMode = 'upcoming';
+            } else {
+                // No events
                 document.getElementById('mainContent').innerHTML = `
                     <div class="countdown-container">
                         <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
@@ -411,8 +449,8 @@
                 return;
             }
 
-            const nextEvent = filteredEvents[0];
-            const timeUntil = nextEvent.start - now;
+            const totalMinutesLeft = Math.floor(timeUntil / (1000 * 60));
+            const isUrgent = totalMinutesLeft <= 5; // 5 minutes or less
 
             const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
             const hours = Math.floor((timeUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -428,17 +466,42 @@
                 countdownText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
             }
 
+            // Create display based on mode
+            let eventInfo, statusText;
+            if (displayMode === 'current') {
+                const eventEnd = new Date(targetEvent.start.getTime() + (targetEvent.duration * 60 * 1000));
+                eventInfo = `End Time: ${formatTime(eventEnd, currentTimezone)} • Duration: ${formatDuration(targetEvent.duration)}`;
+                statusText = 'ENDS IN';
+            } else {
+                eventInfo = `Start Time: ${formatTime(targetEvent.start, currentTimezone)}${targetEvent.duration ? ` • Duration: ${formatDuration(targetEvent.duration)}` : ''}`;
+                statusText = 'STARTS IN';
+            }
+
             document.getElementById('mainContent').innerHTML = `
-                                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
-                <div class="next-event">
-                    <div class="event-name">${nextEvent.name}</div>
-                    <div class="countdown-display">${countdownText}</div>
-                    ${nextEvent.duration ? `<div class="event-duration">Duration: ${formatDuration(nextEvent.duration)}</div>` : ''}
+                <div class="countdown-container">
+                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                    <div class="next-event">
+                        <div class="event-name">${targetEvent.name}</div>
+                        <div style="font-size: 1.2rem; color: #ff0000; font-weight: bold; margin-bottom: 10px; text-align: center;">${statusText}</div>
+                        <div class="countdown-display${isUrgent ? ' urgent' : ''}">${countdownText}</div>
+                        <div class="event-duration">${eventInfo}</div>
+                    </div>
                 </div>
             `;
 
-            if (filteredEvents.length > 1) {
-                const upcomingList = filteredEvents.slice(1, 6).map(event => `
+            // Update upcoming events list (only show if we're not in current event mode, or if there are multiple upcoming)
+            if (displayMode === 'upcoming' && upcomingEvents.length > 1) {
+                const upcomingList = upcomingEvents.slice(1, 6).map(event => `
+                    <div class="event-item">
+                        <div class="event-item-name">${event.name}</div>
+                        <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                    </div>
+                `).join('');
+
+                document.getElementById('upcomingList').innerHTML = upcomingList;
+                document.getElementById('upcomingEvents').style.display = 'block';
+            } else if (displayMode === 'current' && upcomingEvents.length > 0) {
+                const upcomingList = upcomingEvents.slice(0, 5).map(event => `
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
@@ -485,7 +548,6 @@
                 document.getElementById('scheduleInfo').style.display = 'block';
                 
                 updateDisplay();
-                console.log(`Loaded ${events.length} events for ${currentProfile} profile`);
                 
             } catch (error) {
                 console.error('Schedule loading error:', error);
@@ -503,14 +565,12 @@
         }
 
         function refreshSchedule() {
-            console.log('Refreshing schedule...');
             loadSchedule();
         }
 
         function setupAutoRefresh() {
             // Refresh schedule every 5 minutes
             refreshInterval = setInterval(() => {
-                console.log('Auto-refreshing schedule...');
                 loadSchedule();
             }, 5 * 60 * 1000);
         }
@@ -518,7 +578,6 @@
         function init() {
             // Determine profile and schedule file from filename
             const config = determineProfileFromFilename();
-            console.log(`Initialized for profile: ${config.profile}, schedule file: ${config.file}`);
             
             // Set timezone to Brisbane (Queensland racing)
             currentTimezone = 'Australia/Brisbane';
