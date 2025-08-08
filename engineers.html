@@ -421,9 +421,31 @@
 
         function updateDisplay() {
             const now = new Date();
-            const filteredEvents = getFilteredEvents();
+            const { currentEvent, upcomingEvents } = getCurrentAndUpcomingEvents();
 
-            if (filteredEvents.length === 0) {
+            // Debug logging - check if this function is being called
+            console.log('=== updateDisplay() called ===');
+            console.log('Current events and upcoming:', { currentEvent, upcomingEvents: upcomingEvents.length });
+
+            // Determine what to show
+            let targetEvent, timeUntil, displayMode;
+
+            if (currentEvent) {
+                // Show countdown to end of current event
+                targetEvent = currentEvent;
+                const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
+                timeUntil = eventEnd - now;
+                displayMode = 'current';
+                console.log('MODE: Current event detected:', currentEvent.name);
+            } else if (upcomingEvents.length > 0) {
+                // Show countdown to next upcoming event
+                targetEvent = upcomingEvents[0];
+                timeUntil = targetEvent.start - now;
+                displayMode = 'upcoming';
+                console.log('MODE: Upcoming event:', targetEvent.name);
+            } else {
+                // No events
+                console.log('MODE: No events available');
                 document.getElementById('mainContent').innerHTML = `
                     <div class="countdown-container">
                         <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
@@ -434,8 +456,8 @@
                 return;
             }
 
-            const nextEvent = filteredEvents[0];
-            const timeUntil = nextEvent.start - now;
+            const totalMinutesLeft = Math.floor(timeUntil / (1000 * 60));
+            const isUrgent = totalMinutesLeft <= 5; // 5 minutes or less
 
             const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
             const hours = Math.floor((timeUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -451,17 +473,51 @@
                 countdownText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
             }
 
+            // Create display based on mode
+            let eventInfo, statusText;
+            if (displayMode === 'current') {
+                const eventEnd = new Date(targetEvent.start.getTime() + (targetEvent.duration * 60 * 1000));
+                eventInfo = `End Time: ${formatTime(eventEnd, currentTimezone)} • Duration: ${formatDuration(targetEvent.duration)}`;
+                statusText = 'ENDS IN';
+            } else {
+                eventInfo = `Start Time: ${formatTime(targetEvent.start, currentTimezone)}${targetEvent.duration ? ` • Duration: ${formatDuration(targetEvent.duration)}` : ''}`;
+                statusText = 'STARTS IN';
+            }
+
+            // Debug logging
+            console.log(`Mode: ${displayMode}, Time until: ${totalMinutesLeft} minutes, isUrgent: ${isUrgent}`);
+            console.log(`Current time: ${formatTime(now, currentTimezone)}`);
+            console.log(`Target event: ${targetEvent.name}, Start: ${formatTime(targetEvent.start, currentTimezone)}, Duration: ${targetEvent.duration}`);
+            if (currentEvent) {
+                const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
+                console.log(`Current event ends at: ${formatTime(eventEnd, currentTimezone)}`);
+            }
+
             document.getElementById('mainContent').innerHTML = `
-                                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
-                <div class="next-event">
-                    <div class="event-name">${nextEvent.name}</div>
-                    <div class="countdown-display">${countdownText}</div>
-                    ${nextEvent.duration ? `<div class="event-duration">Duration: ${formatDuration(nextEvent.duration)}</div>` : ''}
+                <div class="countdown-container">
+                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                    <div class="next-event">
+                        <div class="event-name">${targetEvent.name}</div>
+                        <div style="font-size: 1.2rem; color: #ff0000; font-weight: bold; margin-bottom: 10px; text-align: center;">${statusText}</div>
+                        <div class="countdown-display${isUrgent ? ' urgent' : ''}">${countdownText}</div>
+                        <div class="event-duration">${eventInfo}</div>
+                    </div>
                 </div>
             `;
 
-            if (filteredEvents.length > 1) {
-                const upcomingList = filteredEvents.slice(1, 6).map(event => `
+            // Update upcoming events list (only show if we're not in current event mode, or if there are multiple upcoming)
+            if (displayMode === 'upcoming' && upcomingEvents.length > 1) {
+                const upcomingList = upcomingEvents.slice(1, 6).map(event => `
+                    <div class="event-item">
+                        <div class="event-item-name">${event.name}</div>
+                        <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                    </div>
+                `).join('');
+
+                document.getElementById('upcomingList').innerHTML = upcomingList;
+                document.getElementById('upcomingEvents').style.display = 'block';
+            } else if (displayMode === 'current' && upcomingEvents.length > 0) {
+                const upcomingList = upcomingEvents.slice(0, 5).map(event => `
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
