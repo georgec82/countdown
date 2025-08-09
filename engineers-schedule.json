@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-09T18:02:54.444942",
+  "lastUpdated": "2025-08-09T21:52:47.716286",
   "teamGroup": "engineers",
   "eventCount": 110,
   "events": [
@@ -696,8 +696,8 @@
     {
       "id": 70,
       "name": "ENGINEERING PREBRIEF",
-      "start": "2025-08-10T07:30:00",
-      "duration": 30,
+      "start": "2025-08-10T07:50:00",
+      "duration": null,
       "description": "ENGINEERING PREBRIEF",
       "profiles": [
         "engineers"
