@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-09T17:58:15.588671",
+  "lastUpdated": "2025-08-09T18:02:54.443055",
   "teamGroup": "mechanics",
-  "eventCount": 75,
+  "eventCount": 74,
   "events": [
     {
       "id": 1,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 65,
       "name": "DINNER",
       "start": "2025-08-09T17:15:00",
       "duration": null,
@@ -414,9 +414,9 @@
       ]
     },
     {
-      "id": 65,
+      "id": 64,
       "name": "ENGINEERING DREBRIEF",
-      "start": "2025-08-09T19:00:00",
+      "start": "2025-08-09T18:30:00",
       "duration": null,
       "description": "ENGINEERING DREBRIEF",
       "profiles": [
@@ -429,16 +429,6 @@
       "start": "2025-08-09T21:00:00",
       "duration": null,
       "description": "PADDOCK CLOSED",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 68,
-      "name": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
-      "start": "2025-08-10T07:25:00",
-      "duration": null,
-      "description": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
       "profiles": [
         "mechanics"
       ]
