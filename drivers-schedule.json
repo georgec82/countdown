@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-09T21:52:47.718402",
+  "lastUpdated": "2025-08-12T10:56:04.521386",
   "teamGroup": "drivers",
   "eventCount": 100,
   "events": [
@@ -854,16 +854,6 @@
       ]
     },
     {
-      "id": 105,
-      "name": "VAN - DEPART WORKSHOP",
-      "start": "2025-08-12T05:30:00",
-      "duration": null,
-      "description": "VAN - DEPART WORKSHOP",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 98,
       "name": "VAN - DEPART WORKSHOP",
       "start": "2025-08-12T06:00:00",
@@ -874,41 +864,11 @@
       ]
     },
     {
-      "id": 106,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-08-12T06:30:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 99,
       "name": "ARRIVE AT TRACK",
       "start": "2025-08-12T07:30:00",
       "duration": null,
       "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 107,
-      "name": "BREAKFAST",
-      "start": "2025-08-12T07:30:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 108,
-      "name": "DRIVER CHECK IN AT QR OFFICE",
-      "start": "2025-08-12T07:30:00",
-      "duration": null,
-      "description": "DRIVER CHECK IN AT QR OFFICE",
       "profiles": [
         "drivers"
       ]
@@ -934,29 +894,9 @@
       ]
     },
     {
-      "id": 109,
-      "name": "RIDE DAY BEGINS",
-      "start": "2025-08-12T08:30:00",
-      "duration": null,
-      "description": "RIDE DAY BEGINS",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 102,
       "name": "LUNCH",
-      "start": "2025-08-12T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 110,
-      "name": "LUNCH",
-      "start": "2025-08-12T12:00:00",
+      "start": "2025-08-12T12:30:00",
       "duration": null,
       "description": "LUNCH",
       "profiles": [
@@ -966,7 +906,7 @@
     {
       "id": 103,
       "name": "TRACK CLOSES",
-      "start": "2025-08-12T17:30:00",
+      "start": "2025-08-12T17:00:00",
       "duration": null,
       "description": "TRACK CLOSES",
       "profiles": [
@@ -984,9 +924,69 @@
       ]
     },
     {
+      "id": 105,
+      "name": "VAN - DEPART WORKSHOP",
+      "start": "2025-08-13T05:30:00",
+      "duration": null,
+      "description": "VAN - DEPART WORKSHOP",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "ARRIVE AT TRACK",
+      "start": "2025-08-13T06:30:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "BREAKFAST",
+      "start": "2025-08-13T07:30:00",
+      "duration": null,
+      "description": "BREAKFAST",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "DRIVER CHECK IN AT QR OFFICE",
+      "start": "2025-08-13T07:30:00",
+      "duration": null,
+      "description": "DRIVER CHECK IN AT QR OFFICE",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "RIDE DAY BEGINS",
+      "start": "2025-08-13T08:30:00",
+      "duration": null,
+      "description": "RIDE DAY BEGINS",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "LUNCH",
+      "start": "2025-08-13T12:00:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
       "id": 111,
       "name": "TRACK CLOSES",
-      "start": "2025-08-12T17:30:00",
+      "start": "2025-08-13T17:30:00",
       "duration": null,
       "description": "TRACK CLOSES",
       "profiles": [
@@ -996,7 +996,7 @@
     {
       "id": 112,
       "name": "DEPART TRACK - HEAD HOME",
-      "start": "2025-08-12T17:30:00",
+      "start": "2025-08-13T17:30:00",
       "duration": null,
       "description": "DEPART TRACK - HEAD HOME",
       "profiles": [
