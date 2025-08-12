@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-12T10:56:04.516228",
+  "lastUpdated": "2025-08-12T12:35:05.254733",
   "teamGroup": "mechanics",
   "eventCount": 74,
   "events": [
@@ -637,7 +637,7 @@
       "id": 102,
       "name": "LUNCH",
       "start": "2025-08-12T12:30:00",
-      "duration": null,
+      "duration": 30,
       "description": "LUNCH",
       "profiles": [
         "mechanics"
