@@ -1,152 +1,52 @@
 {
-  "lastUpdated": "2025-08-12T12:35:05.260672",
+  "lastUpdated": "2025-09-10T16:29:54.627539",
   "teamGroup": "all",
-  "eventCount": 112,
+  "eventCount": 98,
   "events": [
     {
       "id": 1,
-      "name": "TRANSPORTER PARK-UP",
-      "start": "2025-08-07T07:30:00",
-      "duration": null,
-      "description": "TRANSPORTER PARK-UP",
+      "name": "TODAY SHOW IN GARAGE - FILIMNG IN GARAGE WITH DRIVERS  PLEASE WEAR CREW SHIRT",
+      "start": "2025-09-11T05:00:00",
+      "duration": 300,
+      "description": "TODAY SHOW IN GARAGE - FILIMNG IN GARAGE WITH DRIVERS  PLEASE WEAR CREW SHIRT",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 2,
-      "name": "PIRTEK IPSWICH APPEARANCE",
-      "start": "2025-08-07T11:00:00",
-      "duration": 30,
-      "description": "PIRTEK IPSWICH APPEARANCE",
+      "name": "TD & TH - LIVE WITH TODAY SHOW",
+      "start": "2025-09-11T05:50:00",
+      "duration": 190,
+      "description": "TD & TH - LIVE WITH TODAY SHOW",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 3,
-      "name": "VAN - DEPART WORKSHOP AND HEAD TO TRACK",
-      "start": "2025-08-07T12:00:00",
-      "duration": null,
-      "description": "VAN - DEPART WORKSHOP AND HEAD TO TRACK",
+      "name": "BK & WD - LIVE WITH TODAY SHOW",
+      "start": "2025-09-11T06:50:00",
+      "duration": 130,
+      "description": "BK & WD - LIVE WITH TODAY SHOW",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 4,
-      "name": "LUNCH",
-      "start": "2025-08-07T13:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "TRUCK UNLAOD COMMENCES",
-      "start": "2025-08-07T14:00:00",
-      "duration": null,
-      "description": "TRUCK UNLAOD COMMENCES",
+      "name": "OTR SIGNING SESSION -LOCATION: OTR @ THE BEND",
+      "start": "2025-09-11T07:45:00",
+      "duration": 45,
+      "description": "OTR SIGNING SESSION -LOCATION: OTR @ THE BEND",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 6,
-      "name": "RYGG- FILIMING SET UP OF GARAGE - CREW PLEASE BE AWARE",
-      "start": "2025-08-07T14:00:00",
-      "duration": 90,
-      "description": "RYGG- FILIMING SET UP OF GARAGE - CREW PLEASE BE AWARE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "TRACK WALK",
-      "start": "2025-08-07T15:00:00",
-      "duration": null,
-      "description": "TRACK WALK",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "RYGG- PRODUCT CONTENT FILMING",
-      "start": "2025-08-07T15:30:00",
-      "duration": 30,
-      "description": "RYGG- PRODUCT CONTENT FILMING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "COMPETITOR'S AUTHORISED REPRESENTATVIES BRIEFING",
-      "start": "2025-08-07T17:00:00",
-      "duration": 30,
-      "description": "COMPETITOR'S AUTHORISED REPRESENTATVIES BRIEFING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "ALL DRIVERS - PICTURE IN FRONT OF IPSWICH SIGN",
-      "start": "2025-08-07T17:00:00",
-      "duration": 5,
-      "description": "ALL DRIVERS - PICTURE IN FRONT OF IPSWICH SIGN",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "IPSWICH SUPERFEST - ALL DRIVER SIGNING",
-      "start": "2025-08-07T17:05:00",
-      "duration": 55,
-      "description": "IPSWICH SUPERFEST - ALL DRIVER SIGNING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "REPCO CREW NIGHT - UNIT 2/214 BRISBANE ROAD, BOOVAL, 4304",
-      "start": "2025-08-07T18:15:00",
-      "duration": 30,
-      "description": "REPCO CREW NIGHT - UNIT 2/214 BRISBANE ROAD, BOOVAL, 4304",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "REPCO RACE PREVIEW FILMING - SAME LOCATION AS ABOVE",
-      "start": "2025-08-07T18:45:00",
-      "duration": 15,
-      "description": "REPCO RACE PREVIEW FILMING - SAME LOCATION AS ABOVE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "DINNER",
-      "start": "2025-08-07T19:30:00",
-      "duration": null,
-      "description": "DINNER",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 15,
       "name": "ARRIVE AT TRACK",
-      "start": "2025-08-08T07:10:00",
+      "start": "2025-09-11T09:45:00",
       "duration": null,
       "description": "ARRIVE AT TRACK",
       "profiles": [
@@ -154,109 +54,49 @@
       ]
     },
     {
-      "id": 16,
-      "name": "BREAKFAST",
-      "start": "2025-08-08T07:10:00",
+      "id": 7,
+      "name": "COMMENCE TRUCK UNLOAD/ TYRE FITTING COMMENCES",
+      "start": "2025-09-11T10:00:00",
       "duration": null,
-      "description": "BREAKFAST",
+      "description": "COMMENCE TRUCK UNLOAD/ TYRE FITTING COMMENCES",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 17,
-      "name": "VCS PADDOCK OPEN & TYRE FITTING COMMENCES",
-      "start": "2025-08-08T07:30:00",
+      "id": 5,
+      "name": "PLEASE DELIVER FUEL TOWERS TO SUPERCARS GARAGE 25 FOR SCRUTINEERING - BY 12PM THE LATEST",
+      "start": "2025-09-11T11:30:00",
       "duration": null,
-      "description": "VCS PADDOCK OPEN & TYRE FITTING COMMENCES",
+      "description": "PLEASE DELIVER FUEL TOWERS TO SUPERCARS GARAGE 25 FOR SCRUTINEERING - BY 12PM THE LATEST",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 18,
-      "name": "JUNIOR PRESS CONFERENCE - BRODIE REQUIRED - LOCATION: ENTERTAINMENT ZONE, OUTSIDE TURN 1, NEXT TO GATE 3",
-      "start": "2025-08-08T09:45:00",
-      "duration": 15,
-      "description": "JUNIOR PRESS CONFERENCE - BRODIE REQUIRED - LOCATION: ENTERTAINMENT ZONE, OUTSIDE TURN 1, NEXT TO GATE 3",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "BRODIE - INTERVIEW WITH FOX",
-      "start": "2025-08-08T10:00:00",
-      "duration": 10,
-      "description": "BRODIE - INTERVIEW WITH FOX",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "PIT TOURS X2",
-      "start": "2025-08-08T10:10:00",
-      "duration": 25,
-      "description": "PIT TOURS X2",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "DRIVER SIGNING SESSION: FRONT OF TEAM TRUCK",
-      "start": "2025-08-08T10:40:00",
+      "id": 8,
+      "name": "ENDURO CLASS PHOTO - RACE SUIT AND BOOTS LOCATION: START/FINISH LINE",
+      "start": "2025-09-11T11:45:00",
       "duration": 30,
-      "description": "DRIVER SIGNING SESSION: FRONT OF TEAM TRUCK",
+      "description": "ENDURO CLASS PHOTO - RACE SUIT AND BOOTS LOCATION: START/FINISH LINE",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 22,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-08T11:20:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "PRACTICE 1",
-      "start": "2025-08-08T12:05:00",
+      "id": 9,
+      "name": "DRIVERS - FILMING WITH SHAYLA - LOCATION: GARAGE",
+      "start": "2025-09-11T12:15:00",
       "duration": 30,
-      "description": "PRACTICE 1",
+      "description": "DRIVERS - FILMING WITH SHAYLA - LOCATION: GARAGE",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 24,
-      "name": "PRACTICE STARTS",
-      "start": "2025-08-08T12:35:00",
-      "duration": 5,
-      "description": "PRACTICE STARTS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-08T12:35:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 26,
+      "id": 10,
       "name": "LUNCH",
-      "start": "2025-08-08T13:00:00",
+      "start": "2025-09-11T12:30:00",
       "duration": null,
       "description": "LUNCH",
       "profiles": [
@@ -264,39 +104,219 @@
       ]
     },
     {
-      "id": 27,
-      "name": "PIT TOURS X3",
-      "start": "2025-08-08T13:20:00",
+      "id": 11,
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-09-11T13:00:00",
+      "duration": 60,
+      "description": "ENGINEERING PREBRIEF",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "TRACK WALK",
+      "start": "2025-09-11T14:00:00",
       "duration": 30,
-      "description": "PIT TOURS X3",
+      "description": "TRACK WALK",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "ALL DRIVERS - FILMING IN SHELL SUITE WITH THE SIMULATOR",
+      "start": "2025-09-11T16:00:00",
+      "duration": 30,
+      "description": "ALL DRIVERS - FILMING IN SHELL SUITE WITH THE SIMULATOR",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "PITSTOP PRACTICE",
+      "start": "2025-09-11T16:30:00",
+      "duration": 30,
+      "description": "PITSTOP PRACTICE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "COMPETITOR'S AUHTORISED REPRESENTATIVES BRIEFING",
+      "start": "2025-09-11T17:00:00",
+      "duration": 15,
+      "description": "COMPETITOR'S AUHTORISED REPRESENTATIVES BRIEFING",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "REFUELLERS BRIEFING - LOCATION: BRIEFING ROOM LOCATED ON THE GROUND FLOOR OF THE WELCOME CENTRE",
+      "start": "2025-09-11T17:15:00",
+      "duration": 15,
+      "description": "REFUELLERS BRIEFING - LOCATION: BRIEFING ROOM LOCATED ON THE GROUND FLOOR OF THE WELCOME CENTRE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "DEPART TRACK & HEAD TO HOTEL",
+      "start": "2025-09-11T18:30:00",
+      "duration": null,
+      "description": "DEPART TRACK & HEAD TO HOTEL",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "TEAM DINNER - MURRAY BRIDGE HOTEL - 20 SIXTH ST, MURRAY BRIDGE - BOOKING UNDER PAUL R- CASUAL CLOTHES",
+      "start": "2025-09-11T19:30:00",
+      "duration": null,
+      "description": "TEAM DINNER - MURRAY BRIDGE HOTEL - 20 SIXTH ST, MURRAY BRIDGE - BOOKING UNDER PAUL R- CASUAL CLOTHES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "DEPART HOTEL HEAD TO TRACK",
+      "start": "2025-09-12T07:45:00",
+      "duration": null,
+      "description": "DEPART HOTEL HEAD TO TRACK",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "ARRIVE AT TRACK/BREAKFAST",
+      "start": "2025-09-12T08:15:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK/BREAKFAST",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "PADDOCK OPENS",
+      "start": "2025-09-12T08:30:00",
+      "duration": null,
+      "description": "PADDOCK OPENS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "PIT STOP PRACTICE",
+      "start": "2025-09-12T08:30:00",
+      "duration": 25,
+      "description": "PIT STOP PRACTICE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "PODCAST HUB - TODD HAZELWOOD LOCATION: WELCOME CENTRE",
+      "start": "2025-09-12T09:05:00",
+      "duration": 10,
+      "description": "PODCAST HUB - TODD HAZELWOOD LOCATION: WELCOME CENTRE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-12T10:30:00",
+      "duration": 40,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "PRACTICE 1  & PRACTICE STARTS",
+      "start": "2025-09-12T11:10:00",
+      "duration": 30,
+      "description": "PRACTICE 1  & PRACTICE STARTS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "STEM KIDS PIT TOUR",
+      "start": "2025-09-12T11:15:00",
+      "duration": 15,
+      "description": "STEM KIDS PIT TOUR",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 28,
-      "name": "DRIVER BALCKOUT PERIOD",
-      "start": "2025-08-08T13:35:00",
-      "duration": 45,
-      "description": "DRIVER BALCKOUT PERIOD",
+      "name": "DJR REP - JUNIOR PRESS CONFERENCE - PR - LOCATION: PODIUM PARK MARQUEE",
+      "start": "2025-09-12T11:20:00",
+      "duration": 25,
+      "description": "DJR REP - JUNIOR PRESS CONFERENCE - PR - LOCATION: PODIUM PARK MARQUEE",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 29,
-      "name": "PRACTICE 2",
-      "start": "2025-08-08T14:20:00",
-      "duration": 30,
-      "description": "PRACTICE 2",
+      "name": "PIT TOUR X1",
+      "start": "2025-09-12T11:35:00",
+      "duration": 10,
+      "description": "PIT TOUR X1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-12T11:40:00",
+      "duration": 35,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 30,
+      "name": "LUNCH",
+      "start": "2025-09-12T11:45:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "PRACTICE 2  & PRACTICE STARTS",
+      "start": "2025-09-12T13:30:00",
+      "duration": 30,
+      "description": "PRACTICE 2  & PRACTICE STARTS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 32,
       "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-08T14:50:00",
+      "start": "2025-09-12T14:00:00",
       "duration": 45,
       "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
@@ -304,49 +324,69 @@
       ]
     },
     {
-      "id": 31,
-      "name": "EVENT RIDES",
-      "start": "2025-08-08T16:50:00",
-      "duration": 25,
-      "description": "EVENT RIDES",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "Drivers Briefing",
-      "start": "2025-08-08T17:30:00",
-      "duration": null,
-      "description": "Drivers Briefing",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 33,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-08-08T17:45:00",
-      "duration": null,
-      "description": "ENGINEERING DEBRIEF",
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-12T15:10:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 34,
-      "name": "TYRE FITTING CLOSES",
-      "start": "2025-08-08T18:00:00",
-      "duration": null,
-      "description": "TYRE FITTING CLOSES",
+      "name": "PRACTICE 3",
+      "start": "2025-09-12T15:55:00",
+      "duration": 30,
+      "description": "PRACTICE 3",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 35,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-12T16:25:00",
+      "duration": 50,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-09-12T17:30:00",
+      "duration": 30,
+      "description": "ENGINEERING DEBRIEF",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
+      "start": "2025-09-12T18:00:00",
+      "duration": null,
+      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "TYRE FITTING CLOSED",
+      "start": "2025-09-12T18:00:00",
+      "duration": null,
+      "description": "TYRE FITTING CLOSED",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 39,
       "name": "DINNER",
-      "start": "2025-08-08T18:15:00",
+      "start": "2025-09-12T18:15:00",
       "duration": null,
       "description": "DINNER",
       "profiles": [
@@ -354,9 +394,29 @@
       ]
     },
     {
-      "id": 36,
+      "id": 40,
+      "name": "NOISE CURFEW COMMENCES",
+      "start": "2025-09-12T19:00:00",
+      "duration": null,
+      "description": "NOISE CURFEW COMMENCES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "PICK UP BLAKE FROM ADELAIDE AIRPORT VA434",
+      "start": "2025-09-12T19:30:00",
+      "duration": null,
+      "description": "PICK UP BLAKE FROM ADELAIDE AIRPORT VA434",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 42,
       "name": "PADDOCK CLOSED",
-      "start": "2025-08-08T20:15:00",
+      "start": "2025-09-12T21:00:00",
       "duration": null,
       "description": "PADDOCK CLOSED",
       "profiles": [
@@ -364,141 +424,81 @@
       ]
     },
     {
-      "id": 37,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-08-09T07:15:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 38,
-      "name": "BREAKFAST",
-      "start": "2025-08-09T07:15:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "VCS PADDOCK OPEN",
-      "start": "2025-08-09T07:30:00",
-      "duration": null,
-      "description": "VCS PADDOCK OPEN",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-08-09T07:30:00",
-      "duration": 15,
-      "description": "PITSTOP PRACTICE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 41,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-08-09T08:00:00",
-      "duration": 40,
-      "description": "ENGINEERING PREBRIEF",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "PIT TOURS X1",
-      "start": "2025-08-09T08:40:00",
-      "duration": 10,
-      "description": "PIT TOURS X1",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 43,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-09T08:50:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
+      "name": "DEPART HOTEL HEAD TO TRACK",
+      "start": "2025-09-13T06:15:00",
+      "duration": null,
+      "description": "DEPART HOTEL HEAD TO TRACK",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 44,
-      "name": "QUALIFYING PART 1 - RACE 23",
-      "start": "2025-08-09T09:35:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 1 - RACE 23",
+      "name": "ARRIVE AT TRACK/BREAKFAST",
+      "start": "2025-09-13T06:45:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK/BREAKFAST",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 45,
-      "name": "QUALIFYING PART 2 - RACE 23",
-      "start": "2025-08-09T09:55:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 2 - RACE 23",
+      "name": "NOISE CURFEW CONCLUDES",
+      "start": "2025-09-13T07:00:00",
+      "duration": null,
+      "description": "NOISE CURFEW CONCLUDES",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 46,
-      "name": "QUALIFYING PART 1 - RACE 24",
-      "start": "2025-08-09T10:25:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 1 - RACE 24",
+      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "start": "2025-09-13T07:00:00",
+      "duration": null,
+      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 47,
-      "name": "QUALIFYING PART 2 - RACE 24",
-      "start": "2025-08-09T10:45:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 2 - RACE 24",
+      "name": "PIT STOP PRACTICE",
+      "start": "2025-09-13T07:00:00",
+      "duration": 20,
+      "description": "PIT STOP PRACTICE",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 48,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-09T10:55:00",
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-09-13T08:15:00",
       "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
+      "description": "ENGINEERING PREBRIEF",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 49,
-      "name": "LUNCH",
-      "start": "2025-08-09T11:30:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "PIT TOUR X2",
+      "start": "2025-09-13T08:30:00",
+      "duration": 20,
+      "description": "PIT TOUR X2",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 50,
-      "name": "PIT TOURS X1",
-      "start": "2025-08-09T11:30:00",
+      "name": "PODCAST HUB - QUICKEST DRIVER & CO-DRIVER FROM P2 LOCATION: GIVE OUT CAMPING AWARDS DRIVER & CO-DRIVERS WHO ARE 5TH AND 6TH QUICKEST IN P2  TEAM UNIFROM",
+      "start": "2025-09-13T08:35:00",
       "duration": 10,
-      "description": "PIT TOURS X1",
+      "description": "PODCAST HUB - QUICKEST DRIVER & CO-DRIVER FROM P2 LOCATION: GIVE OUT CAMPING AWARDS DRIVER & CO-DRIVERS WHO ARE 5TH AND 6TH QUICKEST IN P2  TEAM UNIFROM",
       "profiles": [
         "all"
       ]
@@ -506,7 +506,7 @@
     {
       "id": 51,
       "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-09T11:50:00",
+      "start": "2025-09-13T09:00:00",
       "duration": 45,
       "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
@@ -515,78 +515,88 @@
     },
     {
       "id": 52,
-      "name": "15 MINUTE SIGNAL",
-      "start": "2025-08-09T12:35:00",
-      "duration": null,
-      "description": "15 MINUTE SIGNAL",
+      "name": "PRACTICE 4",
+      "start": "2025-09-13T09:50:00",
+      "duration": 40,
+      "description": "PRACTICE 4",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 53,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-08-09T12:40:00",
-      "duration": null,
-      "description": "PIT EXIT OPEN",
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-13T10:25:00",
+      "duration": 90,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 54,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-08-09T12:45:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
+      "name": "PRACTICE 5",
+      "start": "2025-09-13T12:00:00",
+      "duration": 40,
+      "description": "PRACTICE 5",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 55,
-      "name": "RACE 23 - 120KM",
-      "start": "2025-08-09T12:50:00",
-      "duration": 63,
-      "description": "RACE 23 - 120KM",
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-13T12:40:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 56,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-09T13:55:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
+      "name": "LUNCH",
+      "start": "2025-09-13T13:00:00",
+      "duration": null,
+      "description": "LUNCH",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 57,
-      "name": "PIT TOURS X4",
-      "start": "2025-08-09T14:15:00",
+      "name": "SIGNING SESSION - ALL DRIVERS LOCATION: MERCHANDISE",
+      "start": "2025-09-13T13:25:00",
       "duration": 40,
-      "description": "PIT TOURS X4",
+      "description": "SIGNING SESSION - ALL DRIVERS LOCATION: MERCHANDISE",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 58,
-      "name": "TONY AND TODD - MERCH - SIGNING SESSION",
-      "start": "2025-08-09T14:30:00",
+      "name": "PIT TOURS X3",
+      "start": "2025-09-13T13:50:00",
       "duration": 30,
-      "description": "TONY AND TODD - MERCH - SIGNING SESSION",
+      "description": "PIT TOURS X3",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 59,
+      "name": "DRIVERS - PHOTO WITH MOES POP UP ACTIVATION",
+      "start": "2025-09-13T14:05:00",
+      "duration": 5,
+      "description": "DRIVERS - PHOTO WITH MOES POP UP ACTIVATION",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 60,
       "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-09T14:55:00",
+      "start": "2025-09-13T14:15:00",
       "duration": 45,
       "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
@@ -594,49 +604,69 @@
       ]
     },
     {
-      "id": 60,
-      "name": "30 MINUTE SIGNAL",
-      "start": "2025-08-09T15:40:00",
-      "duration": null,
-      "description": "30 MINUTE SIGNAL",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 61,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-08-09T15:45:00",
-      "duration": null,
-      "description": "PIT EXIT OPEN",
+      "name": "QUALIFYING - RACE 26",
+      "start": "2025-09-13T15:05:00",
+      "duration": 20,
+      "description": "QUALIFYING - RACE 26",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 62,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-08-09T15:55:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-13T15:20:00",
+      "duration": 90,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 63,
-      "name": "RACE 24 - 120KM",
-      "start": "2025-08-09T16:10:00",
-      "duration": 65,
-      "description": "RACE 24 - 120KM",
+      "name": "SCOTTY SUITE VISIT - TALK TO GUESTS ABOUT PROCESS OF WRAPPING A CAR",
+      "start": "2025-09-13T16:00:00",
+      "duration": 15,
+      "description": "SCOTTY SUITE VISIT - TALK TO GUESTS ABOUT PROCESS OF WRAPPING A CAR",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "MAIN STAGE Q&A - LOCATION MAIN STAGE: DRIVERS+ CO-DRIVERS WHO QUALIFY",
+      "start": "2025-09-13T16:20:00",
+      "duration": 30,
+      "description": "MAIN STAGE Q&A - LOCATION MAIN STAGE: DRIVERS+ CO-DRIVERS WHO QUALIFY",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 65,
+      "name": "TTSO - RACE 26",
+      "start": "2025-09-13T16:50:00",
+      "duration": 40,
+      "description": "TTSO - RACE 26",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "DRIVERS - SHELL SUITE VISIT",
+      "start": "2025-09-13T17:45:00",
+      "duration": 10,
+      "description": "DRIVERS - SHELL SUITE VISIT",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 67,
       "name": "DINNER",
-      "start": "2025-08-09T17:15:00",
+      "start": "2025-09-13T17:45:00",
       "duration": null,
       "description": "DINNER",
       "profiles": [
@@ -644,19 +674,29 @@
       ]
     },
     {
-      "id": 64,
-      "name": "ENGINEERING DREBRIEF",
-      "start": "2025-08-09T18:30:00",
+      "id": 68,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-09-13T18:18:00",
       "duration": null,
-      "description": "ENGINEERING DREBRIEF",
+      "description": "ENGINEERING DEBRIEF",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 66,
+      "id": 69,
+      "name": "NOISE CURFEW COMMENCES",
+      "start": "2025-09-13T19:00:00",
+      "duration": null,
+      "description": "NOISE CURFEW COMMENCES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 70,
       "name": "TYRE FITTING CLOSED",
-      "start": "2025-08-09T19:00:00",
+      "start": "2025-09-13T19:00:00",
       "duration": null,
       "description": "TYRE FITTING CLOSED",
       "profiles": [
@@ -664,9 +704,9 @@
       ]
     },
     {
-      "id": 67,
+      "id": 71,
       "name": "PADDOCK CLOSED",
-      "start": "2025-08-09T21:00:00",
+      "start": "2025-09-13T21:00:00",
       "duration": null,
       "description": "PADDOCK CLOSED",
       "profiles": [
@@ -674,19 +714,49 @@
       ]
     },
     {
-      "id": 68,
-      "name": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
-      "start": "2025-08-10T07:25:00",
+      "id": 72,
+      "name": "DEPART HOTEL AND HEAD TO TRACK",
+      "start": "2025-09-14T06:20:00",
       "duration": null,
-      "description": "VSC PADDOCK OPEN/ TYRE FITTING OPEN",
+      "description": "DEPART HOTEL AND HEAD TO TRACK",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 69,
+      "id": 73,
+      "name": "ARRIVE AT TRACK",
+      "start": "2025-09-14T06:45:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "PADDOCK OPENS",
+      "start": "2025-09-14T06:55:00",
+      "duration": null,
+      "description": "PADDOCK OPENS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "TYRE FITTING OPEN/ NOISE CURFEW CONCLUDES",
+      "start": "2025-09-14T07:00:00",
+      "duration": null,
+      "description": "TYRE FITTING OPEN/ NOISE CURFEW CONCLUDES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 76,
       "name": "BREAKFAST",
-      "start": "2025-08-10T07:30:00",
+      "start": "2025-09-14T07:00:00",
       "duration": null,
       "description": "BREAKFAST",
       "profiles": [
@@ -694,149 +764,49 @@
       ]
     },
     {
-      "id": 70,
+      "id": 77,
       "name": "ENGINEERING PREBRIEF",
-      "start": "2025-08-10T07:50:00",
-      "duration": null,
+      "start": "2025-09-14T08:00:00",
+      "duration": 45,
       "description": "ENGINEERING PREBRIEF",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 71,
-      "name": "DRIVER SIGNING SESSION LOCATION: MERCH",
-      "start": "2025-08-10T08:20:00",
-      "duration": 30,
-      "description": "DRIVER SIGNING SESSION LOCATION: MERCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 72,
-      "name": "PIT TOURS X4",
-      "start": "2025-08-10T09:00:00",
-      "duration": 40,
-      "description": "PIT TOURS X4",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 73,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-10T09:35:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 74,
-      "name": "QUALIFYING PART 1 - RACE 25",
-      "start": "2025-08-10T10:20:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 1 - RACE 25",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 75,
-      "name": "QUALIFYING PART 2 - RACE 25",
-      "start": "2025-08-10T10:40:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 2 - RACE 25",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 76,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-10T10:50:00",
-      "duration": 50,
-      "description": "DRIVER BLACKOUT PERIOD",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 77,
-      "name": "DRIVERS WHO QUALIFY 11TH AND 12TH - PADDOCK CLUB INTERVIEWS",
-      "start": "2025-08-10T11:25:00",
-      "duration": 10,
-      "description": "DRIVERS WHO QUALIFY 11TH AND 12TH - PADDOCK CLUB INTERVIEWS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 78,
-      "name": "DRIVERS WHO QUALIFY 13TH AND 14TH - CENTURY Q&A INTERVIEW: LOCATION CENTURY BATTERIES SUITES",
-      "start": "2025-08-10T11:25:00",
+      "name": "PIT TOUR X 1",
+      "start": "2025-09-14T08:20:00",
       "duration": 10,
-      "description": "DRIVERS WHO QUALIFY 13TH AND 14TH - CENTURY Q&A INTERVIEW: LOCATION CENTURY BATTERIES SUITES",
+      "description": "PIT TOUR X 1",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 79,
-      "name": "QUALIFYING PART 3 - RACE 25 - TTSO",
-      "start": "2025-08-10T11:40:00",
-      "duration": 30,
-      "description": "QUALIFYING PART 3 - RACE 25 - TTSO",
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-14T08:45:00",
+      "duration": 45,
+      "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 80,
-      "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-10T12:10:00",
-      "duration": 45,
-      "description": "DRIVER BLACKOUT PERIOD",
+      "name": "WARM UP - FUEL TOWERS PERMITTED",
+      "start": "2025-09-14T09:30:00",
+      "duration": 20,
+      "description": "WARM UP - FUEL TOWERS PERMITTED",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 81,
-      "name": "LUNCH",
-      "start": "2025-08-10T12:30:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 82,
-      "name": "PIT TOURS X5",
-      "start": "2025-08-10T13:00:00",
-      "duration": 50,
-      "description": "PIT TOURS X5",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 83,
-      "name": "DRIVER MEET AND GREET IN GARAGE WITH ROAD X SPONSOR - ALL DRIVERS REQUIRED",
-      "start": "2025-08-10T13:50:00",
-      "duration": 10,
-      "description": "DRIVER MEET AND GREET IN GARAGE WITH ROAD X SPONSOR - ALL DRIVERS REQUIRED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 84,
       "name": "DRIVER BLACKOUT PERIOD",
-      "start": "2025-08-10T14:00:00",
+      "start": "2025-09-14T09:50:00",
       "duration": 45,
       "description": "DRIVER BLACKOUT PERIOD",
       "profiles": [
@@ -844,9 +814,89 @@
       ]
     },
     {
+      "id": 82,
+      "name": "PIT TOURS X2",
+      "start": "2025-09-14T11:00:00",
+      "duration": 20,
+      "description": "PIT TOURS X2",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "BK, WD, TD, MAIN STAGE Q&A",
+      "start": "2025-09-14T11:20:00",
+      "duration": 10,
+      "description": "BK, WD, TD, MAIN STAGE Q&A",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "BK, WD, TD, TH - SHELL SUITE VISIT",
+      "start": "2025-09-14T11:35:00",
+      "duration": 10,
+      "description": "BK, WD, TD, TH - SHELL SUITE VISIT",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
       "id": 85,
+      "name": "PADDOCK CLUB - DRIVER & CO-DRIVERS WHO QUALIFY 9TH AND 10TH",
+      "start": "2025-09-14T11:40:00",
+      "duration": 10,
+      "description": "PADDOCK CLUB - DRIVER & CO-DRIVERS WHO QUALIFY 9TH AND 10TH",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "DRIVER- SIGNING SESSION - PODIUM PARK MARQUEE",
+      "start": "2025-09-14T11:50:00",
+      "duration": 30,
+      "description": "DRIVER- SIGNING SESSION - PODIUM PARK MARQUEE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "RACE STRATEGY PRE-BRIEF",
+      "start": "2025-09-14T11:50:00",
+      "duration": 30,
+      "description": "RACE STRATEGY PRE-BRIEF",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "DRIVER BLACKOUT PERIOD",
+      "start": "2025-09-14T12:20:00",
+      "duration": 55,
+      "description": "DRIVER BLACKOUT PERIOD",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "DAVID NOBLE - SHELL SUITE VISIT",
+      "start": "2025-09-14T12:25:00",
+      "duration": 10,
+      "description": "DAVID NOBLE - SHELL SUITE VISIT",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 90,
       "name": "30 MINUTE SIGNAL",
-      "start": "2025-08-10T14:45:00",
+      "start": "2025-09-14T13:15:00",
       "duration": null,
       "description": "30 MINUTE SIGNAL",
       "profiles": [
@@ -854,9 +904,9 @@
       ]
     },
     {
-      "id": 86,
+      "id": 91,
       "name": "PIT EXIT OPEN",
-      "start": "2025-08-10T14:50:00",
+      "start": "2025-09-14T13:20:00",
       "duration": null,
       "description": "PIT EXIT OPEN",
       "profiles": [
@@ -864,19 +914,19 @@
       ]
     },
     {
-      "id": 88,
-      "name": "WELCOME TO COUNTRY",
-      "start": "2025-08-10T14:57:00",
-      "duration": 3,
-      "description": "WELCOME TO COUNTRY",
+      "id": 92,
+      "name": "WELCOME TO COUNTRY & NATIONAL ANTHEM - FRONT OF GRID",
+      "start": "2025-09-14T13:28:00",
+      "duration": 6,
+      "description": "WELCOME TO COUNTRY & NATIONAL ANTHEM - FRONT OF GRID",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 87,
+      "id": 93,
       "name": "PIT EXIT CLOSED",
-      "start": "2025-08-10T15:00:00",
+      "start": "2025-09-14T13:30:00",
       "duration": null,
       "description": "PIT EXIT CLOSED",
       "profiles": [
@@ -884,241 +934,51 @@
       ]
     },
     {
-      "id": 89,
-      "name": "NATIONAL ANTHEM",
-      "start": "2025-08-10T15:00:00",
-      "duration": 3,
-      "description": "NATIONAL ANTHEM",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 90,
-      "name": "RACE 25 - 200KM",
-      "start": "2025-08-10T15:15:00",
-      "duration": 93,
-      "description": "RACE 25 - 200KM",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 91,
-      "name": "PIVOTEL MOMENT AND PIRTEK PERFROMANCE REPORT FILMING",
-      "start": "2025-08-10T17:30:00",
-      "duration": 15,
-      "description": "PIVOTEL MOMENT AND PIRTEK PERFROMANCE REPORT FILMING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 92,
-      "name": "VOLUNTEERS PARTY",
-      "start": "2025-08-10T17:45:00",
-      "duration": 45,
-      "description": "VOLUNTEERS PARTY",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 93,
-      "name": "VAN - DEPART WORKSHOP",
-      "start": "2025-08-11T06:00:00",
-      "duration": null,
-      "description": "VAN - DEPART WORKSHOP",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 94,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-08-11T07:30:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 95,
-      "name": "LUNCH",
-      "start": "2025-08-11T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "RACE 26 - 500KM",
+      "start": "2025-09-14T13:45:00",
+      "duration": 215,
+      "description": "RACE 26 - 500KM",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 96,
-      "name": "TRACK CLOSES",
-      "start": "2025-08-11T17:30:00",
+      "name": "COMMENCE PACK DOWN/SET-UP FOR RIDE DAY - PLEASE SEE JOB LIST",
+      "start": "2025-09-14T17:30:00",
       "duration": null,
-      "description": "TRACK CLOSES",
+      "description": "COMMENCE PACK DOWN/SET-UP FOR RIDE DAY - PLEASE SEE JOB LIST",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "FILIMING - PIVOTEL & PIRTEK MOMENTS - ALL DRIVERS",
+      "start": "2025-09-14T17:45:00",
+      "duration": null,
+      "description": "FILIMING - PIVOTEL & PIRTEK MOMENTS - ALL DRIVERS",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 97,
-      "name": "DEPART TRACK - HEAD HOME",
-      "start": "2025-08-11T17:30:00",
+      "name": "MARK TO ORGANISE DINNER FOR THE TRACK",
+      "start": "2025-09-14T18:30:00",
       "duration": null,
-      "description": "DEPART TRACK - HEAD HOME",
+      "description": "MARK TO ORGANISE DINNER FOR THE TRACK",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 98,
-      "name": "VAN - DEPART WORKSHOP",
-      "start": "2025-08-12T06:00:00",
+      "name": "DEPART TRACK TO AIRPORT",
+      "start": "2025-09-14T18:45:00",
       "duration": null,
-      "description": "VAN - DEPART WORKSHOP",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 99,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-08-12T07:30:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 100,
-      "name": "BREAKFAST",
-      "start": "2025-08-12T08:00:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 101,
-      "name": "TESTING COMMENCES",
-      "start": "2025-08-12T08:30:00",
-      "duration": null,
-      "description": "TESTING COMMENCES",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 102,
-      "name": "LUNCH",
-      "start": "2025-08-12T12:30:00",
-      "duration": 30,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "TRACK CLOSES",
-      "start": "2025-08-12T17:00:00",
-      "duration": null,
-      "description": "TRACK CLOSES",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "DEPART TRACK - HEAD HOME",
-      "start": "2025-08-12T17:30:00",
-      "duration": null,
-      "description": "DEPART TRACK - HEAD HOME",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "VAN - DEPART WORKSHOP",
-      "start": "2025-08-13T05:30:00",
-      "duration": null,
-      "description": "VAN - DEPART WORKSHOP",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 106,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-08-13T06:30:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 107,
-      "name": "BREAKFAST",
-      "start": "2025-08-13T07:30:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 108,
-      "name": "DRIVER CHECK IN AT QR OFFICE",
-      "start": "2025-08-13T07:30:00",
-      "duration": null,
-      "description": "DRIVER CHECK IN AT QR OFFICE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 109,
-      "name": "RIDE DAY BEGINS",
-      "start": "2025-08-13T08:30:00",
-      "duration": null,
-      "description": "RIDE DAY BEGINS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 110,
-      "name": "LUNCH",
-      "start": "2025-08-13T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 111,
-      "name": "TRACK CLOSES",
-      "start": "2025-08-13T17:30:00",
-      "duration": null,
-      "description": "TRACK CLOSES",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 112,
-      "name": "DEPART TRACK - HEAD HOME",
-      "start": "2025-08-13T17:30:00",
-      "duration": null,
-      "description": "DEPART TRACK - HEAD HOME",
+      "description": "DEPART TRACK TO AIRPORT",
       "profiles": [
         "all"
       ]
