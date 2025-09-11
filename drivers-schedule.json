@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-10T16:29:54.626772",
+  "lastUpdated": "2025-09-11T12:17:16.607308",
   "teamGroup": "drivers",
-  "eventCount": 63,
+  "eventCount": 62,
   "events": [
     {
       "id": 1,
@@ -69,16 +69,6 @@
       "start": "2025-09-11T11:45:00",
       "duration": 30,
       "description": "ENDURO CLASS PHOTO - RACE SUIT AND BOOTS LOCATION: START/FINISH LINE",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "DRIVERS - FILMING WITH SHAYLA - LOCATION: GARAGE",
-      "start": "2025-09-11T12:15:00",
-      "duration": 30,
-      "description": "DRIVERS - FILMING WITH SHAYLA - LOCATION: GARAGE",
       "profiles": [
         "drivers"
       ]
