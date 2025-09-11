@@ -607,7 +607,8 @@
             const config = determineProfileFromFilename();
             
             // Set timezone to Brisbane (Queensland racing)
-            currentTimezone = 'Australia/Brisbane';
+              const detectedTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+              currentTimezone = detectedTZ;
             
             // Start countdown timer
             countdownInterval = setInterval(updateDisplay, 1000);
