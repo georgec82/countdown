@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-11T12:17:16.609252",
+  "lastUpdated": "2025-09-12T17:15:26.804275",
   "teamGroup": "all",
   "eventCount": 98,
   "events": [
@@ -364,21 +364,21 @@
       ]
     },
     {
-      "id": 37,
-      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
-      "start": "2025-09-12T18:00:00",
-      "duration": null,
-      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 38,
       "name": "TYRE FITTING CLOSED",
       "start": "2025-09-12T18:00:00",
       "duration": null,
       "description": "TYRE FITTING CLOSED",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
+      "start": "2025-09-12T18:15:00",
+      "duration": null,
+      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVER'S BRIEFING",
       "profiles": [
         "all"
       ]
