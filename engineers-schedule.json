@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-12T17:15:26.801514",
+  "lastUpdated": "2025-09-13T14:31:39.015810",
   "teamGroup": "engineers",
   "eventCount": 48,
   "events": [
@@ -336,8 +336,8 @@
     {
       "id": 68,
       "name": "ENGINEERING DEBRIEF",
-      "start": "2025-09-13T18:18:00",
-      "duration": null,
+      "start": "2025-09-13T18:00:00",
+      "duration": 30,
       "description": "ENGINEERING DEBRIEF",
       "profiles": [
         "engineers"
