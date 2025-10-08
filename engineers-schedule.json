@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-08T07:17:40.254574",
+  "lastUpdated": "2025-10-09T07:06:20.258543",
   "teamGroup": "engineers",
-  "eventCount": 61,
+  "eventCount": 62,
   "events": [
     {
       "id": 1,
@@ -165,6 +165,16 @@
     },
     {
       "id": 26,
+      "name": "Car 38 Driver Change Practice",
+      "start": "2025-10-09T09:30:00",
+      "duration": null,
+      "description": "Car 38 Driver Change Practice",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 27,
       "name": "ENGINEERING PREBRIEF",
       "start": "2025-10-09T10:00:00",
       "duration": 30,
@@ -174,7 +184,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "LUNCH",
       "start": "2025-10-09T12:00:00",
       "duration": null,
@@ -184,7 +194,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "PRACTICE 1 & PRACTICE STARTS",
       "start": "2025-10-09T13:20:00",
       "duration": 65,
@@ -194,7 +204,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "PRACTICE 2  + PRACTICE STARTS",
       "start": "2025-10-09T16:50:00",
       "duration": 65,
@@ -204,7 +214,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "COMPETITOR'S AUTHORSISED REPRESENTATIVES & DRIVER'S BRIEFING",
       "start": "2025-10-09T18:30:00",
       "duration": 30,
@@ -214,7 +224,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "DINNER",
       "start": "2025-10-09T18:30:00",
       "duration": null,
@@ -224,7 +234,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "ENGINEERING DEBRIEF",
       "start": "2025-10-09T18:45:00",
       "duration": 15,
@@ -234,7 +244,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 41,
       "name": "PADDOCK CLOSED",
       "start": "2025-10-09T21:30:00",
       "duration": null,
@@ -244,7 +254,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 42,
       "name": "ARRIVE AT TRACK",
       "start": "2025-10-10T07:10:00",
       "duration": null,
@@ -254,7 +264,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "start": "2025-10-10T07:25:00",
       "duration": null,
@@ -264,7 +274,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 45,
       "name": "BREAKFAST",
       "start": "2025-10-10T07:45:00",
       "duration": null,
@@ -274,7 +284,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "ENGINEERING PREBREIF",
       "start": "2025-10-10T09:10:00",
       "duration": 20,
@@ -284,7 +294,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "PRACTICE 3",
       "start": "2025-10-10T10:05:00",
       "duration": 60,
@@ -294,7 +304,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 52,
       "name": "CHANNEL 7 - LIVE TV INTERVIEW WITH BK AND TH",
       "start": "2025-10-10T11:35:00",
       "duration": 5,
@@ -304,7 +314,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "LUNCH",
       "start": "2025-10-10T12:00:00",
       "duration": null,
@@ -314,7 +324,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 56,
       "name": "PRACTICE 4",
       "start": "2025-10-10T13:05:00",
       "duration": 60,
@@ -324,7 +334,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 61,
       "name": "QUALIFYING - RACE 27",
       "start": "2025-10-10T16:10:00",
       "duration": 40,
@@ -334,7 +344,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 62,
       "name": "ENGINEERING DEBRIEF",
       "start": "2025-10-10T17:45:00",
       "duration": 30,
@@ -344,7 +354,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 64,
       "name": "PIT STOP PRACTICE - BRAKE CHANGE PRACTICE",
       "start": "2025-10-10T18:15:00",
       "duration": null,
@@ -354,7 +364,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 65,
       "name": "DINNER",
       "start": "2025-10-10T18:45:00",
       "duration": null,
@@ -364,7 +374,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 67,
       "name": "PADDOCK CLOSED",
       "start": "2025-10-10T20:30:00",
       "duration": null,
@@ -374,7 +384,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 68,
       "name": "ARRIVE AT TRACK",
       "start": "2025-10-11T07:00:00",
       "duration": null,
@@ -384,7 +394,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 70,
       "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "start": "2025-10-11T07:20:00",
       "duration": null,
@@ -394,7 +404,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 71,
       "name": "PITSTOP PRACTICE - DRIVER CHANGE PRACTICE - ALL DRIVERS",
       "start": "2025-10-11T07:20:00",
       "duration": null,
@@ -404,7 +414,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": 73,
       "name": "BREAKFAST",
       "start": "2025-10-11T07:40:00",
       "duration": null,
@@ -414,7 +424,7 @@
       ]
     },
     {
-      "id": 73,
+      "id": 74,
       "name": "ENGINEERING PREBRIEF",
       "start": "2025-10-11T08:00:00",
       "duration": 30,
@@ -424,7 +434,7 @@
       ]
     },
     {
-      "id": 76,
+      "id": 77,
       "name": "MERCH SIGNING SESSION",
       "start": "2025-10-11T09:05:00",
       "duration": 15,
@@ -434,7 +444,7 @@
       ]
     },
     {
-      "id": 77,
+      "id": 78,
       "name": "PRACTICE 5",
       "start": "2025-10-11T10:05:00",
       "duration": 60,
@@ -444,7 +454,7 @@
       ]
     },
     {
-      "id": 78,
+      "id": 79,
       "name": "TEAM PRESENTATION",
       "start": "2025-10-11T11:55:00",
       "duration": 5,
@@ -454,7 +464,7 @@
       ]
     },
     {
-      "id": 79,
+      "id": 80,
       "name": "LUNCH",
       "start": "2025-10-11T12:00:00",
       "duration": null,
@@ -464,7 +474,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": 83,
       "name": "PRACTICE 6  HOT SESSION - REFUELLING TOWERS PERMITTED",
       "start": "2025-10-11T13:10:00",
       "duration": 60,
@@ -474,7 +484,7 @@
       ]
     },
     {
-      "id": 87,
+      "id": 88,
       "name": "TTSO - RACE 27",
       "start": "2025-10-11T17:05:00",
       "duration": 45,
@@ -484,7 +494,7 @@
       ]
     },
     {
-      "id": 88,
+      "id": 89,
       "name": "DINNER",
       "start": "2025-10-11T18:00:00",
       "duration": null,
@@ -494,7 +504,7 @@
       ]
     },
     {
-      "id": 89,
+      "id": 90,
       "name": "ENGINEERING DEBRIEF",
       "start": "2025-10-11T18:30:00",
       "duration": null,
@@ -504,7 +514,7 @@
       ]
     },
     {
-      "id": 91,
+      "id": 92,
       "name": "PADDOCK CLOSED",
       "start": "2025-10-11T21:00:00",
       "duration": null,
@@ -514,7 +524,7 @@
       ]
     },
     {
-      "id": 92,
+      "id": 93,
       "name": "ARRIVE AT TRACK",
       "start": "2025-10-12T06:50:00",
       "duration": null,
@@ -524,7 +534,7 @@
       ]
     },
     {
-      "id": 93,
+      "id": 94,
       "name": "BREAKFAST",
       "start": "2025-10-12T07:00:00",
       "duration": null,
@@ -534,7 +544,7 @@
       ]
     },
     {
-      "id": 94,
+      "id": 95,
       "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "start": "2025-10-12T07:00:00",
       "duration": null,
@@ -544,7 +554,7 @@
       ]
     },
     {
-      "id": 95,
+      "id": 96,
       "name": "ENGINEERING PREBRIEF",
       "start": "2025-10-12T07:30:00",
       "duration": null,
@@ -554,7 +564,7 @@
       ]
     },
     {
-      "id": 96,
+      "id": 97,
       "name": "WARM UP - REFUELLING TOWERS PERMITTED & CAN STAY SET-UP POST WARM UP",
       "start": "2025-10-12T08:30:00",
       "duration": 20,
@@ -564,7 +574,7 @@
       ]
     },
     {
-      "id": 100,
+      "id": 101,
       "name": "STRATEGY BREIFING",
       "start": "2025-10-12T10:25:00",
       "duration": 20,
@@ -574,7 +584,7 @@
       ]
     },
     {
-      "id": 103,
+      "id": 104,
       "name": "50 MINUTE SIGNAL",
       "start": "2025-10-12T10:55:00",
       "duration": null,
@@ -584,7 +594,7 @@
       ]
     },
     {
-      "id": 104,
+      "id": 105,
       "name": "PIT EXIT OPEN",
       "start": "2025-10-12T11:00:00",
       "duration": null,
@@ -594,7 +604,7 @@
       ]
     },
     {
-      "id": 105,
+      "id": 106,
       "name": "PIT EXIT CLOSED",
       "start": "2025-10-12T11:10:00",
       "duration": null,
@@ -604,7 +614,7 @@
       ]
     },
     {
-      "id": 107,
+      "id": 108,
       "name": "RACE 27 - 1000KM",
       "start": "2025-10-12T11:45:00",
       "duration": null,
