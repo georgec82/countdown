@@ -1,612 +1,142 @@
 {
-  "lastUpdated": "2025-10-09T07:06:20.255877",
+  "lastUpdated": "2025-10-23T13:24:02.567097",
   "teamGroup": "mechanics",
-  "eventCount": 63,
+  "eventCount": 25,
   "events": [
     {
       "id": 1,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-10-08T08:00:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "BREAKFAST",
-      "start": "2025-10-08T08:30:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "TYRE FITTING COMMENCES",
-      "start": "2025-10-08T08:30:00",
-      "duration": null,
-      "description": "TYRE FITTING COMMENCES",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "CONTINUE TRUCK UNLOAD AND SET UP",
-      "start": "2025-10-08T08:30:00",
-      "duration": null,
-      "description": "CONTINUE TRUCK UNLOAD AND SET UP",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "LUNCH",
-      "start": "2025-10-08T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "PIT LANE CLOSED TO ALL TEAMS - GARAGE DOORS TO REMAIN OPEN",
+      "start": "2025-10-23T16:30:00",
+      "duration": 390,
+      "description": "PIT LANE CLOSED TO ALL TEAMS - GARAGE DOORS TO REMAIN OPEN",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 7,
-      "name": "SCRUTINEERING COMMENCES",
-      "start": "2025-10-08T12:00:00",
+      "name": "DINNER",
+      "start": "2025-10-23T17:15:00",
       "duration": null,
-      "description": "SCRUTINEERING COMMENCES",
+      "description": "DINNER",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 9,
-      "name": "GYMKHANA SHOOT - CAR 17 REQUIRED - WILL DAVISON TO DRIVE - CAR TO RUN AT MEDIUM SPEED + #17 MECHANICS REQUIRED",
-      "start": "2025-10-08T12:30:00",
-      "duration": 120,
-      "description": "GYMKHANA SHOOT - CAR 17 REQUIRED - WILL DAVISON TO DRIVE - CAR TO RUN AT MEDIUM SPEED + #17 MECHANICS REQUIRED",
+      "name": "ARRIVE AT TRACK/BREAKFAST",
+      "start": "2025-10-24T08:45:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK/BREAKFAST",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 11,
-      "name": "TRACK WALK - STRAIGHT AFTER BRIEFING & PHOTO ON TOP OF MOUNTAIN WITH SHAY",
-      "start": "2025-10-08T14:30:00",
-      "duration": 60,
-      "description": "TRACK WALK - STRAIGHT AFTER BRIEFING & PHOTO ON TOP OF MOUNTAIN WITH SHAY",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "PIT STOP PRACTICE - BRAKE CHANGE - CREW ONLY",
-      "start": "2025-10-08T16:30:00",
+      "name": "PITSTOP PRACTICE",
+      "start": "2025-10-24T09:00:00",
       "duration": null,
-      "description": "PIT STOP PRACTICE - BRAKE CHANGE - CREW ONLY",
+      "description": "PITSTOP PRACTICE",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 15,
-      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES BRIEFING",
-      "start": "2025-10-08T16:30:00",
-      "duration": null,
-      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES BRIEFING",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "TRANSPORTER PARADE",
-      "start": "2025-10-08T17:20:00",
-      "duration": 70,
-      "description": "TRANSPORTER PARADE",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "TRACK TO TOWN",
-      "start": "2025-10-08T17:30:00",
-      "duration": 80,
-      "description": "TRACK TO TOWN",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "TRACK TO TOWN - CARS LEAVE TO RETURN TO PIT LANE",
-      "start": "2025-10-08T18:55:00",
-      "duration": 15,
-      "description": "TRACK TO TOWN - CARS LEAVE TO RETURN TO PIT LANE",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "PLEASE DEPART TRACK FOR DINNER",
-      "start": "2025-10-08T19:30:00",
-      "duration": null,
-      "description": "PLEASE DEPART TRACK FOR DINNER",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 22,
-      "name": "TEAM DINNER LOCATION: THE GEORGE 201 GEORGE STREET BATHURST",
-      "start": "2025-10-08T20:00:00",
-      "duration": null,
-      "description": "TEAM DINNER LOCATION: THE GEORGE 201 GEORGE STREET BATHURST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-10-09T07:15:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "PADDOCK OPEN/ TYRE FITTING OPEN",
-      "start": "2025-10-09T07:25:00",
-      "duration": null,
-      "description": "PADDOCK OPEN/ TYRE FITTING OPEN",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "BREAKFAST",
-      "start": "2025-10-09T08:00:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Car 38 Driver Change Practice",
-      "start": "2025-10-09T09:30:00",
-      "duration": null,
-      "description": "Car 38 Driver Change Practice",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-10-09T10:00:00",
-      "duration": 30,
-      "description": "ENGINEERING PREBRIEF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "LUNCH",
-      "start": "2025-10-09T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 33,
       "name": "PRACTICE 1 & PRACTICE STARTS",
-      "start": "2025-10-09T13:20:00",
-      "duration": 65,
+      "start": "2025-10-24T12:40:00",
+      "duration": 30,
       "description": "PRACTICE 1 & PRACTICE STARTS",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 35,
-      "name": "PRACTICE 2  + PRACTICE STARTS",
-      "start": "2025-10-09T16:50:00",
-      "duration": 65,
-      "description": "PRACTICE 2  + PRACTICE STARTS",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 37,
-      "name": "COMPETITOR'S AUTHORSISED REPRESENTATIVES & DRIVER'S BRIEFING",
-      "start": "2025-10-09T18:30:00",
+      "id": 21,
+      "name": "PRACTICE 2",
+      "start": "2025-10-24T15:25:00",
       "duration": 30,
-      "description": "COMPETITOR'S AUTHORSISED REPRESENTATIVES & DRIVER'S BRIEFING",
+      "description": "PRACTICE 2",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 38,
-      "name": "DINNER",
-      "start": "2025-10-09T18:30:00",
+      "id": 27,
+      "name": "PADDOCK CLOSED",
+      "start": "2025-10-24T19:30:00",
       "duration": null,
-      "description": "DINNER",
+      "description": "PADDOCK CLOSED",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 39,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-10-09T18:45:00",
-      "duration": 15,
-      "description": "ENGINEERING DEBRIEF",
+      "id": 28,
+      "name": "ARRIVE AT TRACK/BREAKFAST",
+      "start": "2025-10-25T07:30:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK/BREAKFAST",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "PITSTOP PRACTICE",
+      "start": "2025-10-25T07:45:00",
+      "duration": null,
+      "description": "PITSTOP PRACTICE",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "QUALIFYING PART 1 - RACE 28",
+      "start": "2025-10-25T11:00:00",
+      "duration": 12,
+      "description": "QUALIFYING PART 1 - RACE 28",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "QUALIFYING PART 2 - RACE 28",
+      "start": "2025-10-25T11:20:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 28",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 41,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-10-09T21:30:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-10-10T07:10:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
+      "name": "QUALIFYING PART 3 - RACE 28 TTSO",
+      "start": "2025-10-25T12:35:00",
+      "duration": 30,
+      "description": "QUALIFYING PART 3 - RACE 28 TTSO",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 44,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-10-10T07:25:00",
+      "name": "40 MINUTE SIGNAL",
+      "start": "2025-10-25T14:35:00",
       "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "description": "40 MINUTE SIGNAL",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 45,
-      "name": "BREAKFAST",
-      "start": "2025-10-10T07:45:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "ENGINEERING PREBREIF",
-      "start": "2025-10-10T09:10:00",
-      "duration": 20,
-      "description": "ENGINEERING PREBREIF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 50,
-      "name": "PRACTICE 3",
-      "start": "2025-10-10T10:05:00",
-      "duration": 60,
-      "description": "PRACTICE 3",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 52,
-      "name": "CHANNEL 7 - LIVE TV INTERVIEW WITH BK AND TH",
-      "start": "2025-10-10T11:35:00",
-      "duration": 5,
-      "description": "CHANNEL 7 - LIVE TV INTERVIEW WITH BK AND TH",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 54,
-      "name": "LUNCH",
-      "start": "2025-10-10T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 56,
-      "name": "PRACTICE 4",
-      "start": "2025-10-10T13:05:00",
-      "duration": 60,
-      "description": "PRACTICE 4",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 61,
-      "name": "QUALIFYING - RACE 27",
-      "start": "2025-10-10T16:10:00",
-      "duration": 40,
-      "description": "QUALIFYING - RACE 27",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 62,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-10-10T17:45:00",
-      "duration": 30,
-      "description": "ENGINEERING DEBRIEF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 64,
-      "name": "PIT STOP PRACTICE - BRAKE CHANGE PRACTICE",
-      "start": "2025-10-10T18:15:00",
-      "duration": null,
-      "description": "PIT STOP PRACTICE - BRAKE CHANGE PRACTICE",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 65,
-      "name": "DINNER",
-      "start": "2025-10-10T18:45:00",
-      "duration": null,
-      "description": "DINNER",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 67,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-10-10T20:30:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 68,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-10-11T07:00:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 70,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-10-11T07:20:00",
-      "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 71,
-      "name": "PITSTOP PRACTICE - DRIVER CHANGE PRACTICE - ALL DRIVERS",
-      "start": "2025-10-11T07:20:00",
-      "duration": null,
-      "description": "PITSTOP PRACTICE - DRIVER CHANGE PRACTICE - ALL DRIVERS",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 73,
-      "name": "BREAKFAST",
-      "start": "2025-10-11T07:40:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 74,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-10-11T08:00:00",
-      "duration": 30,
-      "description": "ENGINEERING PREBRIEF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 77,
-      "name": "MERCH SIGNING SESSION",
-      "start": "2025-10-11T09:05:00",
-      "duration": 15,
-      "description": "MERCH SIGNING SESSION",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 78,
-      "name": "PRACTICE 5",
-      "start": "2025-10-11T10:05:00",
-      "duration": 60,
-      "description": "PRACTICE 5",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 79,
-      "name": "TEAM PRESENTATION",
-      "start": "2025-10-11T11:55:00",
-      "duration": 5,
-      "description": "TEAM PRESENTATION",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 80,
-      "name": "LUNCH",
-      "start": "2025-10-11T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 83,
-      "name": "PRACTICE 6  HOT SESSION - REFUELLING TOWERS PERMITTED",
-      "start": "2025-10-11T13:10:00",
-      "duration": 60,
-      "description": "PRACTICE 6  HOT SESSION - REFUELLING TOWERS PERMITTED",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 88,
-      "name": "TTSO - RACE 27",
-      "start": "2025-10-11T17:05:00",
-      "duration": 45,
-      "description": "TTSO - RACE 27",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 89,
-      "name": "DINNER",
-      "start": "2025-10-11T18:00:00",
-      "duration": null,
-      "description": "DINNER",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 90,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-10-11T18:30:00",
-      "duration": null,
-      "description": "ENGINEERING DEBRIEF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 92,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-10-11T21:00:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 93,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-10-12T06:50:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 94,
-      "name": "BREAKFAST",
-      "start": "2025-10-12T07:00:00",
-      "duration": null,
-      "description": "BREAKFAST",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 95,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-10-12T07:00:00",
-      "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 96,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-10-12T07:30:00",
-      "duration": null,
-      "description": "ENGINEERING PREBRIEF",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 97,
-      "name": "WARM UP - REFUELLING TOWERS PERMITTED & CAN STAY SET-UP POST WARM UP",
-      "start": "2025-10-12T08:30:00",
-      "duration": 20,
-      "description": "WARM UP - REFUELLING TOWERS PERMITTED & CAN STAY SET-UP POST WARM UP",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "50 MINUTE SIGNAL",
-      "start": "2025-10-12T10:55:00",
-      "duration": null,
-      "description": "50 MINUTE SIGNAL",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 105,
       "name": "PIT EXIT OPEN",
-      "start": "2025-10-12T11:00:00",
+      "start": "2025-10-25T14:40:00",
       "duration": null,
       "description": "PIT EXIT OPEN",
       "profiles": [
@@ -614,9 +144,9 @@
       ]
     },
     {
-      "id": 106,
+      "id": 46,
       "name": "PIT EXIT CLOSED",
-      "start": "2025-10-12T11:10:00",
+      "start": "2025-10-25T14:50:00",
       "duration": null,
       "description": "PIT EXIT CLOSED",
       "profiles": [
@@ -624,11 +154,101 @@
       ]
     },
     {
-      "id": 108,
-      "name": "RACE 27 - 1000KM",
-      "start": "2025-10-12T11:45:00",
+      "id": 47,
+      "name": "RACE 28 - 250KM",
+      "start": "2025-10-25T15:15:00",
       "duration": null,
-      "description": "RACE 27 - 1000KM",
+      "description": "RACE 28 - 250KM",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "PADDOCK CLOSED",
+      "start": "2025-10-25T20:45:00",
+      "duration": null,
+      "description": "PADDOCK CLOSED",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "start": "2025-10-26T07:00:00",
+      "duration": null,
+      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "QUALIFYING PART 1 - RACE 29",
+      "start": "2025-10-26T10:00:00",
+      "duration": 12,
+      "description": "QUALIFYING PART 1 - RACE 29",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "QUALIFYING PART 2 - RACE 29",
+      "start": "2025-10-26T10:20:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 29",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "QUALIFYING PART 3 - TTSO",
+      "start": "2025-10-26T11:35:00",
+      "duration": 30,
+      "description": "QUALIFYING PART 3 - TTSO",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "40-MINUTE SIGNAL",
+      "start": "2025-10-26T13:30:00",
+      "duration": null,
+      "description": "40-MINUTE SIGNAL",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "PIT EXIT OPEN",
+      "start": "2025-10-26T13:35:00",
+      "duration": null,
+      "description": "PIT EXIT OPEN",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "PIT EXIT CLOSED",
+      "start": "2025-10-26T13:45:00",
+      "duration": null,
+      "description": "PIT EXIT CLOSED",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "RACE 29 - 250KM",
+      "start": "2025-10-26T14:10:00",
+      "duration": 123,
+      "description": "RACE 29 - 250KM",
       "profiles": [
         "mechanics"
       ]
