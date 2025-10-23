@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-23T13:24:02.567097",
+  "lastUpdated": "2025-10-23T13:35:31.920374",
   "teamGroup": "mechanics",
-  "eventCount": 25,
+  "eventCount": 34,
   "events": [
     {
       "id": 1,
@@ -54,11 +54,51 @@
       ]
     },
     {
+      "id": 16,
+      "name": "LUNCH",
+      "start": "2025-10-24T13:15:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 21,
       "name": "PRACTICE 2",
       "start": "2025-10-24T15:25:00",
       "duration": 30,
       "description": "PRACTICE 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "COMPETITOR'S AND DRIVERS BRIEFING",
+      "start": "2025-10-24T16:30:00",
+      "duration": null,
+      "description": "COMPETITOR'S AND DRIVERS BRIEFING",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-10-24T17:00:00",
+      "duration": 30,
+      "description": "ENGINEERING DEBRIEF",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "DINNER",
+      "start": "2025-10-24T17:30:00",
+      "duration": null,
+      "description": "DINNER",
       "profiles": [
         "mechanics"
       ]
@@ -89,6 +129,16 @@
       "start": "2025-10-25T07:45:00",
       "duration": null,
       "description": "PITSTOP PRACTICE",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-10-25T08:50:00",
+      "duration": 30,
+      "description": "ENGINEERING PREBRIEF",
       "profiles": [
         "mechanics"
       ]
@@ -164,6 +214,26 @@
       ]
     },
     {
+      "id": 48,
+      "name": "DINNER",
+      "start": "2025-10-25T18:00:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-10-25T18:30:00",
+      "duration": null,
+      "description": "ENGINEERING DEBRIEF",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 51,
       "name": "PADDOCK CLOSED",
       "start": "2025-10-25T20:45:00",
@@ -179,6 +249,16 @@
       "start": "2025-10-26T07:00:00",
       "duration": null,
       "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "ENGINEERING PREBRIEF",
+      "start": "2025-10-26T08:30:00",
+      "duration": 30,
+      "description": "ENGINEERING PREBRIEF",
       "profiles": [
         "mechanics"
       ]
@@ -209,6 +289,16 @@
       "start": "2025-10-26T11:35:00",
       "duration": 30,
       "description": "QUALIFYING PART 3 - TTSO",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "LUNCH",
+      "start": "2025-10-26T12:00:00",
+      "duration": null,
+      "description": "LUNCH",
       "profiles": [
         "mechanics"
       ]
