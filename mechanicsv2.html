@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell V-Power Racing Team Countdown - Mechanics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+            color: #000000;
+            overflow: hidden;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .header {
+            background: #ffffff;
+            border-bottom: 3px solid #ff0000;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-left, .logo-right {
+            height: 120px;
+            width: auto;
+            padding: 8px;
+        }
+
+        .team-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff0000;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .profile-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff0000;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .main-display {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            min-height: 0;
+        }
+
+        .countdown-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+        }
+
+        .current-time {
+            font-size: 1.2rem;
+            color: #cc0000;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .next-event {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .event-name {
+            font-size: 2.5rem;
+            color: #ff0000;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.2);
+            font-weight: bold;
+        }
+
+        .countdown-display {
+            font-size: 7.5rem;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            margin-bottom: 20px;
+            border: 3px solid #000000;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.05);
+            color: #000000;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .countdown-display.urgent {
+            color: #cc0000;
+            border-color: #ff0000;
+            background: rgba(255, 0, 0, 0.05);
+            text-shadow: 3px 3px 6px rgba(204, 0, 0, 0.3);
+        }
+
+        .event-duration {
+            font-size: 1.5rem;
+            color: #333333;
+            font-weight: bold;
+        }
+
+        .upcoming-events {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            max-width: 500px;
+        }
+
+        .upcoming-title {
+            font-size: 1.44rem;
+            color: #ff0000;
+            margin-bottom: 18px;
+            font-weight: bold;
+        }
+
+        .event-item {
+            background: rgba(255, 0, 0, 0.1);
+            border-left: 4px solid #ff0000;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .event-item-name {
+            font-weight: bold;
+            color: #cc0000;
+            font-size: 1.08rem;
+        }
+
+        .event-item-time {
+            font-size: 1.08rem;
+            color: #666666;
+        }
+
+        .event-countdown {
+            position: absolute;
+            right: 15px;
+            bottom: 12px;
+            font-size: 1.08rem;
+            color: #666666;
+        }
+
+        .settings-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .settings-btn:hover {
+            background: #cc0000;
+        }
+
+        .no-events {
+            text-align: center;
+            color: #666666;
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #ff0000;
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+
+        .error {
+            text-align: center;
+            color: #cc0000;
+            font-size: 1.2rem;
+            margin-top: 50px;
+            background: rgba(255, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ff0000;
+        }
+
+        .refresh-btn {
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
+        .refresh-btn:hover {
+            background: #cc0000;
+        }
+
+        .schedule-info {
+            position: absolute;
+            bottom: 80px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 0.8rem;
+            color: #666;
+            max-width: 200px;
+        }
+
+        .auto-refresh {
+            position: absolute;
+            bottom: 80px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .countdown-display {
+                font-size: 3.75rem;
+                padding: 15px;
+                border: 3px solid #000000;
+                border-radius: 15px;
+                background: rgba(0, 0, 0, 0.05);
+                color: #000000;
+                text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            }
+
+            .countdown-display.urgent {
+                color: #cc0000;
+                border-color: #ff0000;
+                background: rgba(255, 0, 0, 0.05);
+                text-shadow: 3px 3px 6px rgba(204, 0, 0, 0.3);
+            }
+            
+            .event-name {
+                font-size: 1.8rem;
+            }
+            
+            .upcoming-events {
+                position: static;
+                margin-top: 20px;
+                max-width: 100%;
+            }
+            
+            .settings-btn {
+                position: static;
+                margin: 20px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-left">
+                <img src="djr-logo.png" alt="DJR Logo" style="height: 120px;" onerror="this.style.display='none'">
+            </div>
+            <div class="team-name">Shell V-Power Racing Team</div>
+            <div class="logo-right">
+                <img src="shell-vpower-logo.png" alt="Shell V-Power Logo" style="height: 120px;" onerror="this.style.display='none'">
+            </div>
+        </div>
+
+        <div class="profile-indicator" id="profileIndicator">MECHANICS</div>
+        <div class="auto-refresh" id="autoRefresh">Auto-refresh: 5min</div>
+
+        <div class="main-display">
+            <div id="mainContent">
+                <div class="loading">Loading schedule...</div>
+            </div>
+        </div>
+
+        <div class="upcoming-events" id="upcomingEvents" style="display: none;">
+            <div class="upcoming-title">Upcoming Events</div>
+            <div id="upcomingList"></div>
+        </div>
+
+        <div class="schedule-info" id="scheduleInfo" style="display: none;">
+            <div><strong>Schedule:</strong> <span id="scheduleFile">-</span></div>
+            <div><strong>Last Updated:</strong> <span id="lastUpdated">-</span></div>
+            <div><strong>Event Count:</strong> <span id="eventCount">-</span></div>
+        </div>
+
+        <button class="settings-btn" id="settingsButton" onclick="refreshSchedule()">🔄 Refresh</button>
+    </div>
+
+    <script>
+        // Global variables
+        let events = [];
+        let currentTimezone = 'Australia/Brisbane';
+        let teamName = 'Shell V-Power Racing Team';
+        let currentProfile = 'mechanics';
+        let scheduleFile = 'mechanics-schedule.json';
+        let countdownInterval;
+        let refreshInterval;
+        let lastUpdated = '';
+        let eventCount = 0;
+
+        // Keywords that identify track sessions and paddock events for main countdown
+        const MAIN_COUNTDOWN_KEYWORDS = [
+            'PRACTICE',
+            'QUALIFYING',
+            'RACE',
+            'PADDOCK CLOSE',
+            'PADDOCK OPEN',
+            'PITSTOP PRACTICE',
+            'TYRE FITTING CLOSE',
+            'EVENT RIDES'
+        ];
+
+        function formatTime(date, timezone) {
+            return new Intl.DateTimeFormat('en-US', {
+                timeZone: timezone,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: true
+            }).format(date);
+        }
+
+        function formatDateTime(date, timezone) {
+            return new Intl.DateTimeFormat('en-US', {
+                timeZone: timezone,
+                hour: '2-digit',
+                minute: '2-digit'
+            }).format(date);
+        }
+
+        function formatDuration(minutes) {
+            if (!minutes || minutes === null || minutes === undefined) return null;
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            if (hours > 0) {
+                return mins > 0 ? `${hours}h ${mins}m` : `${hours}h`;
+            }
+            return `${mins}m`;
+        }
+
+        function formatTimeUntil(targetTime) {
+            const now = new Date();
+            const timeUntil = targetTime - now;
+            
+            if (timeUntil <= 0) return '00:00';
+            
+            const totalMinutes = Math.floor(timeUntil / (1000 * 60));
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            
+            if (hours > 0) {
+                return `${hours}:${minutes.toString().padStart(2, '0')}h`;
+            } else {
+                return `${minutes}m`;
+            }
+        }
+
+        // Check if event should be shown in main countdown
+        function isMainCountdownEvent(event) {
+            const eventNameUpper = event.name.toUpperCase();
+            return MAIN_COUNTDOWN_KEYWORDS.some(keyword => eventNameUpper.includes(keyword));
+        }
+
+        function getFilteredEvents() {
+            const now = new Date();
+            return events.filter(event => {
+                if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
+                    return event.start > now;
+                }
+                return false;
+            }).sort((a, b) => a.start - b.start);
+        }
+
+        function getCurrentAndUpcomingEvents() {
+            const now = new Date();
+            const allFilteredEvents = events.filter(event => {
+                if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
+                    return true;
+                }
+                return false;
+            }).sort((a, b) => a.start - b.start);
+
+            // For main countdown: only track sessions and paddock events
+            const mainCountdownEvents = allFilteredEvents.filter(event => isMainCountdownEvent(event));
+
+            // Check if there's a current main countdown event (in progress)
+            const currentEvent = mainCountdownEvents.find(event => {
+                if (!event.duration) return false;
+                const eventStart = event.start;
+                const eventEnd = new Date(eventStart.getTime() + (event.duration * 60 * 1000));
+                return now >= eventStart && now <= eventEnd;
+            });
+
+            // Get upcoming main countdown events
+            const upcomingMainEvents = mainCountdownEvents.filter(event => event.start > now);
+
+            // Get ALL upcoming events for the sidebar (not filtered by keywords)
+            const allUpcomingEvents = allFilteredEvents.filter(event => event.start > now);
+
+            return { currentEvent, upcomingMainEvents, allUpcomingEvents };
+        }
+
+        function updateDisplay() {
+            const now = new Date();
+            const { currentEvent, upcomingMainEvents, allUpcomingEvents } = getCurrentAndUpcomingEvents();
+
+            // Determine what to show in main countdown
+            let targetEvent, timeUntil, displayMode;
+
+            if (currentEvent) {
+                // Show countdown to end of current track event
+                targetEvent = currentEvent;
+                const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
+                timeUntil = eventEnd - now;
+                displayMode = 'current';
+            } else if (upcomingMainEvents.length > 0) {
+                // Show countdown to next track session/paddock event
+                targetEvent = upcomingMainEvents[0];
+                timeUntil = targetEvent.start - now;
+                displayMode = 'upcoming';
+            } else {
+                // No track events remaining
+                document.getElementById('mainContent').innerHTML = `
+                    <div class="countdown-container">
+                        <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                        <div class="no-events">No upcoming track sessions</div>
+                    </div>
+                `;
+                
+                // Still show other upcoming events in sidebar
+                if (allUpcomingEvents.length > 0) {
+                    const upcomingList = allUpcomingEvents.slice(0, 5).map(event => `
+                        <div class="event-item">
+                            <div class="event-item-name">${event.name}</div>
+                            <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                            <div class="event-countdown">${formatTimeUntil(event.start)}</div>
+                        </div>
+                    `).join('');
+
+                    document.getElementById('upcomingList').innerHTML = upcomingList;
+                    document.getElementById('upcomingEvents').style.display = 'block';
+                } else {
+                    document.getElementById('upcomingEvents').style.display = 'none';
+                }
+                return;
+            }
+
+            const totalMinutesLeft = Math.floor(timeUntil / (1000 * 60));
+            const isUrgent = totalMinutesLeft <= 5;
+
+            const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeUntil % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeUntil % (1000 * 60)) / 1000);
+
+            let countdownText;
+            if (days > 0) {
+                countdownText = `${days}d ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            } else if (hours > 0) {
+                countdownText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            } else {
+                countdownText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
+
+            // Create display based on mode
+            let eventInfo, statusText;
+            if (displayMode === 'current') {
+                const eventEnd = new Date(targetEvent.start.getTime() + (targetEvent.duration * 60 * 1000));
+                eventInfo = `End Time: ${formatTime(eventEnd, currentTimezone)} • Duration: ${formatDuration(targetEvent.duration)}`;
+                statusText = 'ENDS IN';
+            } else {
+                eventInfo = `Start Time: ${formatTime(targetEvent.start, currentTimezone)}${targetEvent.duration ? ` • Duration: ${formatDuration(targetEvent.duration)}` : ''}`;
+                statusText = 'STARTS IN';
+            }
+
+            document.getElementById('mainContent').innerHTML = `
+                <div class="countdown-container">
+                    <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
+                    <div class="next-event">
+                        <div class="event-name">${targetEvent.name}</div>
+                        <div style="font-size: 1.2rem; color: #ff0000; font-weight: bold; margin-bottom: 10px; text-align: center;">${statusText}</div>
+                        <div class="countdown-display${isUrgent ? ' urgent' : ''}">${countdownText}</div>
+                        <div class="event-duration">${eventInfo}</div>
+                    </div>
+                </div>
+            `;
+
+            // Update upcoming events list - show ALL events, not just main countdown ones
+            if (allUpcomingEvents.length > 0) {
+                // If we're showing an upcoming event, skip it in the list (it's already in main display)
+                const listStartIndex = displayMode === 'upcoming' ? 1 : 0;
+                const upcomingList = allUpcomingEvents.slice(listStartIndex, listStartIndex + 5).map(event => `
+                    <div class="event-item">
+                        <div class="event-item-name">${event.name}</div>
+                        <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                        <div class="event-countdown">${formatTimeUntil(event.start)}</div>
+                    </div>
+                `).join('');
+
+                document.getElementById('upcomingList').innerHTML = upcomingList;
+                document.getElementById('upcomingEvents').style.display = 'block';
+            } else {
+                document.getElementById('upcomingEvents').style.display = 'none';
+            }
+        }
+
+        async function loadSchedule() {
+            try {
+                document.getElementById('mainContent').innerHTML = '<div class="loading">Loading schedule...</div>';
+                
+                const response = await fetch(scheduleFile + '?t=' + Date.now());
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const scheduleData = await response.json();
+                
+                if (!scheduleData.events || !Array.isArray(scheduleData.events)) {
+                    throw new Error('Invalid schedule format - missing events array');
+                }
+
+                events = scheduleData.events.map(event => ({
+                    ...event,
+                    start: new Date(event.start)
+                }));
+
+                lastUpdated = scheduleData.lastUpdated || 'Unknown';
+                eventCount = scheduleData.eventCount || events.length;
+                
+                document.getElementById('scheduleFile').textContent = scheduleFile;
+                document.getElementById('lastUpdated').textContent = new Date(lastUpdated).toLocaleString();
+                document.getElementById('eventCount').textContent = eventCount;
+                document.getElementById('scheduleInfo').style.display = 'block';
+                
+                updateDisplay();
+                
+            } catch (error) {
+                console.error('Schedule loading error:', error);
+                document.getElementById('mainContent').innerHTML = `
+                    <div class="error">
+                        <div><strong>Error loading schedule</strong></div>
+                        <div>${error.message}</div>
+                        <div style="margin-top: 10px; font-size: 0.9rem;">
+                            Looking for: <strong>${scheduleFile}</strong>
+                        </div>
+                        <button class="refresh-btn" onclick="refreshSchedule()">Try Again</button>
+                    </div>
+                `;
+            }
+        }
+
+        function refreshSchedule() {
+            loadSchedule();
+        }
+
+        function setupAutoRefresh() {
+            refreshInterval = setInterval(() => {
+                loadSchedule();
+            }, 5 * 60 * 1000);
+        }
+
+        function init() {
+            currentTimezone = 'Australia/Brisbane';
+            countdownInterval = setInterval(updateDisplay, 1000);
+            loadSchedule();
+            setupAutoRefresh();
+        }
+
+        window.addEventListener('beforeunload', () => {
+            if (countdownInterval) clearInterval(countdownInterval);
+            if (refreshInterval) clearInterval(refreshInterval);
+        });
+
+        init();
+    </script>
+</body>
+</html>
