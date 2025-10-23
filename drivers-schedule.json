@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-24T09:36:49.963166",
+  "lastUpdated": "2025-10-24T09:44:01.403470",
   "teamGroup": "drivers",
   "eventCount": 70,
   "events": [
@@ -127,7 +127,7 @@
       "id": 13,
       "name": "PUBLIC GATES OPEN",
       "start": "2025-10-24T09:30:00",
-      "duration": 390,
+      "duration": null,
       "description": "PUBLIC GATES OPEN",
       "profiles": [
         "drivers"
