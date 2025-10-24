@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-24T09:44:01.403470",
+  "lastUpdated": "2025-10-24T18:01:29.098177",
   "teamGroup": "drivers",
-  "eventCount": 70,
+  "eventCount": 68,
   "events": [
     {
       "id": 1,
@@ -315,16 +315,6 @@
     },
     {
       "id": 32,
-      "name": "PUBLIC GATES OPEN",
-      "start": "2025-10-25T08:15:00",
-      "duration": 555,
-      "description": "PUBLIC GATES OPEN",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 33,
       "name": "ENGINEERING PREBRIEF",
       "start": "2025-10-25T08:50:00",
       "duration": 30,
@@ -334,7 +324,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "DRIVER SIGNING SESSION LOCATION: BOOST HQ - NEAR MAIN STAGE",
       "start": "2025-10-25T09:30:00",
       "duration": 30,
@@ -344,7 +334,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "SHELL SUITE VISIT - TH",
       "start": "2025-10-25T10:45:00",
       "duration": 10,
@@ -354,7 +344,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "QUALIFYING PART 1 - RACE 28",
       "start": "2025-10-25T11:00:00",
       "duration": 12,
@@ -364,7 +354,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "QUALIFYING PART 2 - RACE 28",
       "start": "2025-10-25T11:20:00",
       "duration": 10,
@@ -374,7 +364,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "LUNCH",
       "start": "2025-10-25T11:30:00",
       "duration": null,
@@ -384,7 +374,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "JET COURIERS SUITE VISIT - TH, PR",
       "start": "2025-10-25T12:00:00",
       "duration": 15,
@@ -394,7 +384,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "PADDOCK CLUB Q&A - DRIVERS WHO QUALIFY 11TH AND 12TH LOCATION: PADDOCK CLUB LEVEL 2, BUILDING NEAR PIT EXIT",
       "start": "2025-10-25T12:20:00",
       "duration": 10,
@@ -404,7 +394,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "PIPER-HEIDSIECK M&G DRIVERS WHO QUALIFY 13TH AND 14TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
       "start": "2025-10-25T12:20:00",
       "duration": 10,
@@ -414,7 +404,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "QUALIFYING PART 3 - RACE 28 TTSO",
       "start": "2025-10-25T12:35:00",
       "duration": 30,
@@ -424,7 +414,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "MARRIOT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 15TH & 16TH",
       "start": "2025-10-25T13:10:00",
       "duration": 10,
@@ -434,7 +424,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "SHELL SUITE VISIT - MAIN DRIVERS",
       "start": "2025-10-25T13:45:00",
       "duration": 10,
@@ -444,7 +434,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "40 MINUTE SIGNAL",
       "start": "2025-10-25T14:35:00",
       "duration": null,
@@ -454,7 +444,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "PIT EXIT OPEN",
       "start": "2025-10-25T14:40:00",
       "duration": null,
@@ -464,7 +454,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "PIT EXIT CLOSED",
       "start": "2025-10-25T14:50:00",
       "duration": null,
@@ -474,7 +464,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "RACE 28 - 250KM",
       "start": "2025-10-25T15:15:00",
       "duration": null,
@@ -484,7 +474,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "DINNER",
       "start": "2025-10-25T18:00:00",
       "duration": null,
@@ -494,7 +484,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "ENGINEERING DEBRIEF",
       "start": "2025-10-25T18:30:00",
       "duration": null,
@@ -504,7 +494,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "TYRE FITTING CLOSED",
       "start": "2025-10-25T19:00:00",
       "duration": null,
@@ -514,7 +504,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "PADDOCK CLOSED",
       "start": "2025-10-25T20:45:00",
       "duration": null,
@@ -524,7 +514,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "start": "2025-10-26T07:00:00",
       "duration": null,
@@ -534,7 +524,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "ARRIVE AT TRACK/BREAKFAST",
       "start": "2025-10-26T07:05:00",
       "duration": null,
@@ -544,7 +534,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "LIVE SUNRISE CROSS - RACE 28 WINNER - PITLANE",
       "start": "2025-10-26T07:08:00",
       "duration": null,
@@ -554,17 +544,7 @@
       ]
     },
     {
-      "id": 56,
-      "name": "PUBLIC GATES OPEN",
-      "start": "2025-10-26T07:45:00",
-      "duration": 525,
-      "description": "PUBLIC GATES OPEN",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 57,
+      "id": 55,
       "name": "ENGINEERING PREBRIEF",
       "start": "2025-10-26T08:30:00",
       "duration": 30,
@@ -574,7 +554,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 56,
       "name": "QUALIFYING PART 1 - RACE 29",
       "start": "2025-10-26T10:00:00",
       "duration": 12,
@@ -584,7 +564,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 57,
       "name": "QUALIFYING PART 2 - RACE 29",
       "start": "2025-10-26T10:20:00",
       "duration": 10,
@@ -594,7 +574,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 58,
       "name": "JET COURIERS SUITE - TH & PR",
       "start": "2025-10-26T10:35:00",
       "duration": 15,
@@ -604,7 +584,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 59,
       "name": "PIPER-HEIDSIECK M&G - DRIVERS WHO QUALIFY 16TH & 18TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
       "start": "2025-10-26T11:20:00",
       "duration": 10,
@@ -614,7 +594,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": 60,
       "name": "QUALIFYING PART 3 - TTSO",
       "start": "2025-10-26T11:35:00",
       "duration": 30,
@@ -624,7 +604,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 61,
       "name": "LUNCH",
       "start": "2025-10-26T12:00:00",
       "duration": null,
@@ -634,7 +614,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 62,
       "name": "MARRIOTT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 12TH & 14TH LOCATION: PIT BUILDING LEVEL 2",
       "start": "2025-10-26T12:10:00",
       "duration": 10,
@@ -644,7 +624,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 63,
       "name": "TBC POST QUALIFYING RESULTS: SHELL SUITE VISIT - BK, WD, TH",
       "start": "2025-10-26T12:20:00",
       "duration": 10,
@@ -654,7 +634,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 64,
       "name": "SHELL SUITE VISIT - TH",
       "start": "2025-10-26T12:40:00",
       "duration": 10,
@@ -664,7 +644,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 65,
       "name": "40-MINUTE SIGNAL",
       "start": "2025-10-26T13:30:00",
       "duration": null,
@@ -674,7 +654,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 66,
       "name": "PIT EXIT OPEN",
       "start": "2025-10-26T13:35:00",
       "duration": null,
@@ -684,7 +664,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 67,
       "name": "PIT EXIT CLOSED",
       "start": "2025-10-26T13:45:00",
       "duration": null,
@@ -694,7 +674,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 68,
       "name": "RACE 29 - 250KM",
       "start": "2025-10-26T14:10:00",
       "duration": 123,
