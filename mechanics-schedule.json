@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-24T18:01:29.084941",
+  "lastUpdated": "2025-10-25T10:04:36.641304",
   "teamGroup": "mechanics",
-  "eventCount": 35,
+  "eventCount": 36,
   "events": [
     {
       "id": 1,
@@ -159,6 +159,16 @@
       "start": "2025-10-25T11:20:00",
       "duration": 10,
       "description": "QUALIFYING PART 2 - RACE 28",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "LUNCH",
+      "start": "2025-10-25T11:30:00",
+      "duration": null,
+      "description": "LUNCH",
       "profiles": [
         "mechanics"
       ]
