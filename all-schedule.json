@@ -1,102 +1,42 @@
 {
-  "lastUpdated": "2025-10-26T10:05:14.698350",
+  "lastUpdated": "2025-11-13T14:41:26.876863",
   "teamGroup": "all",
-  "eventCount": 68,
+  "eventCount": 55,
   "events": [
     {
       "id": 1,
-      "name": "Engineering Briefing",
-      "start": "2025-10-23T15:00:00",
+      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVERS BRIEFING",
+      "start": "2025-11-13T16:30:00",
       "duration": null,
-      "description": "Engineering Briefing",
+      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVERS BRIEFING",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 2,
-      "name": "PIT LANE CLOSED TO ALL TEAMS - GARAGE DOORS TO REMAIN OPEN",
-      "start": "2025-10-23T16:30:00",
-      "duration": 390,
-      "description": "PIT LANE CLOSED TO ALL TEAMS - GARAGE DOORS TO REMAIN OPEN",
+      "name": "PADDOCK CLOSED",
+      "start": "2025-11-13T19:00:00",
+      "duration": null,
+      "description": "PADDOCK CLOSED",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 3,
-      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES BRIEFING",
-      "start": "2025-10-23T16:30:00",
+      "name": "DINNER AT TRACK",
+      "start": "2025-11-13T19:00:00",
       "duration": null,
-      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES BRIEFING",
+      "description": "DINNER AT TRACK",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 4,
-      "name": "MEET IN PITLANE: DRIVER PARADE TO SIGNING SESSION",
-      "start": "2025-10-23T16:35:00",
-      "duration": null,
-      "description": "MEET IN PITLANE: DRIVER PARADE TO SIGNING SESSION",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "PARADE DEPARTS PITLANE",
-      "start": "2025-10-23T16:40:00",
-      "duration": null,
-      "description": "PARADE DEPARTS PITLANE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "ARRIVAL AT CAVILL AVENUE",
-      "start": "2025-10-23T16:50:00",
-      "duration": null,
-      "description": "ARRIVAL AT CAVILL AVENUE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "GOLDCOAST SIGNING SESSION LOCATION: SURFERS PARADISE SIGN CAVILL AVE",
-      "start": "2025-10-23T17:00:00",
-      "duration": 60,
-      "description": "GOLDCOAST SIGNING SESSION LOCATION: SURFERS PARADISE SIGN CAVILL AVE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "DINNER",
-      "start": "2025-10-23T17:15:00",
-      "duration": null,
-      "description": "DINNER",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "ALL DRIVERS - PARTY UNDER THE PALMS - PITLANE DRIVERS REQUIRED",
-      "start": "2025-10-23T19:00:00",
-      "duration": 60,
-      "description": "ALL DRIVERS - PARTY UNDER THE PALMS - PITLANE DRIVERS REQUIRED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 10,
       "name": "ARRIVE AT TRACK/BREAKFAST",
-      "start": "2025-10-24T08:45:00",
+      "start": "2025-11-14T08:00:00",
       "duration": null,
       "description": "ARRIVE AT TRACK/BREAKFAST",
       "profiles": [
@@ -104,59 +44,69 @@
       ]
     },
     {
-      "id": 11,
-      "name": "PADDOCK OPENS/ TYRE FITTING COMMENCES",
-      "start": "2025-10-24T09:00:00",
+      "id": 5,
+      "name": "ENGINE CURFEW CONCLUDES",
+      "start": "2025-11-14T08:00:00",
       "duration": null,
-      "description": "PADDOCK OPENS/ TYRE FITTING COMMENCES",
+      "description": "ENGINE CURFEW CONCLUDES",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 12,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-10-24T09:00:00",
+      "id": 6,
+      "name": "PADDOCK OPENS",
+      "start": "2025-11-14T08:15:00",
       "duration": null,
-      "description": "PITSTOP PRACTICE",
+      "description": "PADDOCK OPENS",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 13,
-      "name": "PUBLIC GATES OPEN",
-      "start": "2025-10-24T09:30:00",
-      "duration": null,
-      "description": "PUBLIC GATES OPEN",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "FILMING WITH SHAYLA AND TODD @ PPQ/TRACK STORE/REPCO",
-      "start": "2025-10-24T10:30:00",
-      "duration": 15,
-      "description": "FILMING WITH SHAYLA AND TODD @ PPQ/TRACK STORE/REPCO",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "PPQ ACTIVATION SIGNING SESSION - BK, WD, TH, SW",
-      "start": "2025-10-24T11:00:00",
+      "id": 7,
+      "name": "ENGINEERING PRE-BRIEF",
+      "start": "2025-11-14T10:30:00",
       "duration": 30,
-      "description": "PPQ ACTIVATION SIGNING SESSION - BK, WD, TH, SW",
+      "description": "ENGINEERING PRE-BRIEF",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 16,
+      "id": 8,
+      "name": "TEAM REPRESENTATIVES PRESS CONFERENCE - DAVID NOBLE - MEDIA CENTRE",
+      "start": "2025-11-14T11:30:00",
+      "duration": 30,
+      "description": "TEAM REPRESENTATIVES PRESS CONFERENCE - DAVID NOBLE - MEDIA CENTRE",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "DRIVER SIGNING SESSION - MERCH",
+      "start": "2025-11-14T11:30:00",
+      "duration": 30,
+      "description": "DRIVER SIGNING SESSION - MERCH",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "LUNCH",
+      "start": "2025-11-14T12:30:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 11,
       "name": "PRACTICE 1 & PRACTICE STARTS",
-      "start": "2025-10-24T12:40:00",
+      "start": "2025-11-14T13:30:00",
       "duration": 30,
       "description": "PRACTICE 1 & PRACTICE STARTS",
       "profiles": [
@@ -164,59 +114,9 @@
       ]
     },
     {
-      "id": 17,
-      "name": "LUNCH",
-      "start": "2025-10-24T13:15:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "PIT TOURS",
-      "start": "2025-10-24T14:00:00",
-      "duration": 40,
-      "description": "PIT TOURS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "SHELL SUITE VISIT - MAIN DRIVERS",
-      "start": "2025-10-24T14:05:00",
-      "duration": 15,
-      "description": "SHELL SUITE VISIT - MAIN DRIVERS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "JET COURIERS SUITE - TH & PR",
-      "start": "2025-10-24T14:55:00",
-      "duration": 15,
-      "description": "JET COURIERS SUITE - TH & PR",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "SHELL SUITE VISIT - TH, PR",
-      "start": "2025-10-24T15:10:00",
-      "duration": 15,
-      "description": "SHELL SUITE VISIT - TH, PR",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 22,
+      "id": 12,
       "name": "PRACTICE 2",
-      "start": "2025-10-24T15:25:00",
+      "start": "2025-11-14T15:55:00",
       "duration": 30,
       "description": "PRACTICE 2",
       "profiles": [
@@ -224,49 +124,49 @@
       ]
     },
     {
-      "id": 23,
-      "name": "PRESS CONFERENCE - TOP 3 FROM PRACTICE 2 LOCATION: MEDIA CENTRE",
-      "start": "2025-10-24T16:10:00",
+      "id": 13,
+      "name": "MEDIA CENTRE - TOP 3 FROM PRACTICE 2",
+      "start": "2025-11-14T16:45:00",
       "duration": null,
-      "description": "PRESS CONFERENCE - TOP 3 FROM PRACTICE 2 LOCATION: MEDIA CENTRE",
+      "description": "MEDIA CENTRE - TOP 3 FROM PRACTICE 2",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 24,
-      "name": "COMPETITOR'S AND DRIVERS BRIEFING",
-      "start": "2025-10-24T16:30:00",
-      "duration": null,
-      "description": "COMPETITOR'S AND DRIVERS BRIEFING",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-10-24T17:00:00",
+      "id": 14,
+      "name": "EVENT RIDES - CAR 38 & 17",
+      "start": "2025-11-14T17:20:00",
       "duration": 30,
+      "description": "EVENT RIDES - CAR 38 & 17",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "ENGINE CURFEW COMMENCES",
+      "start": "2025-11-14T18:00:00",
+      "duration": null,
+      "description": "ENGINE CURFEW COMMENCES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "ENGINEERING DEBRIEF",
+      "start": "2025-11-14T18:00:00",
+      "duration": null,
       "description": "ENGINEERING DEBRIEF",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 26,
-      "name": "TYRE FITTING CLOSED",
-      "start": "2025-10-24T17:30:00",
-      "duration": null,
-      "description": "TYRE FITTING CLOSED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 27,
+      "id": 17,
       "name": "DINNER",
-      "start": "2025-10-24T17:30:00",
+      "start": "2025-11-14T18:30:00",
       "duration": null,
       "description": "DINNER",
       "profiles": [
@@ -274,9 +174,9 @@
       ]
     },
     {
-      "id": 28,
+      "id": 18,
       "name": "PADDOCK CLOSED",
-      "start": "2025-10-24T19:30:00",
+      "start": "2025-11-14T20:00:00",
       "duration": null,
       "description": "PADDOCK CLOSED",
       "profiles": [
@@ -284,9 +184,19 @@
       ]
     },
     {
-      "id": 29,
+      "id": 19,
+      "name": "ENGINE CURFEW CONCLUDES",
+      "start": "2025-11-15T08:00:00",
+      "duration": null,
+      "description": "ENGINE CURFEW CONCLUDES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 20,
       "name": "ARRIVE AT TRACK/BREAKFAST",
-      "start": "2025-10-25T07:30:00",
+      "start": "2025-11-15T08:15:00",
       "duration": null,
       "description": "ARRIVE AT TRACK/BREAKFAST",
       "profiles": [
@@ -294,229 +204,9 @@
       ]
     },
     {
-      "id": 30,
-      "name": "PADDOCK OPEN/ TYRE FITTING COMMENCES",
-      "start": "2025-10-25T07:45:00",
-      "duration": null,
-      "description": "PADDOCK OPEN/ TYRE FITTING COMMENCES",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-10-25T07:45:00",
-      "duration": null,
-      "description": "PITSTOP PRACTICE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-10-25T08:50:00",
-      "duration": 30,
-      "description": "ENGINEERING PREBRIEF",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 33,
-      "name": "DRIVER SIGNING SESSION LOCATION: BOOST HQ - NEAR MAIN STAGE",
-      "start": "2025-10-25T09:30:00",
-      "duration": 30,
-      "description": "DRIVER SIGNING SESSION LOCATION: BOOST HQ - NEAR MAIN STAGE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 34,
-      "name": "SHELL SUITE VISIT - TH",
-      "start": "2025-10-25T10:45:00",
-      "duration": 10,
-      "description": "SHELL SUITE VISIT - TH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 35,
-      "name": "QUALIFYING PART 1 - RACE 28",
-      "start": "2025-10-25T11:00:00",
-      "duration": 12,
-      "description": "QUALIFYING PART 1 - RACE 28",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 36,
-      "name": "QUALIFYING PART 2 - RACE 28",
-      "start": "2025-10-25T11:20:00",
-      "duration": 10,
-      "description": "QUALIFYING PART 2 - RACE 28",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 37,
-      "name": "LUNCH",
-      "start": "2025-10-25T11:30:00",
-      "duration": null,
-      "description": "LUNCH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 38,
-      "name": "JET COURIERS SUITE VISIT - TH, PR",
-      "start": "2025-10-25T12:00:00",
-      "duration": 15,
-      "description": "JET COURIERS SUITE VISIT - TH, PR",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "PADDOCK CLUB Q&A - DRIVERS WHO QUALIFY 11TH AND 12TH LOCATION: PADDOCK CLUB LEVEL 2, BUILDING NEAR PIT EXIT",
-      "start": "2025-10-25T12:20:00",
-      "duration": 10,
-      "description": "PADDOCK CLUB Q&A - DRIVERS WHO QUALIFY 11TH AND 12TH LOCATION: PADDOCK CLUB LEVEL 2, BUILDING NEAR PIT EXIT",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "PIPER-HEIDSIECK M&G DRIVERS WHO QUALIFY 13TH AND 14TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
-      "start": "2025-10-25T12:20:00",
-      "duration": 10,
-      "description": "PIPER-HEIDSIECK M&G DRIVERS WHO QUALIFY 13TH AND 14TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 41,
-      "name": "QUALIFYING PART 3 - RACE 28 TTSO",
-      "start": "2025-10-25T12:35:00",
-      "duration": 30,
-      "description": "QUALIFYING PART 3 - RACE 28 TTSO",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "MARRIOT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 15TH & 16TH",
-      "start": "2025-10-25T13:10:00",
-      "duration": 10,
-      "description": "MARRIOT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 15TH & 16TH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 43,
-      "name": "SHELL SUITE VISIT - MAIN DRIVERS",
-      "start": "2025-10-25T13:45:00",
-      "duration": 10,
-      "description": "SHELL SUITE VISIT - MAIN DRIVERS",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 44,
-      "name": "40 MINUTE SIGNAL",
-      "start": "2025-10-25T14:35:00",
-      "duration": null,
-      "description": "40 MINUTE SIGNAL",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-10-25T14:40:00",
-      "duration": null,
-      "description": "PIT EXIT OPEN",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-10-25T14:50:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 47,
-      "name": "RACE 28 - 250KM",
-      "start": "2025-10-25T15:15:00",
-      "duration": null,
-      "description": "RACE 28 - 250KM",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 48,
-      "name": "DINNER",
-      "start": "2025-10-25T18:00:00",
-      "duration": null,
-      "description": "DINNER",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-10-25T18:30:00",
-      "duration": null,
-      "description": "ENGINEERING DEBRIEF",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 50,
-      "name": "TYRE FITTING CLOSED",
-      "start": "2025-10-25T19:00:00",
-      "duration": null,
-      "description": "TYRE FITTING CLOSED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 51,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-10-25T20:45:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 52,
+      "id": 21,
       "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-10-26T07:00:00",
+      "start": "2025-11-15T08:30:00",
       "duration": null,
       "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "profiles": [
@@ -524,89 +214,69 @@
       ]
     },
     {
-      "id": 53,
-      "name": "ARRIVE AT TRACK/BREAKFAST",
-      "start": "2025-10-26T07:05:00",
+      "id": 22,
+      "name": "PITSTOP PRACTICE",
+      "start": "2025-11-15T08:30:00",
       "duration": null,
-      "description": "ARRIVE AT TRACK/BREAKFAST",
+      "description": "PITSTOP PRACTICE",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 54,
-      "name": "LIVE SUNRISE CROSS - RACE 28 WINNER - PITLANE",
-      "start": "2025-10-26T07:08:00",
-      "duration": null,
-      "description": "LIVE SUNRISE CROSS - RACE 28 WINNER - PITLANE",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 55,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-10-26T08:30:00",
+      "id": 23,
+      "name": "ENGINEERING PRE-BRIEF",
+      "start": "2025-11-15T09:00:00",
       "duration": 30,
-      "description": "ENGINEERING PREBRIEF",
+      "description": "ENGINEERING PRE-BRIEF",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 56,
-      "name": "QUALIFYING PART 1 - RACE 29",
-      "start": "2025-10-26T10:10:00",
+      "id": 24,
+      "name": "SIGNING SESSION - ALL DRIVERS LOCATION: UNDERNEATH GRANDSTAND BUILDING",
+      "start": "2025-11-15T10:15:00",
+      "duration": 30,
+      "description": "SIGNING SESSION - ALL DRIVERS LOCATION: UNDERNEATH GRANDSTAND BUILDING",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "QUALIFYING PART 1 - RACE 30",
+      "start": "2025-11-15T11:50:00",
       "duration": 12,
-      "description": "QUALIFYING PART 1 - RACE 29",
+      "description": "QUALIFYING PART 1 - RACE 30",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 57,
-      "name": "QUALIFYING PART 2 - RACE 29",
-      "start": "2025-10-26T10:30:00",
+      "id": 26,
+      "name": "QUALIFYING PART 2 - RACE 30",
+      "start": "2025-11-15T12:10:00",
       "duration": 10,
-      "description": "QUALIFYING PART 2 - RACE 29",
+      "description": "QUALIFYING PART 2 - RACE 30",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 58,
-      "name": "JET COURIERS SUITE - TH & PR",
-      "start": "2025-10-26T10:35:00",
-      "duration": 15,
-      "description": "JET COURIERS SUITE - TH & PR",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 59,
-      "name": "PIPER-HEIDSIECK M&G - DRIVERS WHO QUALIFY 16TH & 18TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
-      "start": "2025-10-26T11:20:00",
-      "duration": 10,
-      "description": "PIPER-HEIDSIECK M&G - DRIVERS WHO QUALIFY 16TH & 18TH LOCATION: PIPER-HEIDSIECK LOUNGE, LEVEL 1, NEAR PIT ENTRY",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 60,
-      "name": "QUALIFYING PART 3 - TTSO",
-      "start": "2025-10-26T11:35:00",
+      "id": 27,
+      "name": "QUALIFYING - PART 3 - RACE 30 TTSO",
+      "start": "2025-11-15T12:40:00",
       "duration": 30,
-      "description": "QUALIFYING PART 3 - TTSO",
+      "description": "QUALIFYING - PART 3 - RACE 30 TTSO",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 61,
+      "id": 28,
       "name": "LUNCH",
-      "start": "2025-10-26T12:00:00",
+      "start": "2025-11-15T13:00:00",
       "duration": null,
       "description": "LUNCH",
       "profiles": [
@@ -614,49 +284,29 @@
       ]
     },
     {
-      "id": 62,
-      "name": "MARRIOTT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 12TH & 14TH LOCATION: PIT BUILDING LEVEL 2",
-      "start": "2025-10-26T12:10:00",
+      "id": 29,
+      "name": "SHELL SUITE VISIT - DRIVERS",
+      "start": "2025-11-15T13:55:00",
       "duration": 10,
-      "description": "MARRIOTT BONVOY LOUNGE M&G - DRIVERS WHO QUALIFY 12TH & 14TH LOCATION: PIT BUILDING LEVEL 2",
+      "description": "SHELL SUITE VISIT - DRIVERS",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 63,
-      "name": "TBC POST QUALIFYING RESULTS: SHELL SUITE VISIT - BK, WD, TH",
-      "start": "2025-10-26T12:20:00",
-      "duration": 10,
-      "description": "TBC POST QUALIFYING RESULTS: SHELL SUITE VISIT - BK, WD, TH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 64,
-      "name": "SHELL SUITE VISIT - TH",
-      "start": "2025-10-26T12:40:00",
-      "duration": 10,
-      "description": "SHELL SUITE VISIT - TH",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 65,
-      "name": "40-MINUTE SIGNAL",
-      "start": "2025-10-26T13:30:00",
+      "id": 30,
+      "name": "30 MINUTE SIGNAL",
+      "start": "2025-11-15T14:50:00",
       "duration": null,
-      "description": "40-MINUTE SIGNAL",
+      "description": "30 MINUTE SIGNAL",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 66,
+      "id": 31,
       "name": "PIT EXIT OPEN",
-      "start": "2025-10-26T13:35:00",
+      "start": "2025-11-15T14:55:00",
       "duration": null,
       "description": "PIT EXIT OPEN",
       "profiles": [
@@ -664,9 +314,9 @@
       ]
     },
     {
-      "id": 67,
+      "id": 32,
       "name": "PIT EXIT CLOSED",
-      "start": "2025-10-26T13:45:00",
+      "start": "2025-11-15T15:05:00",
       "duration": null,
       "description": "PIT EXIT CLOSED",
       "profiles": [
@@ -674,11 +324,231 @@
       ]
     },
     {
-      "id": 68,
-      "name": "RACE 29 - 250KM",
-      "start": "2025-10-26T14:10:00",
-      "duration": 123,
-      "description": "RACE 29 - 250KM",
+      "id": 33,
+      "name": "RACE 30 - 250KM",
+      "start": "2025-11-15T15:20:00",
+      "duration": 113,
+      "description": "RACE 30 - 250KM",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "DINNER",
+      "start": "2025-11-15T17:45:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "ENGINE CURFEW COMMENCES",
+      "start": "2025-11-15T18:00:00",
+      "duration": null,
+      "description": "ENGINE CURFEW COMMENCES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "EINGINEERING DE-BRIEF",
+      "start": "2025-11-15T18:30:00",
+      "duration": null,
+      "description": "EINGINEERING DE-BRIEF",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "PADDOCK CLOSED",
+      "start": "2025-11-15T20:00:00",
+      "duration": null,
+      "description": "PADDOCK CLOSED",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "ARRIVE AT TRACK/BREAKFAST",
+      "start": "2025-11-16T08:15:00",
+      "duration": null,
+      "description": "ARRIVE AT TRACK/BREAKFAST",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "PADDOCK OPENS",
+      "start": "2025-11-16T08:30:00",
+      "duration": null,
+      "description": "PADDOCK OPENS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "ENGINE CURFEW CONCLUDES",
+      "start": "2025-11-16T09:00:00",
+      "duration": null,
+      "description": "ENGINE CURFEW CONCLUDES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "ENGINEERING PRE-BRIEF",
+      "start": "2025-11-16T09:00:00",
+      "duration": 30,
+      "description": "ENGINEERING PRE-BRIEF",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "DRIVER SIGNING SESSION - UNDERNEATH GRANDSTAND BUILDING",
+      "start": "2025-11-16T09:55:00",
+      "duration": 30,
+      "description": "DRIVER SIGNING SESSION - UNDERNEATH GRANDSTAND BUILDING",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "QUALIFYING PART 1 - RACE 31",
+      "start": "2025-11-16T11:20:00",
+      "duration": 12,
+      "description": "QUALIFYING PART 1 - RACE 31",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "QUALIFYING PART 2 - RACE 31",
+      "start": "2025-11-16T11:40:00",
+      "duration": 10,
+      "description": "QUALIFYING PART 2 - RACE 31",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "QUALIFYING PART 3 - RACE 31 - TTSO",
+      "start": "2025-11-16T12:10:00",
+      "duration": 30,
+      "description": "QUALIFYING PART 3 - RACE 31 - TTSO",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "LUNCH",
+      "start": "2025-11-16T12:45:00",
+      "duration": null,
+      "description": "LUNCH",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "SHELL SUITE VISIT - DRIVERS",
+      "start": "2025-11-16T13:25:00",
+      "duration": 10,
+      "description": "SHELL SUITE VISIT - DRIVERS",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "30-MINUTE SIGNAL",
+      "start": "2025-11-16T14:50:00",
+      "duration": null,
+      "description": "30-MINUTE SIGNAL",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "PIT EXIT OPEN",
+      "start": "2025-11-16T14:55:00",
+      "duration": null,
+      "description": "PIT EXIT OPEN",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "PIT EXIT CLOSED",
+      "start": "2025-11-16T15:05:00",
+      "duration": null,
+      "description": "PIT EXIT CLOSED",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "RACE 31 - 250KM",
+      "start": "2025-11-16T15:20:00",
+      "duration": 113,
+      "description": "RACE 31 - 250KM",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "DINNER",
+      "start": "2025-11-16T17:45:00",
+      "duration": null,
+      "description": "DINNER",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "PIRTEK & PIVOTEL FILMING WITH SHAYLA",
+      "start": "2025-11-16T18:00:00",
+      "duration": null,
+      "description": "PIRTEK & PIVOTEL FILMING WITH SHAYLA",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "ENGINE CURFEW COMMENCES",
+      "start": "2025-11-16T18:00:00",
+      "duration": null,
+      "description": "ENGINE CURFEW COMMENCES",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "DEPART TRACK & HEAD TO AIRPORT",
+      "start": "2025-11-16T18:45:00",
+      "duration": null,
+      "description": "DEPART TRACK & HEAD TO AIRPORT",
       "profiles": [
         "all"
       ]
