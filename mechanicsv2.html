@@ -602,20 +602,18 @@
         }
 
         function init() {
-            // Determine profile and schedule file from filename
-            const config = determineProfileFromFilename();
+            // Auto-detect timezone if it's an ANZ timezone, otherwise default to Brisbane
+            const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const anzTimezones = ['Australia/Sydney', 'Australia/Brisbane', 'Australia/Adelaide', 'Australia/Darwin', 'Australia/Perth', 'Pacific/Auckland', 'Pacific/Chatham'];
             
-            // Set timezone to Brisbane (Queensland racing)
-              const detectedTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
-              currentTimezone = detectedTZ;
+            if (anzTimezones.includes(userTimezone)) {
+                currentTimezone = userTimezone;
+            } else {
+                currentTimezone = 'Australia/Brisbane';
+            }
             
-            // Start countdown timer
             countdownInterval = setInterval(updateDisplay, 1000);
-            
-            // Load initial schedule
             loadSchedule();
-            
-            // Setup auto-refresh
             setupAutoRefresh();
         }
 
