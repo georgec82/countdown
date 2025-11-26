@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-26T16:03:07.370251",
+  "lastUpdated": "2025-11-26T16:07:22.749779",
   "teamGroup": "mechanics",
-  "eventCount": 61,
+  "eventCount": 62,
   "events": [
     {
       "id": 1,
@@ -99,6 +99,16 @@
       "start": "2025-11-26T16:00:00",
       "duration": null,
       "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVERS BRIEFING",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "TRACK TO TOWN - VICTORIA SQAURE",
+      "start": "2025-11-26T16:45:00",
+      "duration": 90,
+      "description": "TRACK TO TOWN - VICTORIA SQAURE",
       "profiles": [
         "mechanics"
       ]
