@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shell V-Power Racing Team Countdown</title>
+    <title>Shell V-Power Racing Team Countdown - Mechanics</title>
     <style>
         * {
             margin: 0;
@@ -303,7 +303,7 @@
             </div>
         </div>
 
-        <div class="profile-indicator" id="profileIndicator">Loading...</div>
+        <div class="profile-indicator" id="profileIndicator">MECHANICS</div>
         <div class="auto-refresh" id="autoRefresh">Auto-refresh: 5min</div>
 
         <div class="main-display">
@@ -329,40 +329,28 @@
     <script>
         // Global variables
         let events = [];
-        let currentTimezone = 'Australia/Adelaide'; // Default for Queensland
+        let currentTimezone = 'Australia/Brisbane';
         let teamName = 'Shell V-Power Racing Team';
-        let currentProfile = 'all';
-        let scheduleFile = '';
+        let currentProfile = 'mechanics';
+        let scheduleFile = 'mechanics-schedule.json';
         let countdownInterval;
         let refreshInterval;
         let lastUpdated = '';
         let eventCount = 0;
 
-        // Determine profile and schedule file from HTML filename
-        function determineProfileFromFilename() {
-            const path = window.location.pathname;
-            const filename = path.split('/').pop().split('.')[0]; // Get filename without extension
-            
-            // Map filenames to profiles and JSON files
-            const profileMap = {
-                'mechanics': { profile: 'mechanics', file: 'mechanics-schedule.json' },
-                'engineers': { profile: 'engineers', file: 'engineers-schedule.json' },
-                'drivers': { profile: 'drivers', file: 'drivers-schedule.json' },
-                'all': { profile: 'all', file: 'all-schedule.json' }
-            };
-
-            // Check if filename matches any known profile
-            if (profileMap[filename]) {
-                currentProfile = profileMap[filename].profile;
-                scheduleFile = profileMap[filename].file;
-            } else {
-                // Default fallback - try to use filename as-is
-                currentProfile = filename || 'all';
-                scheduleFile = `${filename || 'all'}-schedule.json`;
-            }
-
-            return { profile: currentProfile, file: scheduleFile };
-        }
+        // Keywords that identify track sessions and paddock events for main countdown
+        const MAIN_COUNTDOWN_KEYWORDS = [
+            'PRACTICE',
+            'QUALIFYING',
+            'RACE',
+            'PADDOCK CLOSE',
+            'PADDOCK OPEN',
+            'PITSTOP PRACTICE',
+            'TYRE FITTING CLOSE',
+            'EVENT RIDES',
+            'PIT EXIT',
+            'SIGNAL'
+        ];
 
         function formatTime(date, timezone) {
             return new Intl.DateTimeFormat('en-US', {
@@ -409,12 +397,16 @@
             }
         }
 
+        // Check if event should be shown in main countdown
+        function isMainCountdownEvent(event) {
+            const eventNameUpper = event.name.toUpperCase();
+            return MAIN_COUNTDOWN_KEYWORDS.some(keyword => eventNameUpper.includes(keyword));
+        }
+
         function getFilteredEvents() {
             const now = new Date();
             return events.filter(event => {
-                // Filter by profile
                 if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
-                    // Only show future events
                     return event.start > now;
                 }
                 return false;
@@ -423,59 +415,80 @@
 
         function getCurrentAndUpcomingEvents() {
             const now = new Date();
-            const filteredEvents = events.filter(event => {
+            const allFilteredEvents = events.filter(event => {
                 if (!event.profiles || event.profiles.includes('all') || event.profiles.includes(currentProfile)) {
                     return true;
                 }
                 return false;
             }).sort((a, b) => a.start - b.start);
 
-            // Check if there's a current event (in progress)
-            const currentEvent = filteredEvents.find(event => {
-                if (!event.duration) return false; // Only events with duration can be "current"
+            // For main countdown: only track sessions and paddock events
+            const mainCountdownEvents = allFilteredEvents.filter(event => isMainCountdownEvent(event));
+
+            // Check if there's a current main countdown event (in progress)
+            const currentEvent = mainCountdownEvents.find(event => {
+                if (!event.duration) return false;
                 const eventStart = event.start;
                 const eventEnd = new Date(eventStart.getTime() + (event.duration * 60 * 1000));
                 return now >= eventStart && now <= eventEnd;
             });
 
-            // Get upcoming events (events that haven't started yet)
-            const upcomingEvents = filteredEvents.filter(event => event.start > now);
+            // Get upcoming main countdown events
+            const upcomingMainEvents = mainCountdownEvents.filter(event => event.start > now);
 
-            return { currentEvent, upcomingEvents };
+            // Get ALL upcoming events for the sidebar (not filtered by keywords)
+            const allUpcomingEvents = allFilteredEvents.filter(event => event.start > now);
+
+            return { currentEvent, upcomingMainEvents, allUpcomingEvents };
         }
 
         function updateDisplay() {
             const now = new Date();
-            const { currentEvent, upcomingEvents } = getCurrentAndUpcomingEvents();
+            const { currentEvent, upcomingMainEvents, allUpcomingEvents } = getCurrentAndUpcomingEvents();
 
-            // Determine what to show
+            // Determine what to show in main countdown
             let targetEvent, timeUntil, displayMode;
 
             if (currentEvent) {
-                // Show countdown to end of current event
+                // Show countdown to end of current track event
                 targetEvent = currentEvent;
                 const eventEnd = new Date(currentEvent.start.getTime() + (currentEvent.duration * 60 * 1000));
                 timeUntil = eventEnd - now;
                 displayMode = 'current';
-            } else if (upcomingEvents.length > 0) {
-                // Show countdown to next upcoming event
-                targetEvent = upcomingEvents[0];
+            } else if (upcomingMainEvents.length > 0) {
+                // Show countdown to next track session/paddock event
+                targetEvent = upcomingMainEvents[0];
                 timeUntil = targetEvent.start - now;
                 displayMode = 'upcoming';
             } else {
-                // No events
+                // No track events remaining
                 document.getElementById('mainContent').innerHTML = `
                     <div class="countdown-container">
                         <div style="font-size: 4.8rem; color: #cc0000; font-weight: bold; margin-bottom: 20px; text-align: center;">${formatTime(now, currentTimezone)}</div>
-                        <div class="no-events">No upcoming events for ${currentProfile}</div>
+                        <div class="no-events">No upcoming track sessions</div>
                     </div>
                 `;
-                document.getElementById('upcomingEvents').style.display = 'none';
+                
+                // Still show other upcoming events in sidebar
+                if (allUpcomingEvents.length > 0) {
+                    const upcomingList = allUpcomingEvents.slice(0, 5).map(event => `
+                        <div class="event-item">
+                            <div class="event-item-name">${event.name}</div>
+                            <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
+                            <div class="event-countdown">${formatTimeUntil(event.start)}</div>
+                        </div>
+                    `).join('');
+
+                    document.getElementById('upcomingList').innerHTML = upcomingList;
+                    document.getElementById('upcomingEvents').style.display = 'block';
+                } else {
+                    document.getElementById('upcomingEvents').style.display = 'none';
+                }
                 return;
             }
 
             const totalMinutesLeft = Math.floor(timeUntil / (1000 * 60));
-            const isUrgent = totalMinutesLeft <= 5; // 5 minutes or less
+            const isUrgent = totalMinutesLeft <= 5;
 
             const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
             const hours = Math.floor((timeUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -514,20 +527,11 @@
                 </div>
             `;
 
-            // Update upcoming events list (only show if we're not in current event mode, or if there are multiple upcoming)
-            if (displayMode === 'upcoming' && upcomingEvents.length > 1) {
-                const upcomingList = upcomingEvents.slice(1, 6).map(event => `
-                    <div class="event-item">
-                        <div class="event-item-name">${event.name}</div>
-                        <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
-                        <div class="event-countdown">${formatTimeUntil(event.start)}</div>
-                    </div>
-                `).join('');
-
-                document.getElementById('upcomingList').innerHTML = upcomingList;
-                document.getElementById('upcomingEvents').style.display = 'block';
-            } else if (displayMode === 'current' && upcomingEvents.length > 0) {
-                const upcomingList = upcomingEvents.slice(0, 5).map(event => `
+            // Update upcoming events list - show ALL events, not just main countdown ones
+            if (allUpcomingEvents.length > 0) {
+                // If we're showing an upcoming event, skip it in the list (it's already in main display)
+                const listStartIndex = displayMode === 'upcoming' ? 1 : 0;
+                const upcomingList = allUpcomingEvents.slice(listStartIndex, listStartIndex + 5).map(event => `
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
@@ -546,7 +550,7 @@
             try {
                 document.getElementById('mainContent').innerHTML = '<div class="loading">Loading schedule...</div>';
                 
-                const response = await fetch(scheduleFile + '?t=' + Date.now()); // Cache busting
+                const response = await fetch(scheduleFile + '?t=' + Date.now());
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -557,18 +561,14 @@
                     throw new Error('Invalid schedule format - missing events array');
                 }
 
-                // Parse events and convert start times to Date objects
                 events = scheduleData.events.map(event => ({
                     ...event,
                     start: new Date(event.start)
                 }));
 
-                // Update metadata
                 lastUpdated = scheduleData.lastUpdated || 'Unknown';
                 eventCount = scheduleData.eventCount || events.length;
                 
-                // Update UI elements
-                document.getElementById('profileIndicator').textContent = currentProfile.toUpperCase();
                 document.getElementById('scheduleFile').textContent = scheduleFile;
                 document.getElementById('lastUpdated').textContent = new Date(lastUpdated).toLocaleString();
                 document.getElementById('eventCount').textContent = eventCount;
@@ -596,37 +596,32 @@
         }
 
         function setupAutoRefresh() {
-            // Refresh schedule every 5 minutes
             refreshInterval = setInterval(() => {
                 loadSchedule();
             }, 5 * 60 * 1000);
         }
 
         function init() {
-            // Determine profile and schedule file from filename
-            const config = determineProfileFromFilename();
+            // Auto-detect timezone if it's an ANZ timezone, otherwise default to Brisbane
+            const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const anzTimezones = ['Australia/Sydney', 'Australia/Brisbane', 'Australia/Adelaide', 'Australia/Darwin', 'Australia/Perth', 'Pacific/Auckland', 'Pacific/Chatham'];
             
-            // Set timezone to Brisbane (Queensland racing)
-              const detectedTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
-              currentTimezone = detectedTZ;
+            if (anzTimezones.includes(userTimezone)) {
+                currentTimezone = userTimezone;
+            } else {
+                currentTimezone = 'Australia/Brisbane';
+            }
             
-            // Start countdown timer
             countdownInterval = setInterval(updateDisplay, 1000);
-            
-            // Load initial schedule
             loadSchedule();
-            
-            // Setup auto-refresh
             setupAutoRefresh();
         }
 
-        // Cleanup intervals when page unloads
         window.addEventListener('beforeunload', () => {
             if (countdownInterval) clearInterval(countdownInterval);
             if (refreshInterval) clearInterval(refreshInterval);
         });
 
-        // Initialize the application
         init();
     </script>
 </body>
