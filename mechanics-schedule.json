@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-26T13:31:59.101571",
+  "lastUpdated": "2025-11-26T16:03:07.370251",
   "teamGroup": "mechanics",
-  "eventCount": 63,
+  "eventCount": 61,
   "events": [
     {
       "id": 1,
@@ -104,16 +104,6 @@
       ]
     },
     {
-      "id": 14,
-      "name": "TRACK TO TOWN - VICTORIA SQAURE",
-      "start": "2025-11-26T16:45:00",
-      "duration": 90,
-      "description": "TRACK TO TOWN - VICTORIA SQAURE",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
       "id": 15,
       "name": "PADDOCK CLOSED",
       "start": "2025-11-26T18:45:00",
@@ -129,16 +119,6 @@
       "start": "2025-11-27T07:45:00",
       "duration": null,
       "description": "BREAKFAST/ARRIVE AT TRACK",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-11-27T08:00:00",
-      "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
       "profiles": [
         "mechanics"
       ]
