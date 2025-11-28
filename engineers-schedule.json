@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-26T13:31:59.106476",
+  "lastUpdated": "2025-11-28T15:57:13.420771",
   "teamGroup": "engineers",
   "eventCount": 75,
   "events": [
@@ -376,7 +376,7 @@
     {
       "id": 38,
       "name": "30-MINUTE SIGNAL",
-      "start": "2025-11-28T15:50:00",
+      "start": "2025-11-28T16:10:00",
       "duration": null,
       "description": "30-MINUTE SIGNAL",
       "profiles": [
@@ -386,7 +386,7 @@
     {
       "id": 39,
       "name": "PIT EXIT OPEN",
-      "start": "2025-11-28T15:55:00",
+      "start": "2025-11-28T16:15:00",
       "duration": null,
       "description": "PIT EXIT OPEN",
       "profiles": [
@@ -396,7 +396,7 @@
     {
       "id": 40,
       "name": "PIT EXIT CLOSED",
-      "start": "2025-11-28T16:05:00",
+      "start": "2025-11-28T16:25:00",
       "duration": null,
       "description": "PIT EXIT CLOSED",
       "profiles": [
@@ -406,7 +406,7 @@
     {
       "id": 41,
       "name": "RACE 32 - 100KMS",
-      "start": "2025-11-28T16:20:00",
+      "start": "2025-11-28T16:40:00",
       "duration": 58,
       "description": "RACE 32 - 100KMS",
       "profiles": [
