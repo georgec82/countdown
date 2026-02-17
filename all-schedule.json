@@ -1,754 +1,884 @@
 {
-  "lastUpdated": "2025-11-28T15:57:13.424759",
+  "lastUpdated": "2026-02-17T13:45:35.547421",
   "teamGroup": "all",
-  "eventCount": 75,
+  "eventCount": 88,
   "events": [
     {
       "id": 1,
-      "name": "FLIGHT VA 1384",
-      "start": "2025-11-26T06:00:00",
-      "duration": 210,
-      "description": "FLIGHT VA 1384",
+      "name": "VCS Transporter Park-Up",
+      "start": "2026-02-17T12:00:00",
+      "duration": null,
+      "description": "VCS Transporter Park-Up",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 2,
-      "name": "TODAY SHOW SEGMENT FILMING - LOCATION: 41-49 WEST TERRACE, ADELAIDE",
-      "start": "2025-11-26T06:00:00",
-      "duration": 150,
-      "description": "TODAY SHOW SEGMENT FILMING - LOCATION: 41-49 WEST TERRACE, ADELAIDE",
+      "name": "VCS Transporter Unload",
+      "start": "2026-02-17T14:00:00",
+      "duration": null,
+      "description": "VCS Transporter Unload",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 3,
-      "name": "ARRIVE AT TRACK",
-      "start": "2025-11-26T09:45:00",
-      "duration": null,
-      "description": "ARRIVE AT TRACK",
+      "name": "Track Walk",
+      "start": "2026-02-17T14:30:00",
+      "duration": 180,
+      "description": "Track Walk",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 4,
-      "name": "TRANSPORTER UNLOAD/COMMENCE SET-UP",
-      "start": "2025-11-26T10:00:00",
-      "duration": null,
-      "description": "TRANSPORTER UNLOAD/COMMENCE SET-UP",
+      "name": "Season Launch",
+      "start": "2026-02-17T18:00:00",
+      "duration": 120,
+      "description": "Season Launch",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 5,
-      "name": "TYRE FITTING COMMENCES",
-      "start": "2025-11-26T10:00:00",
-      "duration": null,
-      "description": "TYRE FITTING COMMENCES",
+      "name": "Nighttime Pit Stop Practice",
+      "start": "2026-02-17T19:30:00",
+      "duration": 15,
+      "description": "Nighttime Pit Stop Practice",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 6,
-      "name": "DRIVER APPEARANCE - OTR HEAD OFFICE APPEARANCE",
-      "start": "2025-11-26T10:00:00",
-      "duration": 60,
-      "description": "DRIVER APPEARANCE - OTR HEAD OFFICE APPEARANCE",
+      "name": "Paddock Closed",
+      "start": "2026-02-17T20:00:00",
+      "duration": null,
+      "description": "Paddock Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 7,
-      "name": "DRIVER APPEARANCE - DXC HEAD OFFICE",
-      "start": "2025-11-26T12:00:00",
-      "duration": 30,
-      "description": "DRIVER APPEARANCE - DXC HEAD OFFICE",
+      "name": "Leave Hotel",
+      "start": "2026-02-18T06:00:00",
+      "duration": null,
+      "description": "Leave Hotel",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 8,
-      "name": "LUNCH",
-      "start": "2025-11-26T12:30:00",
+      "name": "Breakfast at Track",
+      "start": "2026-02-18T06:15:00",
       "duration": null,
-      "description": "LUNCH",
+      "description": "Breakfast at Track",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 9,
-      "name": "TRACK WALK",
-      "start": "2025-11-26T13:30:00",
+      "name": "VCS Paddock Opens",
+      "start": "2026-02-18T06:30:00",
       "duration": null,
-      "description": "TRACK WALK",
+      "description": "VCS Paddock Opens",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 10,
-      "name": "WILL DAVISON - TV INTERVIEW",
-      "start": "2025-11-26T15:00:00",
+      "name": "Team Manager’s and Driver’s Briefing and Sign On",
+      "start": "2026-02-18T08:00:00",
       "duration": null,
-      "description": "WILL DAVISON - TV INTERVIEW",
+      "description": "Team Manager’s and Driver’s Briefing and Sign On",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 11,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-11-26T15:30:00",
-      "duration": null,
-      "description": "PITSTOP PRACTICE",
+      "name": "Test Session 1",
+      "start": "2026-02-18T08:30:00",
+      "duration": 240,
+      "description": "Test Session 1",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 12,
-      "name": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVERS BRIEFING",
-      "start": "2025-11-26T16:00:00",
-      "duration": null,
-      "description": "COMPETITOR'S AUTHORISED REPRESENTATIVES & DRIVERS BRIEFING",
+      "name": "Practice Starts Permitted",
+      "start": "2026-02-18T11:20:00",
+      "duration": 10,
+      "description": "Practice Starts Permitted",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 13,
-      "name": "FILMING WITH SHAYLA",
-      "start": "2025-11-26T16:10:00",
-      "duration": null,
-      "description": "FILMING WITH SHAYLA",
+      "name": "Fueling Allowed",
+      "start": "2026-02-18T11:30:00",
+      "duration": 60,
+      "description": "Fueling Allowed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 14,
-      "name": "TRACK TO TOWN - VICTORIA SQAURE",
-      "start": "2025-11-26T16:45:00",
-      "duration": 90,
-      "description": "TRACK TO TOWN - VICTORIA SQAURE",
+      "name": "Track Closed",
+      "start": "2026-02-18T12:30:00",
+      "duration": null,
+      "description": "Track Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 15,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-11-26T18:45:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
+      "name": "Doric 2026 Meeting and Tour",
+      "start": "2026-02-18T12:30:00",
+      "duration": 120,
+      "description": "Doric 2026 Meeting and Tour",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 16,
-      "name": "BREAKFAST/ARRIVE AT TRACK",
-      "start": "2025-11-27T07:45:00",
+      "name": "Paddock Closed",
+      "start": "2026-02-18T19:00:00",
       "duration": null,
-      "description": "BREAKFAST/ARRIVE AT TRACK",
+      "description": "Paddock Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 17,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-11-27T08:00:00",
+      "name": "Leave Hotel",
+      "start": "2026-02-19T07:45:00",
       "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "description": "Leave Hotel",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 18,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-11-27T10:00:00",
+      "name": "Paddock Opens",
+      "start": "2026-02-19T08:00:00",
       "duration": null,
-      "description": "PITSTOP PRACTICE",
+      "description": "Paddock Opens",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 19,
-      "name": "JUNIOR PRESS CONFERENCE LOCATION: DRIVERS BRIEFING ROOM: BRODIE",
-      "start": "2025-11-27T10:30:00",
-      "duration": 30,
-      "description": "JUNIOR PRESS CONFERENCE LOCATION: DRIVERS BRIEFING ROOM: BRODIE",
+      "name": "Tyre Fitting Commences",
+      "start": "2026-02-19T08:30:00",
+      "duration": null,
+      "description": "Tyre Fitting Commences",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 20,
-      "name": "MEDIA CALL: LOCATION: OUTSIDE OF DRIVERS BRIEFING ROOM: BRODIE",
-      "start": "2025-11-27T11:00:00",
-      "duration": 15,
-      "description": "MEDIA CALL: LOCATION: OUTSIDE OF DRIVERS BRIEFING ROOM: BRODIE",
+      "name": "Rheem Rydalmere Appearance",
+      "start": "2026-02-19T09:00:00",
+      "duration": 45,
+      "description": "Rheem Rydalmere Appearance",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 21,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-11-27T12:00:00",
-      "duration": null,
-      "description": "ENGINEERING PREBRIEF",
+      "name": "Pirtek HQ Appearance",
+      "start": "2026-02-19T10:30:00",
+      "duration": 30,
+      "description": "Pirtek HQ Appearance",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 22,
-      "name": "LUNCH",
-      "start": "2025-11-27T12:30:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "Rookie Drivers Photoshoot",
+      "start": "2026-02-19T11:45:00",
+      "duration": 45,
+      "description": "Rookie Drivers Photoshoot",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 23,
-      "name": "PRACTICE 1 & PRACTICE STRARTS",
-      "start": "2025-11-27T15:15:00",
-      "duration": 30,
-      "description": "PRACTICE 1 & PRACTICE STRARTS",
+      "name": "News Ltd Photoshoot",
+      "start": "2026-02-19T12:30:00",
+      "duration": null,
+      "description": "News Ltd Photoshoot",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 24,
-      "name": "EVENT RIDES",
-      "start": "2025-11-27T17:30:00",
-      "duration": 30,
-      "description": "EVENT RIDES",
+      "name": "All Ford Cars and Drivers Photoshoot",
+      "start": "2026-02-19T13:00:00",
+      "duration": null,
+      "description": "All Ford Cars and Drivers Photoshoot",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 25,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-11-27T18:15:00",
+      "name": "RMC Test",
+      "start": "2026-02-19T15:00:00",
       "duration": null,
-      "description": "ENGINEERING DEBRIEF",
+      "description": "RMC Test",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 26,
-      "name": "DINNER",
-      "start": "2025-11-27T18:30:00",
-      "duration": null,
-      "description": "DINNER",
+      "name": "TV Interview at Golf Course",
+      "start": "2026-02-19T15:00:00",
+      "duration": 60,
+      "description": "TV Interview at Golf Course",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 27,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-11-27T19:30:00",
+      "name": "Team Managers and Drivers Briefing",
+      "start": "2026-02-19T16:30:00",
       "duration": null,
-      "description": "PADDOCK CLOSED",
+      "description": "Team Managers and Drivers Briefing",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 28,
-      "name": "BREAKFAST/ARRIVE AT TRACK",
-      "start": "2025-11-28T07:30:00",
-      "duration": null,
-      "description": "BREAKFAST/ARRIVE AT TRACK",
+      "name": "Test Session 2",
+      "start": "2026-02-19T17:30:00",
+      "duration": 240,
+      "description": "Test Session 2",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 29,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-11-28T07:45:00",
+      "name": "Paddock Closed",
+      "start": "2026-02-19T22:30:00",
       "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "description": "Paddock Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 30,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-11-28T07:50:00",
+      "name": "Leave Hotel",
+      "start": "2026-02-20T10:45:00",
       "duration": null,
-      "description": "PITSTOP PRACTICE",
+      "description": "Leave Hotel",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 31,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-11-28T09:30:00",
+      "name": "Paddock Opens",
+      "start": "2026-02-20T11:00:00",
       "duration": null,
-      "description": "ENGINEERING PREBRIEF",
+      "description": "Paddock Opens",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 32,
-      "name": "PRACTICE 2",
-      "start": "2025-11-28T10:30:00",
-      "duration": 30,
-      "description": "PRACTICE 2",
+      "name": "Engineering Briefing",
+      "start": "2026-02-20T11:15:00",
+      "duration": 60,
+      "description": "Engineering Briefing",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 33,
-      "name": "DRIVER SHELL SUITE VISIT",
-      "start": "2025-11-28T11:45:00",
-      "duration": 10,
-      "description": "DRIVER SHELL SUITE VISIT",
+      "name": "Signing Session – Merch",
+      "start": "2026-02-20T12:20:00",
+      "duration": 30,
+      "description": "Signing Session – Merch",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 34,
-      "name": "QUALIFYING - PART 1 - RACE 32",
-      "start": "2025-11-28T12:40:00",
-      "duration": 12,
-      "description": "QUALIFYING - PART 1 - RACE 32",
+      "name": "Driver Block Out",
+      "start": "2026-02-20T13:10:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 35,
-      "name": "QUALIFYING - PART 2 - RACE 32",
-      "start": "2025-11-28T13:00:00",
-      "duration": 10,
-      "description": "QUALIFYING - PART 2 - RACE 32",
+      "name": "VCS – Practice 1",
+      "start": "2026-02-20T13:55:00",
+      "duration": 45,
+      "description": "VCS – Practice 1",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 36,
-      "name": "LUNCH",
-      "start": "2025-11-28T13:15:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "VCS – Procedure Test",
+      "start": "2026-02-20T14:40:00",
+      "duration": 5,
+      "description": "VCS – Procedure Test",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 37,
-      "name": "ALL DRIVERS SIGNING SESSION - PUB IN THE PARK - TURN 11",
-      "start": "2025-11-28T14:15:00",
-      "duration": 30,
-      "description": "ALL DRIVERS SIGNING SESSION - PUB IN THE PARK - TURN 11",
+      "name": "VCS – Practice Starts",
+      "start": "2026-02-20T14:45:00",
+      "duration": 5,
+      "description": "VCS – Practice Starts",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 38,
-      "name": "30-MINUTE SIGNAL",
-      "start": "2025-11-28T16:10:00",
-      "duration": null,
-      "description": "30-MINUTE SIGNAL",
+      "name": "Driver Block Out",
+      "start": "2026-02-20T14:50:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 39,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-11-28T16:15:00",
-      "duration": null,
-      "description": "PIT EXIT OPEN",
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-20T14:55:00",
+      "duration": 10,
+      "description": "Supercars Events – Entertainment",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 40,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-11-28T16:25:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
+      "name": "Driver Block Out",
+      "start": "2026-02-20T15:35:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 41,
-      "name": "RACE 32 - 100KMS",
-      "start": "2025-11-28T16:40:00",
-      "duration": 58,
-      "description": "RACE 32 - 100KMS",
+      "name": "VCS – Qualifying 1.1",
+      "start": "2026-02-20T16:20:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 1.1",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 42,
-      "name": "DINNER",
-      "start": "2025-11-28T17:30:00",
-      "duration": null,
-      "description": "DINNER",
+      "name": "VCS – Qualifying 1.2",
+      "start": "2026-02-20T16:40:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 1.2",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 43,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-11-28T18:30:00",
-      "duration": null,
-      "description": "ENGINEERING DEBRIEF",
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-20T16:55:00",
+      "duration": 15,
+      "description": "Supercars Events – Entertainment",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 44,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-11-28T20:30:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
+      "name": "Driver Block Out",
+      "start": "2026-02-20T18:35:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 45,
-      "name": "BREAKFAST/ARRIVE AT TRACK",
-      "start": "2025-11-29T07:10:00",
+      "name": "VCS – 30-minute Signal – Cars on Apron",
+      "start": "2026-02-20T19:20:00",
       "duration": null,
-      "description": "BREAKFAST/ARRIVE AT TRACK",
+      "description": "VCS – 30-minute Signal – Cars on Apron",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 46,
-      "name": "PADDOCK OPENS/TYRE FITTING COMMENCES",
-      "start": "2025-11-29T07:20:00",
+      "name": "VCS – Pit Exit Open",
+      "start": "2026-02-20T19:25:00",
       "duration": null,
-      "description": "PADDOCK OPENS/TYRE FITTING COMMENCES",
+      "description": "VCS – Pit Exit Open",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 47,
-      "name": "PITSTOP PRACTICE",
-      "start": "2025-11-29T07:20:00",
-      "duration": 20,
-      "description": "PITSTOP PRACTICE",
+      "name": "VCS – Pit Exit Closed",
+      "start": "2026-02-20T19:35:00",
+      "duration": null,
+      "description": "VCS – Pit Exit Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 48,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-11-29T07:50:00",
-      "duration": 30,
-      "description": "ENGINEERING PREBRIEF",
+      "name": "2026 Drivers Class Photo",
+      "start": "2026-02-20T19:38:00",
+      "duration": null,
+      "description": "2026 Drivers Class Photo",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 49,
-      "name": "ALL DRIVERS SIGNING SESSION - PUB IN THE PARK- TURN 11",
-      "start": "2025-11-29T08:35:00",
-      "duration": 30,
-      "description": "ALL DRIVERS SIGNING SESSION - PUB IN THE PARK- TURN 11",
+      "name": "VCS – Race 1 – 26 laps",
+      "start": "2026-02-20T19:50:00",
+      "duration": 58,
+      "description": "VCS – Race 1 – 26 laps",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 50,
-      "name": "QUALIFYING - PART 1 - RACE 33",
-      "start": "2025-11-29T10:05:00",
-      "duration": 12,
-      "description": "QUALIFYING - PART 1 - RACE 33",
+      "name": "Supercars TV – TV Track Time",
+      "start": "2026-02-20T20:55:00",
+      "duration": null,
+      "description": "Supercars TV – TV Track Time",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 51,
-      "name": "QUALIFYING - PART 2 - RACE 33",
-      "start": "2025-11-29T10:25:00",
-      "duration": 10,
-      "description": "QUALIFYING - PART 2 - RACE 33",
+      "name": "Paddock Closed",
+      "start": "2026-02-20T22:00:00",
+      "duration": null,
+      "description": "Paddock Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 52,
-      "name": "PADDOCK CLUB Q&A - DRIVERS WHO QUALIFY 12TH AND 14TH",
-      "start": "2025-11-29T12:15:00",
-      "duration": 10,
-      "description": "PADDOCK CLUB Q&A - DRIVERS WHO QUALIFY 12TH AND 14TH",
+      "name": "Leave Hotel",
+      "start": "2026-02-21T10:45:00",
+      "duration": null,
+      "description": "Leave Hotel",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 53,
-      "name": "QUALIFYING -PART 3 - TTSO",
-      "start": "2025-11-29T12:35:00",
-      "duration": 30,
-      "description": "QUALIFYING -PART 3 - TTSO",
+      "name": "Paddock Opens",
+      "start": "2026-02-21T11:00:00",
+      "duration": null,
+      "description": "Paddock Opens",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 54,
-      "name": "LUNCH",
-      "start": "2025-11-29T12:45:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "Pit Stop Practice",
+      "start": "2026-02-21T11:10:00",
+      "duration": 15,
+      "description": "Pit Stop Practice",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 55,
-      "name": "DRIVER - SHELL SUITE VISIT",
-      "start": "2025-11-29T13:45:00",
-      "duration": 10,
-      "description": "DRIVER - SHELL SUITE VISIT",
+      "name": "Supercars Events – Course Car Tours and Pit Lane Walk",
+      "start": "2026-02-21T11:15:00",
+      "duration": 40,
+      "description": "Supercars Events – Course Car Tours and Pit Lane Walk",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 56,
-      "name": "30 MINUTE SIGNAL",
-      "start": "2025-11-29T14:50:00",
-      "duration": null,
-      "description": "30 MINUTE SIGNAL",
+      "name": "Supercars Events - Entertainment",
+      "start": "2026-02-21T13:05:00",
+      "duration": 10,
+      "description": "Supercars Events - Entertainment",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 57,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-11-29T14:55:00",
-      "duration": null,
-      "description": "PIT EXIT OPEN",
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-21T14:15:00",
+      "duration": 10,
+      "description": "Supercars Events – Entertainment",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 58,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-11-29T15:05:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
+      "name": "Driver Block Out",
+      "start": "2026-02-21T14:55:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 59,
-      "name": "RACE 33 - 250KMS",
-      "start": "2025-11-29T15:20:00",
-      "duration": 123,
-      "description": "RACE 33 - 250KMS",
+      "name": "VCS – Qualifying 2.1",
+      "start": "2026-02-21T15:40:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 2.1",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 60,
-      "name": "DINNER",
-      "start": "2025-11-29T17:30:00",
-      "duration": null,
-      "description": "DINNER",
+      "name": "VCS – Qualifying 2.2",
+      "start": "2026-02-21T16:00:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 2.2",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 61,
-      "name": "ENGINEERING DEBRIEF",
-      "start": "2025-11-29T18:30:00",
-      "duration": null,
-      "description": "ENGINEERING DEBRIEF",
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-21T16:20:00",
+      "duration": 10,
+      "description": "Supercars Events – Entertainment",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 62,
-      "name": "PADDOCK CLOSED",
-      "start": "2025-11-29T20:30:00",
-      "duration": null,
-      "description": "PADDOCK CLOSED",
+      "name": "VCS – Qualifying 2.3 – TTSO",
+      "start": "2026-02-21T16:35:00",
+      "duration": 40,
+      "description": "VCS – Qualifying 2.3 – TTSO",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 63,
-      "name": "ARRIV AT TRACK/BREAKFAST",
-      "start": "2025-11-30T07:15:00",
-      "duration": null,
-      "description": "ARRIV AT TRACK/BREAKFAST",
+      "name": "Driver Block Out",
+      "start": "2026-02-21T17:15:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 64,
-      "name": "PADDOCK OPEN/TYRE FITTING COMMENCES",
-      "start": "2025-11-30T07:30:00",
-      "duration": null,
-      "description": "PADDOCK OPEN/TYRE FITTING COMMENCES",
+      "name": "TGRA GR Cup",
+      "start": "2026-02-21T17:30:00",
+      "duration": 25,
+      "description": "TGRA GR Cup",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 65,
-      "name": "ENGINEERING PREBRIEF",
-      "start": "2025-11-30T08:30:00",
-      "duration": 15,
-      "description": "ENGINEERING PREBRIEF",
+      "name": "Driver Block Out",
+      "start": "2026-02-21T18:20:00",
+      "duration": 45,
+      "description": "Driver Block Out",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 66,
-      "name": "QUALIFYING - PART 1 - RACE 34",
-      "start": "2025-11-30T10:00:00",
-      "duration": 12,
-      "description": "QUALIFYING - PART 1 - RACE 34",
+      "name": "VCS – 30-minute Signal – Cars on Apron",
+      "start": "2026-02-21T19:05:00",
+      "duration": null,
+      "description": "VCS – 30-minute Signal – Cars on Apron",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 67,
-      "name": "QUALIFYING - PART 2 - RACE 34",
-      "start": "2025-11-30T10:20:00",
-      "duration": 10,
-      "description": "QUALIFYING - PART 2 - RACE 34",
+      "name": "VCS – Pit Exit Open",
+      "start": "2026-02-21T19:10:00",
+      "duration": null,
+      "description": "VCS – Pit Exit Open",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 68,
-      "name": "WILL DAVISON TV INTERVIEW - HOSTING DESK WITH JESS YATES & JC",
-      "start": "2025-11-30T11:00:00",
-      "duration": 15,
-      "description": "WILL DAVISON TV INTERVIEW - HOSTING DESK WITH JESS YATES & JC",
+      "name": "VCS – Pit Exit Closed",
+      "start": "2026-02-21T19:20:00",
+      "duration": null,
+      "description": "VCS – Pit Exit Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 69,
-      "name": "LUNCH",
-      "start": "2025-11-30T12:00:00",
-      "duration": null,
-      "description": "LUNCH",
+      "name": "VCS – Race 2 – 52 laps",
+      "start": "2026-02-21T19:35:00",
+      "duration": 98,
+      "description": "VCS – Race 2 – 52 laps",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 70,
-      "name": "QUALIFYING - PART 3 - TTSO",
-      "start": "2025-11-30T12:35:00",
-      "duration": 30,
-      "description": "QUALIFYING - PART 3 - TTSO",
+      "name": "Paddock Closed",
+      "start": "2026-02-21T23:00:00",
+      "duration": null,
+      "description": "Paddock Closed",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 71,
-      "name": "SHELL SUITE VISIT - DRIVERS",
-      "start": "2025-11-30T13:40:00",
-      "duration": 10,
-      "description": "SHELL SUITE VISIT - DRIVERS",
+      "name": "Leave Hotel",
+      "start": "2026-02-22T08:00:00",
+      "duration": null,
+      "description": "Leave Hotel",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 72,
-      "name": "35 MINUTE SIGNAL",
-      "start": "2025-11-30T14:40:00",
+      "name": "Breakfast at Track",
+      "start": "2026-02-22T08:15:00",
       "duration": null,
-      "description": "35 MINUTE SIGNAL",
+      "description": "Breakfast at Track",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 73,
-      "name": "PIT EXIT OPEN",
-      "start": "2025-11-30T14:50:00",
+      "name": "Paddock Opens",
+      "start": "2026-02-22T08:30:00",
       "duration": null,
-      "description": "PIT EXIT OPEN",
+      "description": "Paddock Opens",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 74,
-      "name": "PIT EXIT CLOSED",
-      "start": "2025-11-30T15:00:00",
-      "duration": null,
-      "description": "PIT EXIT CLOSED",
+      "name": "Supercars Events – Pit Lane Fan Experience",
+      "start": "2026-02-22T10:25:00",
+      "duration": 25,
+      "description": "Supercars Events – Pit Lane Fan Experience",
       "profiles": [
         "all"
       ]
     },
     {
       "id": 75,
-      "name": "RACE 34 - 250KMS",
-      "start": "2025-11-30T15:15:00",
-      "duration": 123,
-      "description": "RACE 34 - 250KMS",
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-22T10:35:00",
+      "duration": 15,
+      "description": "Supercars Events – Entertainment",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Driver Block Out",
+      "start": "2026-02-22T11:35:00",
+      "duration": 35,
+      "description": "Driver Block Out",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "VCS – Qualifying 3.1",
+      "start": "2026-02-22T12:10:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 3.1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "VCS – Qualifying 3.2",
+      "start": "2026-02-22T12:30:00",
+      "duration": 12,
+      "description": "VCS – Qualifying 3.2",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Supercars Events – Entertainment",
+      "start": "2026-02-22T12:50:00",
+      "duration": 10,
+      "description": "Supercars Events – Entertainment",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "VCS – Qualifying 3.3 – TTSO",
+      "start": "2026-02-22T13:05:00",
+      "duration": 40,
+      "description": "VCS – Qualifying 3.3 – TTSO",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Driver Block Out",
+      "start": "2026-02-22T13:45:00",
+      "duration": 45,
+      "description": "Driver Block Out",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Driver Block Out",
+      "start": "2026-02-22T14:50:00",
+      "duration": 45,
+      "description": "Driver Block Out",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "VCS – 30-minute Signal – Cars on Apron",
+      "start": "2026-02-22T15:35:00",
+      "duration": null,
+      "description": "VCS – 30-minute Signal – Cars on Apron",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "VCS – Pit Exit Open",
+      "start": "2026-02-22T15:40:00",
+      "duration": null,
+      "description": "VCS – Pit Exit Open",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "VCS – Pit Exit Closed",
+      "start": "2026-02-22T15:50:00",
+      "duration": null,
+      "description": "VCS – Pit Exit Closed",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "VCS – Race 3 – 52 laps",
+      "start": "2026-02-22T16:05:00",
+      "duration": 98,
+      "description": "VCS – Race 3 – 52 laps",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Dinner at Track During Parc Ferme",
+      "start": "2026-02-22T18:00:00",
+      "duration": null,
+      "description": "Dinner at Track During Parc Ferme",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Sunday Flight Crew Leave Track",
+      "start": "2026-02-22T18:50:00",
+      "duration": null,
+      "description": "Sunday Flight Crew Leave Track",
       "profiles": [
         "all"
       ]
