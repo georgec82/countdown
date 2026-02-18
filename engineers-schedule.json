@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-18T07:05:44.159740",
+  "lastUpdated": "2026-02-18T16:25:25.277778",
   "teamGroup": "engineers",
   "eventCount": 72,
   "events": [
@@ -185,16 +185,6 @@
     },
     {
       "id": 21,
-      "name": "Leave Hotel",
-      "start": "2026-02-19T07:45:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 22,
       "name": "Paddock Opens",
       "start": "2026-02-19T08:00:00",
       "duration": null,
@@ -204,11 +194,21 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Rheem Rydalmere Appearance",
       "start": "2026-02-19T09:00:00",
       "duration": 45,
       "description": "Rheem Rydalmere Appearance",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Leave Hotel",
+      "start": "2026-02-19T09:45:00",
+      "duration": null,
+      "description": "Leave Hotel",
       "profiles": [
         "engineers"
       ]
