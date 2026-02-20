@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-19T11:49:58.576465",
+  "lastUpdated": "2026-02-21T09:37:54.929707",
   "teamGroup": "mechanics",
-  "eventCount": 59,
+  "eventCount": 60,
   "events": [
     {
       "id": 1,
@@ -394,7 +394,17 @@
       ]
     },
     {
-      "id": 68,
+      "id": 65,
+      "name": "Engineering Breifing",
+      "start": "2026-02-21T13:00:00",
+      "duration": 30,
+      "description": "Engineering Breifing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 67,
       "name": "VCS – Qualifying 2.1",
       "start": "2026-02-21T15:40:00",
       "duration": 12,
@@ -404,7 +414,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 68,
       "name": "VCS – Qualifying 2.2",
       "start": "2026-02-21T16:00:00",
       "duration": 12,
@@ -414,7 +424,7 @@
       ]
     },
     {
-      "id": 71,
+      "id": 70,
       "name": "VCS – Qualifying 2.3 – TTSO",
       "start": "2026-02-21T16:35:00",
       "duration": 40,
@@ -424,7 +434,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 74,
       "name": "VCS – 30-minute Signal – Cars on Apron",
       "start": "2026-02-21T19:05:00",
       "duration": null,
@@ -434,7 +444,7 @@
       ]
     },
     {
-      "id": 76,
+      "id": 75,
       "name": "VCS – Pit Exit Open",
       "start": "2026-02-21T19:10:00",
       "duration": null,
@@ -444,7 +454,7 @@
       ]
     },
     {
-      "id": 77,
+      "id": 76,
       "name": "VCS – Pit Exit Closed",
       "start": "2026-02-21T19:20:00",
       "duration": null,
@@ -454,7 +464,7 @@
       ]
     },
     {
-      "id": 78,
+      "id": 77,
       "name": "VCS – Race 2 – 52 laps",
       "start": "2026-02-21T19:35:00",
       "duration": 98,
@@ -464,7 +474,7 @@
       ]
     },
     {
-      "id": 79,
+      "id": 78,
       "name": "Paddock Closed",
       "start": "2026-02-21T23:00:00",
       "duration": null,
@@ -474,7 +484,7 @@
       ]
     },
     {
-      "id": 80,
+      "id": 79,
       "name": "Leave Hotel",
       "start": "2026-02-22T08:00:00",
       "duration": null,
@@ -484,7 +494,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": 80,
       "name": "Breakfast at Track",
       "start": "2026-02-22T08:15:00",
       "duration": null,
@@ -494,7 +504,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": 81,
       "name": "Paddock Opens",
       "start": "2026-02-22T08:30:00",
       "duration": null,
@@ -504,7 +514,7 @@
       ]
     },
     {
-      "id": 86,
+      "id": 85,
       "name": "VCS – Qualifying 3.1",
       "start": "2026-02-22T12:10:00",
       "duration": 12,
@@ -514,7 +524,7 @@
       ]
     },
     {
-      "id": 87,
+      "id": 86,
       "name": "VCS – Qualifying 3.2",
       "start": "2026-02-22T12:30:00",
       "duration": 12,
@@ -524,7 +534,7 @@
       ]
     },
     {
-      "id": 89,
+      "id": 88,
       "name": "VCS – Qualifying 3.3 – TTSO",
       "start": "2026-02-22T13:05:00",
       "duration": 40,
@@ -534,7 +544,7 @@
       ]
     },
     {
-      "id": 92,
+      "id": 91,
       "name": "VCS – 30-minute Signal – Cars on Apron",
       "start": "2026-02-22T15:35:00",
       "duration": null,
@@ -544,7 +554,7 @@
       ]
     },
     {
-      "id": 93,
+      "id": 92,
       "name": "VCS – Pit Exit Open",
       "start": "2026-02-22T15:40:00",
       "duration": null,
@@ -554,7 +564,7 @@
       ]
     },
     {
-      "id": 94,
+      "id": 93,
       "name": "VCS – Pit Exit Closed",
       "start": "2026-02-22T15:50:00",
       "duration": null,
@@ -564,7 +574,7 @@
       ]
     },
     {
-      "id": 95,
+      "id": 94,
       "name": "VCS – Race 3 – 52 laps",
       "start": "2026-02-22T16:05:00",
       "duration": 98,
@@ -574,7 +584,7 @@
       ]
     },
     {
-      "id": 96,
+      "id": 95,
       "name": "Dinner at Track During Parc Ferme",
       "start": "2026-02-22T18:00:00",
       "duration": null,
@@ -584,7 +594,7 @@
       ]
     },
     {
-      "id": 97,
+      "id": 96,
       "name": "Sunday Flight Crew Leave Track",
       "start": "2026-02-22T18:50:00",
       "duration": null,
