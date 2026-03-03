@@ -1,44 +1,34 @@
 {
-  "lastUpdated": "2026-02-21T09:37:54.929707",
+  "lastUpdated": "2026-03-04T09:24:39.152666",
   "teamGroup": "mechanics",
-  "eventCount": 60,
+  "eventCount": 58,
   "events": [
     {
       "id": 1,
-      "name": "VCS Transporter Park-Up",
-      "start": "2026-02-17T12:00:00",
+      "name": "Lunch",
+      "start": "2026-03-04T12:30:00",
       "duration": null,
-      "description": "VCS Transporter Park-Up",
+      "description": "Lunch",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 2,
-      "name": "VCS Transporter Unload",
-      "start": "2026-02-17T14:00:00",
-      "duration": null,
-      "description": "VCS Transporter Unload",
+      "name": "Engineering Briefing",
+      "start": "2026-03-04T13:00:00",
+      "duration": 60,
+      "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 5,
-      "name": "Dinner at Track",
-      "start": "2026-02-17T18:00:00",
+      "name": "Dinner",
+      "start": "2026-03-04T18:00:00",
       "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Nighttime Pit Stop Practice",
-      "start": "2026-02-17T19:30:00",
-      "duration": 15,
-      "description": "Nighttime Pit Stop Practice",
+      "description": "Dinner",
       "profiles": [
         "mechanics"
       ]
@@ -46,7 +36,7 @@
     {
       "id": 7,
       "name": "Paddock Closed",
-      "start": "2026-02-17T20:00:00",
+      "start": "2026-03-04T19:00:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -54,9 +44,9 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Leave Hotel",
-      "start": "2026-02-18T06:00:00",
+      "start": "2026-03-05T07:15:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -64,9 +54,9 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Breakfast at Track",
-      "start": "2026-02-18T06:15:00",
+      "start": "2026-03-05T07:45:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -74,79 +64,9 @@
       ]
     },
     {
-      "id": 10,
-      "name": "VCS Paddock Opens",
-      "start": "2026-02-18T06:30:00",
-      "duration": null,
-      "description": "VCS Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Test Session 1",
-      "start": "2026-02-18T08:30:00",
-      "duration": 240,
-      "description": "Test Session 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Practice Starts Permitted",
-      "start": "2026-02-18T11:20:00",
-      "duration": 10,
-      "description": "Practice Starts Permitted",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Fueling Allowed",
-      "start": "2026-02-18T11:30:00",
-      "duration": 60,
-      "description": "Fueling Allowed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Track Closed",
-      "start": "2026-02-18T12:30:00",
-      "duration": null,
-      "description": "Track Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Paddock Closed",
-      "start": "2026-02-18T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Team Dinner",
-      "start": "2026-02-18T19:30:00",
-      "duration": null,
-      "description": "Team Dinner",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 21,
+      "id": 11,
       "name": "Paddock Opens",
-      "start": "2026-02-19T08:00:00",
+      "start": "2026-03-05T08:00:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -154,9 +74,159 @@
       ]
     },
     {
+      "id": 12,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-05T10:20:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-05T10:25:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-05T10:30:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-05T12:10:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-05T12:15:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-05T12:20:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Lunch",
+      "start": "2026-03-05T13:00:00",
+      "duration": null,
+      "description": "Lunch",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-05T14:05:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-05T14:10:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-05T14:15:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-05T16:30:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-05T16:40:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 24,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-05T16:45:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Engineering Debrief",
+      "start": "2026-03-05T18:15:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Paddock Closed / Dinner",
+      "start": "2026-03-05T19:00:00",
+      "duration": null,
+      "description": "Paddock Closed / Dinner",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 27,
       "name": "Leave Hotel",
-      "start": "2026-02-19T09:45:00",
+      "start": "2026-03-06T09:30:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -165,318 +235,238 @@
     },
     {
       "id": 28,
-      "name": "Lunch at Track",
-      "start": "2026-02-19T12:30:00",
+      "name": "Arrive at Circuit / Paddock Open",
+      "start": "2026-03-06T10:00:00",
       "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Track Walk",
-      "start": "2026-02-19T14:00:00",
-      "duration": 60,
-      "description": "Track Walk",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "RMC Test",
-      "start": "2026-02-19T15:00:00",
-      "duration": null,
-      "description": "RMC Test",
+      "description": "Arrive at Circuit / Paddock Open",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 32,
-      "name": "Pitstop Practice",
-      "start": "2026-02-19T15:15:00",
+      "name": "Lunch",
+      "start": "2026-03-06T12:30:00",
       "duration": null,
-      "description": "Pitstop Practice",
+      "description": "Lunch",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 35,
-      "name": "Refuellers Briefing",
-      "start": "2026-02-19T16:45:00",
-      "duration": null,
-      "description": "Refuellers Briefing",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 36,
-      "name": "Test Session 2",
-      "start": "2026-02-19T17:30:00",
-      "duration": 240,
-      "description": "Test Session 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 38,
-      "name": "Paddock Closed",
-      "start": "2026-02-19T22:30:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "Leave Hotel",
-      "start": "2026-02-20T10:30:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "Paddock Opens",
-      "start": "2026-02-20T10:45:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 41,
+      "id": 34,
       "name": "Engineering Briefing",
-      "start": "2026-02-20T11:00:00",
-      "duration": 60,
+      "start": "2026-03-06T14:30:00",
+      "duration": 30,
       "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
+      "id": 36,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-06T17:00:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-06T17:10:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-06T17:15:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Dinner",
+      "start": "2026-03-06T18:30:00",
+      "duration": null,
+      "description": "Dinner",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Engineering Debrief",
+      "start": "2026-03-06T19:00:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Paddock Closed",
+      "start": "2026-03-06T21:30:00",
+      "duration": null,
+      "description": "Paddock Closed",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Leave Hotel",
+      "start": "2026-03-07T05:45:00",
+      "duration": null,
+      "description": "Leave Hotel",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 44,
-      "name": "VCS – Practice 1",
-      "start": "2026-02-20T13:55:00",
-      "duration": 45,
-      "description": "VCS – Practice 1",
+      "name": "Breakfast",
+      "start": "2026-03-07T06:15:00",
+      "duration": null,
+      "description": "Breakfast",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 45,
-      "name": "VCS – Procedure Test",
-      "start": "2026-02-20T14:40:00",
-      "duration": 5,
-      "description": "VCS – Procedure Test",
+      "name": "Paddock Opens",
+      "start": "2026-03-07T06:30:00",
+      "duration": null,
+      "description": "Paddock Opens",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 46,
-      "name": "VCS – Practice Starts",
-      "start": "2026-02-20T14:45:00",
-      "duration": 5,
-      "description": "VCS – Practice Starts",
+      "name": "Engineering Briefing",
+      "start": "2026-03-07T06:30:00",
+      "duration": 30,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Event Rides",
+      "start": "2026-03-07T07:30:00",
+      "duration": 30,
+      "description": "Event Rides",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-07T08:45:00",
+      "duration": null,
+      "description": "Cars Outside Garage on 45",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-07T08:50:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 50,
-      "name": "VCS – Qualifying 1.1",
-      "start": "2026-02-20T16:20:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 1.1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 51,
-      "name": "VCS – Qualifying 1.2",
-      "start": "2026-02-20T16:40:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 1.2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 54,
-      "name": "VCS – 30-minute Signal – Cars on Apron",
-      "start": "2026-02-20T19:20:00",
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-07T08:55:00",
       "duration": null,
-      "description": "VCS – 30-minute Signal – Cars on Apron",
+      "description": "Personnel to Pit Lane",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 55,
-      "name": "VCS – Pit Exit Open",
-      "start": "2026-02-20T19:25:00",
+      "id": 53,
+      "name": "Lunch",
+      "start": "2026-03-07T12:30:00",
       "duration": null,
-      "description": "VCS – Pit Exit Open",
+      "description": "Lunch",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 56,
-      "name": "VCS – Pit Exit Closed",
-      "start": "2026-02-20T19:35:00",
+      "id": 57,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-07T17:05:00",
       "duration": null,
-      "description": "VCS – Pit Exit Closed",
+      "description": "Cars Outside Garage on 45",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 58,
-      "name": "VCS – Race 1 – 26 laps",
-      "start": "2026-02-20T19:50:00",
-      "duration": 58,
-      "description": "VCS – Race 1 – 26 laps",
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-07T17:15:00",
+      "duration": null,
+      "description": "Cars at Marshalling Area",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-07T17:20:00",
+      "duration": null,
+      "description": "Personnel to Pit Lane",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 60,
-      "name": "Paddock Closed",
-      "start": "2026-02-20T22:00:00",
+      "name": "Dinner",
+      "start": "2026-03-07T18:30:00",
       "duration": null,
-      "description": "Paddock Closed",
+      "description": "Dinner",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 61,
-      "name": "Leave Hotel",
-      "start": "2026-02-21T10:45:00",
-      "duration": null,
-      "description": "Leave Hotel",
+      "name": "Engineering Debrief",
+      "start": "2026-03-07T19:00:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 62,
-      "name": "Paddock Opens",
-      "start": "2026-02-21T11:00:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 63,
-      "name": "Pit Stop Practice",
-      "start": "2026-02-21T11:10:00",
-      "duration": 15,
-      "description": "Pit Stop Practice",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 65,
-      "name": "Engineering Breifing",
-      "start": "2026-02-21T13:00:00",
-      "duration": 30,
-      "description": "Engineering Breifing",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 67,
-      "name": "VCS – Qualifying 2.1",
-      "start": "2026-02-21T15:40:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 2.1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 68,
-      "name": "VCS – Qualifying 2.2",
-      "start": "2026-02-21T16:00:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 2.2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 70,
-      "name": "VCS – Qualifying 2.3 – TTSO",
-      "start": "2026-02-21T16:35:00",
-      "duration": 40,
-      "description": "VCS – Qualifying 2.3 – TTSO",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 74,
-      "name": "VCS – 30-minute Signal – Cars on Apron",
-      "start": "2026-02-21T19:05:00",
-      "duration": null,
-      "description": "VCS – 30-minute Signal – Cars on Apron",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 75,
-      "name": "VCS – Pit Exit Open",
-      "start": "2026-02-21T19:10:00",
-      "duration": null,
-      "description": "VCS – Pit Exit Open",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 76,
-      "name": "VCS – Pit Exit Closed",
-      "start": "2026-02-21T19:20:00",
-      "duration": null,
-      "description": "VCS – Pit Exit Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 77,
-      "name": "VCS – Race 2 – 52 laps",
-      "start": "2026-02-21T19:35:00",
-      "duration": 98,
-      "description": "VCS – Race 2 – 52 laps",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 78,
       "name": "Paddock Closed",
-      "start": "2026-02-21T23:00:00",
+      "start": "2026-03-07T21:30:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -484,9 +474,9 @@
       ]
     },
     {
-      "id": 79,
+      "id": 63,
       "name": "Leave Hotel",
-      "start": "2026-02-22T08:00:00",
+      "start": "2026-03-08T06:30:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -494,111 +484,101 @@
       ]
     },
     {
-      "id": 80,
-      "name": "Breakfast at Track",
-      "start": "2026-02-22T08:15:00",
+      "id": 64,
+      "name": "Breakfast",
+      "start": "2026-03-08T07:00:00",
       "duration": null,
-      "description": "Breakfast at Track",
+      "description": "Breakfast",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 81,
-      "name": "Paddock Opens",
-      "start": "2026-02-22T08:30:00",
+      "id": 65,
+      "name": "Paddock Open",
+      "start": "2026-03-08T07:15:00",
       "duration": null,
-      "description": "Paddock Opens",
+      "description": "Paddock Open",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 85,
-      "name": "VCS – Qualifying 3.1",
-      "start": "2026-02-22T12:10:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 3.1",
+      "id": 66,
+      "name": "Engineering Briefing",
+      "start": "2026-03-08T08:00:00",
+      "duration": 30,
+      "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 86,
-      "name": "VCS – Qualifying 3.2",
-      "start": "2026-02-22T12:30:00",
-      "duration": 12,
-      "description": "VCS – Qualifying 3.2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 88,
-      "name": "VCS – Qualifying 3.3 – TTSO",
-      "start": "2026-02-22T13:05:00",
-      "duration": 40,
-      "description": "VCS – Qualifying 3.3 – TTSO",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 91,
-      "name": "VCS – 30-minute Signal – Cars on Apron",
-      "start": "2026-02-22T15:35:00",
+      "id": 67,
+      "name": "Cars Outside Garage on 45",
+      "start": "2026-03-08T09:30:00",
       "duration": null,
-      "description": "VCS – 30-minute Signal – Cars on Apron",
+      "description": "Cars Outside Garage on 45",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 92,
-      "name": "VCS – Pit Exit Open",
-      "start": "2026-02-22T15:40:00",
+      "id": 68,
+      "name": "Cars at Marshalling Area",
+      "start": "2026-03-08T09:45:00",
       "duration": null,
-      "description": "VCS – Pit Exit Open",
+      "description": "Cars at Marshalling Area",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 93,
-      "name": "VCS – Pit Exit Closed",
-      "start": "2026-02-22T15:50:00",
+      "id": 69,
+      "name": "Personnel to Pit Lane",
+      "start": "2026-03-08T09:50:00",
       "duration": null,
-      "description": "VCS – Pit Exit Closed",
+      "description": "Personnel to Pit Lane",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 94,
-      "name": "VCS – Race 3 – 52 laps",
-      "start": "2026-02-22T16:05:00",
-      "duration": 98,
-      "description": "VCS – Race 3 – 52 laps",
+      "id": 70,
+      "name": "Shell Suite Visit",
+      "start": "2026-03-08T12:45:00",
+      "duration": 15,
+      "description": "Shell Suite Visit",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 95,
-      "name": "Dinner at Track During Parc Ferme",
-      "start": "2026-02-22T18:00:00",
+      "id": 71,
+      "name": "Non-Pack Up Crew Leave for Airport",
+      "start": "2026-03-08T17:00:00",
       "duration": null,
-      "description": "Dinner at Track During Parc Ferme",
+      "description": "Non-Pack Up Crew Leave for Airport",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 96,
-      "name": "Sunday Flight Crew Leave Track",
-      "start": "2026-02-22T18:50:00",
+      "id": 72,
+      "name": "Dinner for Pack Up Crew",
+      "start": "2026-03-08T18:00:00",
       "duration": null,
-      "description": "Sunday Flight Crew Leave Track",
+      "description": "Dinner for Pack Up Crew",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Truck Pulls Forward for Loading",
+      "start": "2026-03-08T18:30:00",
+      "duration": 120,
+      "description": "Truck Pulls Forward for Loading",
       "profiles": [
         "mechanics"
       ]
