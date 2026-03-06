@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T09:50:07.521989",
+  "lastUpdated": "2026-03-06T11:09:07.430690",
   "teamGroup": "mechanics",
   "eventCount": 75,
   "events": [
@@ -325,20 +325,20 @@
     },
     {
       "id": 40,
-      "name": "Lunch",
+      "name": "Engineering Briefing",
       "start": "2026-03-06T12:30:00",
-      "duration": null,
-      "description": "Lunch",
+      "duration": 30,
+      "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 42,
-      "name": "Engineering Briefing",
-      "start": "2026-03-06T14:30:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
+      "id": 41,
+      "name": "Lunch",
+      "start": "2026-03-06T12:30:00",
+      "duration": null,
+      "description": "Lunch",
       "profiles": [
         "mechanics"
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T09:50:07.523833",
+  "lastUpdated": "2026-03-06T11:09:07.432331",
   "teamGroup": "engineers",
   "eventCount": 87,
   "events": [
@@ -375,6 +375,16 @@
     },
     {
       "id": 40,
+      "name": "Engineering Briefing",
+      "start": "2026-03-06T12:30:00",
+      "duration": 30,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 41,
       "name": "Lunch",
       "start": "2026-03-06T12:30:00",
       "duration": null,
@@ -384,21 +394,11 @@
       ]
     },
     {
-      "id": 41,
+      "id": 42,
       "name": "VIVA Suite Visit – Under Tunnel",
       "start": "2026-03-06T13:45:00",
       "duration": 15,
       "description": "VIVA Suite Visit – Under Tunnel",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "Engineering Briefing",
-      "start": "2026-03-06T14:30:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
       "profiles": [
         "engineers"
       ]
