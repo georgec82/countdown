@@ -1,92 +1,12 @@
 {
-  "lastUpdated": "2026-03-06T15:32:40.395299",
+  "lastUpdated": "2026-04-10T09:24:26.757322",
   "teamGroup": "all",
-  "eventCount": 89,
+  "eventCount": 60,
   "events": [
     {
       "id": 1,
-      "name": "Lunch",
-      "start": "2026-03-04T12:30:00",
-      "duration": null,
-      "description": "Lunch",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Engineering Briefing",
-      "start": "2026-03-04T13:00:00",
-      "duration": 60,
-      "description": "Engineering Briefing",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Content with Ferrari + Lewis Hamilton",
-      "start": "2026-03-04T15:00:00",
-      "duration": 60,
-      "description": "Content with Ferrari + Lewis Hamilton",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Track Walk",
-      "start": "2026-03-04T17:00:00",
-      "duration": null,
-      "description": "Track Walk",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Dinner",
-      "start": "2026-03-04T18:00:00",
-      "duration": null,
-      "description": "Dinner",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Drivers and Team Managers Briefing",
-      "start": "2026-03-04T18:30:00",
-      "duration": null,
-      "description": "Drivers and Team Managers Briefing",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Paddock Closed",
-      "start": "2026-03-04T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Glamour on the Grid",
-      "start": "2026-03-04T19:30:00",
-      "duration": 60,
-      "description": "Glamour on the Grid",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 9,
       "name": "Leave Hotel",
-      "start": "2026-03-05T07:15:00",
+      "start": "2026-04-10T08:30:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -94,9 +14,9 @@
       ]
     },
     {
-      "id": 10,
+      "id": 2,
       "name": "Breakfast at Track",
-      "start": "2026-03-05T07:45:00",
+      "start": "2026-04-10T08:45:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -104,9 +24,9 @@
       ]
     },
     {
-      "id": 11,
+      "id": 3,
       "name": "Paddock Opens",
-      "start": "2026-03-05T08:00:00",
+      "start": "2026-04-10T09:00:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -114,379 +34,109 @@
       ]
     },
     {
-      "id": 12,
-      "name": "VCS Personnel at Gate for Practice 1",
-      "start": "2026-03-05T10:15:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Practice 1",
+      "id": 4,
+      "name": "Brodie & Jess Yates TV Interview",
+      "start": "2026-04-10T10:45:00",
+      "duration": 20,
+      "description": "Brodie & Jess Yates TV Interview",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 13,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-05T10:20:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
+      "id": 5,
+      "name": "Pit Stop Practice",
+      "start": "2026-04-10T11:10:00",
+      "duration": 20,
+      "description": "Pit Stop Practice",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 14,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-05T10:25:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-05T10:30:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "VCS Practice 1",
-      "start": "2026-03-05T10:35:00",
+      "id": 6,
+      "name": "Engineering Event Briefing",
+      "start": "2026-04-10T12:00:00",
       "duration": 30,
+      "description": "Engineering Event Briefing",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Lunch at Track",
+      "start": "2026-04-10T12:30:00",
+      "duration": null,
+      "description": "Lunch at Track",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Driver Blockout",
+      "start": "2026-04-10T13:10:00",
+      "duration": 40,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "VCS Practice 1",
+      "start": "2026-04-10T13:50:00",
+      "duration": 25,
       "description": "VCS Practice 1",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 17,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-05T12:10:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-05T12:15:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-05T12:20:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 20,
+      "id": 10,
       "name": "VCS Practice 2",
-      "start": "2026-03-05T12:25:00",
-      "duration": 30,
+      "start": "2026-04-10T14:30:00",
+      "duration": 25,
       "description": "VCS Practice 2",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 21,
-      "name": "Lunch",
-      "start": "2026-03-05T13:00:00",
-      "duration": null,
-      "description": "Lunch",
+      "id": 11,
+      "name": "VCS Practice Starts",
+      "start": "2026-04-10T14:55:00",
+      "duration": 5,
+      "description": "VCS Practice Starts",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 22,
-      "name": "VCS Personnel at Gate for Qualifying 1",
-      "start": "2026-03-05T14:00:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Qualifying 1",
+      "id": 12,
+      "name": "Driver Blockout",
+      "start": "2026-04-10T15:00:00",
+      "duration": 40,
+      "description": "Driver Blockout",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 23,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-05T14:05:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-05T14:10:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-05T14:15:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 26,
-      "name": "VCS Qualifying 1",
-      "start": "2026-03-05T14:20:00",
-      "duration": 12,
-      "description": "VCS Qualifying 1",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "VCS Qualifying 2",
-      "start": "2026-03-05T14:42:00",
-      "duration": 8,
-      "description": "VCS Qualifying 2",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "VCS Personnel at Gate for Race 1",
-      "start": "2026-03-05T16:30:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Race 1",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-05T16:30:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-05T16:40:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-05T16:45:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "VCS Race 1 – 19 Laps",
-      "start": "2026-03-05T17:00:00",
-      "duration": 38,
-      "description": "VCS Race 1 – 19 Laps",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 33,
-      "name": "Engineering Debrief",
-      "start": "2026-03-05T18:15:00",
-      "duration": 30,
-      "description": "Engineering Debrief",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 34,
-      "name": "Paddock Closed / Dinner",
-      "start": "2026-03-05T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed / Dinner",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 35,
-      "name": "Leave Hotel",
-      "start": "2026-03-06T09:30:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 36,
-      "name": "Arrive at Circuit / Paddock Open",
-      "start": "2026-03-06T10:00:00",
-      "duration": null,
-      "description": "Arrive at Circuit / Paddock Open",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 37,
-      "name": "Supercars Signing Session – Front of Garages",
-      "start": "2026-03-06T10:30:00",
-      "duration": 30,
-      "description": "Supercars Signing Session – Front of Garages",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 38,
-      "name": "VIVA Filming – Drivers – Transporter or Garage TBC",
-      "start": "2026-03-06T11:15:00",
-      "duration": 20,
-      "description": "VIVA Filming – Drivers – Transporter or Garage TBC",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "Meeting with Jim Farley – Time TBC",
-      "start": "2026-03-06T12:00:00",
-      "duration": 30,
-      "description": "Meeting with Jim Farley – Time TBC",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "Engineering Briefing",
-      "start": "2026-03-06T12:30:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 41,
-      "name": "Lunch",
-      "start": "2026-03-06T12:30:00",
-      "duration": null,
-      "description": "Lunch",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "VIVA Suite Visit – Under Tunnel",
-      "start": "2026-03-06T13:45:00",
+      "id": 13,
+      "name": "BK Filming with Shayla",
+      "start": "2026-04-10T16:30:00",
       "duration": 15,
-      "description": "VIVA Suite Visit – Under Tunnel",
+      "description": "BK Filming with Shayla",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 43,
-      "name": "VCS Personnel at Gate for Race 2",
-      "start": "2026-03-06T17:00:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Race 2",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 44,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-06T17:00:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-06T17:10:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-06T17:15:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 47,
-      "name": "VCS Race 2 – 19 Laps",
-      "start": "2026-03-06T17:30:00",
-      "duration": 38,
-      "description": "VCS Race 2 – 19 Laps",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 48,
-      "name": "Dinner",
-      "start": "2026-03-06T18:30:00",
-      "duration": null,
-      "description": "Dinner",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 49,
+      "id": 14,
       "name": "Engineering Debrief",
-      "start": "2026-03-06T19:00:00",
+      "start": "2026-04-10T17:30:00",
       "duration": 30,
       "description": "Engineering Debrief",
       "profiles": [
@@ -494,19 +144,9 @@
       ]
     },
     {
-      "id": 50,
-      "name": "Ford Dealer Talk, W-Hotel",
-      "start": "2026-03-06T19:30:00",
-      "duration": 20,
-      "description": "Ford Dealer Talk, W-Hotel",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 51,
+      "id": 15,
       "name": "Paddock Closed",
-      "start": "2026-03-06T21:30:00",
+      "start": "2026-04-10T18:30:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -514,9 +154,19 @@
       ]
     },
     {
-      "id": 52,
+      "id": 16,
+      "name": "Dinner at Track",
+      "start": "2026-04-10T18:30:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 17,
       "name": "Leave Hotel",
-      "start": "2026-03-07T05:45:00",
+      "start": "2026-04-11T07:00:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -524,19 +174,19 @@
       ]
     },
     {
-      "id": 53,
-      "name": "Breakfast",
-      "start": "2026-03-07T06:15:00",
+      "id": 18,
+      "name": "Breakfast at Track",
+      "start": "2026-04-11T07:15:00",
       "duration": null,
-      "description": "Breakfast",
+      "description": "Breakfast at Track",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 54,
+      "id": 19,
       "name": "Paddock Opens",
-      "start": "2026-03-07T06:30:00",
+      "start": "2026-04-11T07:30:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -544,9 +194,19 @@
       ]
     },
     {
-      "id": 55,
+      "id": 20,
+      "name": "Pit Stop Practice",
+      "start": "2026-04-11T07:30:00",
+      "duration": null,
+      "description": "Pit Stop Practice",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 21,
       "name": "Engineering Briefing",
-      "start": "2026-03-07T06:30:00",
+      "start": "2026-04-11T08:15:00",
       "duration": 30,
       "description": "Engineering Briefing",
       "profiles": [
@@ -554,199 +214,179 @@
       ]
     },
     {
-      "id": 56,
-      "name": "Event Rides",
-      "start": "2026-03-07T07:30:00",
+      "id": 22,
+      "name": "All Drivers Signing Session – Merch Alley",
+      "start": "2026-04-11T08:50:00",
       "duration": 30,
-      "description": "Event Rides",
+      "description": "All Drivers Signing Session – Merch Alley",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 57,
-      "name": "VCS Personnel at Gate for Qualifying 3",
-      "start": "2026-03-07T08:40:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Qualifying 3",
+      "id": 23,
+      "name": "Driver Blockout",
+      "start": "2026-04-11T09:35:00",
+      "duration": 70,
+      "description": "Driver Blockout",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 58,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-07T08:45:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 59,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-07T08:50:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 60,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-07T08:55:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 61,
-      "name": "VCS Qualifying 3",
-      "start": "2026-03-07T09:00:00",
+      "id": 24,
+      "name": "VCS Qualifying Part 1 – Race 1",
+      "start": "2026-04-11T10:15:00",
       "duration": 12,
-      "description": "VCS Qualifying 3",
+      "description": "VCS Qualifying Part 1 – Race 1",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 62,
-      "name": "VCS Qualifying 4",
-      "start": "2026-03-07T09:22:00",
-      "duration": 8,
-      "description": "VCS Qualifying 4",
+      "id": 25,
+      "name": "VCS Qualifying Part 2 – Race 1",
+      "start": "2026-04-11T10:35:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 1",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 63,
-      "name": "Supercars Signing Session – Front of Garages",
-      "start": "2026-03-07T10:30:00",
-      "duration": 30,
-      "description": "Supercars Signing Session – Front of Garages",
+      "id": 26,
+      "name": "VCS Qualifying Part 1 – Race 2",
+      "start": "2026-04-11T11:10:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 2",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 64,
-      "name": "VIVA Suite Visit with Lewis Hamilton + DJR driver Q&A to follow",
-      "start": "2026-03-07T11:00:00",
-      "duration": 30,
-      "description": "VIVA Suite Visit with Lewis Hamilton + DJR driver Q&A to follow",
+      "id": 27,
+      "name": "VCS Qualifying Part 2 – Race 2",
+      "start": "2026-04-11T11:30:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 2",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 65,
-      "name": "Lunch",
-      "start": "2026-03-07T12:30:00",
+      "id": 28,
+      "name": "Driver Blockout",
+      "start": "2026-04-11T11:42:00",
+      "duration": 63,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Lunch at Track",
+      "start": "2026-04-11T12:00:00",
       "duration": null,
-      "description": "Lunch",
+      "description": "Lunch at Track",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 66,
-      "name": "Ford Racing Suite Visit Meet/Greet & Q&A",
-      "start": "2026-03-07T14:05:00",
-      "duration": 15,
-      "description": "Ford Racing Suite Visit Meet/Greet & Q&A",
+      "id": 30,
+      "name": "15 Minute Signal",
+      "start": "2026-04-11T12:40:00",
+      "duration": null,
+      "description": "15 Minute Signal",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 67,
-      "name": "Fan Stage Q&A",
-      "start": "2026-03-07T14:30:00",
-      "duration": 15,
-      "description": "Fan Stage Q&A",
+      "id": 31,
+      "name": "Pit Exit Open",
+      "start": "2026-04-11T12:45:00",
+      "duration": 5,
+      "description": "Pit Exit Open",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 68,
-      "name": "Q3 and Q4 Pole Drivers – Trackside Lounge",
-      "start": "2026-03-07T15:35:00",
+      "id": 32,
+      "name": "VCS Race 1",
+      "start": "2026-04-11T12:55:00",
+      "duration": 73,
+      "description": "VCS Race 1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Driver Blockout",
+      "start": "2026-04-11T14:08:00",
+      "duration": 92,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "30 Minute Signal",
+      "start": "2026-04-11T15:35:00",
+      "duration": null,
+      "description": "30 Minute Signal",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Pit Exit Open",
+      "start": "2026-04-11T15:40:00",
       "duration": 10,
-      "description": "Q3 and Q4 Pole Drivers – Trackside Lounge",
+      "description": "Pit Exit Open",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 69,
-      "name": "VCS Personnel at Gate for Race 3",
-      "start": "2026-03-07T17:05:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Race 3",
+      "id": 36,
+      "name": "VCS Race 2",
+      "start": "2026-04-11T16:05:00",
+      "duration": 73,
+      "description": "VCS Race 2",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 70,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-07T17:05:00",
+      "id": 37,
+      "name": "Driver Blockout",
+      "start": "2026-04-11T17:18:00",
+      "duration": 40,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Dinner at Track",
+      "start": "2026-04-11T17:30:00",
       "duration": null,
-      "description": "Cars Outside Garage on 45",
+      "description": "Dinner at Track",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 71,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-07T17:15:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 72,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-07T17:20:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 73,
-      "name": "VCS Race 3 – 19 Laps",
-      "start": "2026-03-07T17:35:00",
-      "duration": 38,
-      "description": "VCS Race 3 – 19 Laps",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 74,
-      "name": "Dinner",
-      "start": "2026-03-07T18:30:00",
-      "duration": null,
-      "description": "Dinner",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 75,
+      "id": 39,
       "name": "Engineering Debrief",
-      "start": "2026-03-07T19:00:00",
+      "start": "2026-04-11T18:00:00",
       "duration": 30,
       "description": "Engineering Debrief",
       "profiles": [
@@ -754,9 +394,9 @@
       ]
     },
     {
-      "id": 76,
+      "id": 40,
       "name": "Paddock Closed",
-      "start": "2026-03-07T21:30:00",
+      "start": "2026-04-11T20:30:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -764,9 +404,9 @@
       ]
     },
     {
-      "id": 77,
+      "id": 41,
       "name": "Leave Hotel",
-      "start": "2026-03-08T06:30:00",
+      "start": "2026-04-12T08:00:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -774,19 +414,19 @@
       ]
     },
     {
-      "id": 78,
-      "name": "Breakfast",
-      "start": "2026-03-08T07:00:00",
+      "id": 42,
+      "name": "Breakfast at Track",
+      "start": "2026-04-12T08:15:00",
       "duration": null,
-      "description": "Breakfast",
+      "description": "Breakfast at Track",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 79,
+      "id": 43,
       "name": "Paddock Open",
-      "start": "2026-03-08T07:15:00",
+      "start": "2026-04-12T08:30:00",
       "duration": null,
       "description": "Paddock Open",
       "profiles": [
@@ -794,9 +434,9 @@
       ]
     },
     {
-      "id": 80,
+      "id": 44,
       "name": "Engineering Briefing",
-      "start": "2026-03-08T08:00:00",
+      "start": "2026-04-12T09:30:00",
       "duration": 30,
       "description": "Engineering Briefing",
       "profiles": [
@@ -804,91 +444,161 @@
       ]
     },
     {
-      "id": 81,
-      "name": "Cars Outside Garage on 45",
-      "start": "2026-03-08T09:30:00",
-      "duration": null,
-      "description": "Cars Outside Garage on 45",
+      "id": 45,
+      "name": "Super Fan Experience Signing Session",
+      "start": "2026-04-12T10:10:00",
+      "duration": 25,
+      "description": "Super Fan Experience Signing Session",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 82,
-      "name": "VCS Personnel at Gate for Race 4",
-      "start": "2026-03-08T09:35:00",
-      "duration": 8,
-      "description": "VCS Personnel at Gate for Race 4",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 83,
-      "name": "Cars at Marshalling Area",
-      "start": "2026-03-08T09:45:00",
-      "duration": null,
-      "description": "Cars at Marshalling Area",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 84,
-      "name": "Personnel to Pit Lane",
-      "start": "2026-03-08T09:50:00",
-      "duration": null,
-      "description": "Personnel to Pit Lane",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 85,
-      "name": "VCS Race 4 – 14 Laps",
-      "start": "2026-03-08T10:10:00",
-      "duration": 33,
-      "description": "VCS Race 4 – 14 Laps",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
-      "id": 86,
-      "name": "Shell Suite Visit",
-      "start": "2026-03-08T12:45:00",
+      "id": 46,
+      "name": "Driver’s Parade",
+      "start": "2026-04-12T10:35:00",
       "duration": 15,
-      "description": "Shell Suite Visit",
+      "description": "Driver’s Parade",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 87,
-      "name": "Non-Pack Up Crew Leave for Airport",
-      "start": "2026-03-08T17:00:00",
+      "id": 47,
+      "name": "Driver Blockout",
+      "start": "2026-04-12T11:00:00",
+      "duration": 40,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "VCS Qualifying Part 1 – Race 3",
+      "start": "2026-04-12T11:40:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "VCS Qualifying Part 2 – Race 3",
+      "start": "2026-04-12T12:00:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "VCS Qualifying Part 3  – Race 3",
+      "start": "2026-04-12T12:35:00",
+      "duration": 30,
+      "description": "VCS Qualifying Part 3  – Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Driver Blockout",
+      "start": "2026-04-12T13:05:00",
+      "duration": 40,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Drivers Qualified P13, 14, 16, 18, Paddock Club",
+      "start": "2026-04-12T13:15:00",
+      "duration": 10,
+      "description": "Drivers Qualified P13, 14, 16, 18, Paddock Club",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Lunch at Track",
+      "start": "2026-04-12T13:30:00",
       "duration": null,
-      "description": "Non-Pack Up Crew Leave for Airport",
+      "description": "Lunch at Track",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 88,
-      "name": "Dinner for Pack Up Crew",
-      "start": "2026-03-08T18:00:00",
+      "id": 54,
+      "name": "Driver Octane Suite Visit",
+      "start": "2026-04-12T13:50:00",
+      "duration": 10,
+      "description": "Driver Octane Suite Visit",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Driver Blockout",
+      "start": "2026-04-12T14:00:00",
+      "duration": 40,
+      "description": "Driver Blockout",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "30 Minute Signal",
+      "start": "2026-04-12T14:35:00",
       "duration": null,
-      "description": "Dinner for Pack Up Crew",
+      "description": "30 Minute Signal",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 89,
-      "name": "Truck Pulls Forward for Loading",
-      "start": "2026-03-08T18:30:00",
-      "duration": 120,
-      "description": "Truck Pulls Forward for Loading",
+      "id": 57,
+      "name": "Pit Exit Open",
+      "start": "2026-04-12T14:40:00",
+      "duration": 10,
+      "description": "Pit Exit Open",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "VCS Race 3",
+      "start": "2026-04-12T15:05:00",
+      "duration": 108,
+      "description": "VCS Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Dinner at Track",
+      "start": "2026-04-12T17:00:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Pirtek Performance Report Filming",
+      "start": "2026-04-12T17:30:00",
+      "duration": null,
+      "description": "Pirtek Performance Report Filming",
       "profiles": [
         "all"
       ]
