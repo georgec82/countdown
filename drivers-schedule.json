@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-11T06:53:07.249476",
+  "lastUpdated": "2026-04-11T06:57:09.863018",
   "teamGroup": "drivers",
-  "eventCount": 50,
+  "eventCount": 40,
   "events": [
     {
       "id": 1,
@@ -334,19 +334,9 @@
       ]
     },
     {
-      "id": 42,
-      "name": "Leave Hotel",
-      "start": "2026-04-12T08:00:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 43,
       "name": "Breakfast at Track",
-      "start": "2026-04-12T08:15:00",
+      "start": "2026-04-12T06:45:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -356,7 +346,7 @@
     {
       "id": 44,
       "name": "Paddock Open",
-      "start": "2026-04-12T08:30:00",
+      "start": "2026-04-12T07:00:00",
       "duration": null,
       "description": "Paddock Open",
       "profiles": [
@@ -364,39 +354,9 @@
       ]
     },
     {
-      "id": 45,
-      "name": "Engineering Briefing",
-      "start": "2026-04-12T09:30:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 46,
-      "name": "Super Fan Experience Signing Session",
-      "start": "2026-04-12T10:10:00",
-      "duration": 25,
-      "description": "Super Fan Experience Signing Session",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 47,
-      "name": "Driver’s Parade",
-      "start": "2026-04-12T10:35:00",
-      "duration": 15,
-      "description": "Driver’s Parade",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 49,
       "name": "VCS Qualifying Part 1 – Race 3",
-      "start": "2026-04-12T11:40:00",
+      "start": "2026-04-12T08:00:00",
       "duration": 12,
       "description": "VCS Qualifying Part 1 – Race 3",
       "profiles": [
@@ -404,9 +364,9 @@
       ]
     },
     {
-      "id": 50,
+      "id": 47,
       "name": "VCS Qualifying Part 2 – Race 3",
-      "start": "2026-04-12T12:00:00",
+      "start": "2026-04-12T08:23:00",
       "duration": 12,
       "description": "VCS Qualifying Part 2 – Race 3",
       "profiles": [
@@ -414,49 +374,9 @@
       ]
     },
     {
-      "id": 51,
-      "name": "VCS Qualifying Part 3  – Race 3",
-      "start": "2026-04-12T12:35:00",
-      "duration": 30,
-      "description": "VCS Qualifying Part 3  – Race 3",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 53,
-      "name": "Drivers Qualified P13, 14, 16, 18, Paddock Club",
-      "start": "2026-04-12T13:15:00",
-      "duration": 10,
-      "description": "Drivers Qualified P13, 14, 16, 18, Paddock Club",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 54,
-      "name": "Lunch at Track",
-      "start": "2026-04-12T13:30:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 55,
-      "name": "Driver Octane Suite Visit",
-      "start": "2026-04-12T13:50:00",
-      "duration": 10,
-      "description": "Driver Octane Suite Visit",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 57,
+      "id": 48,
       "name": "30 Minute Signal",
-      "start": "2026-04-12T14:35:00",
+      "start": "2026-04-12T09:25:00",
       "duration": null,
       "description": "30 Minute Signal",
       "profiles": [
@@ -464,9 +384,9 @@
       ]
     },
     {
-      "id": 58,
+      "id": 49,
       "name": "Pit Exit Open",
-      "start": "2026-04-12T14:40:00",
+      "start": "2026-04-12T09:30:00",
       "duration": 10,
       "description": "Pit Exit Open",
       "profiles": [
@@ -474,31 +394,11 @@
       ]
     },
     {
-      "id": 59,
+      "id": 50,
       "name": "VCS Race 3",
-      "start": "2026-04-12T15:05:00",
-      "duration": 108,
+      "start": "2026-04-12T09:55:00",
+      "duration": 73,
       "description": "VCS Race 3",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 60,
-      "name": "Dinner at Track",
-      "start": "2026-04-12T17:00:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 61,
-      "name": "Pirtek Performance Report Filming",
-      "start": "2026-04-12T17:30:00",
-      "duration": null,
-      "description": "Pirtek Performance Report Filming",
       "profiles": [
         "drivers"
       ]
