@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T06:57:09.863018",
+  "lastUpdated": "2026-04-11T08:37:48.476709",
   "teamGroup": "drivers",
   "eventCount": 40,
   "events": [
@@ -154,16 +154,6 @@
       ]
     },
     {
-      "id": 26,
-      "name": "VCS Qualifying Part 2 – Race 1",
-      "start": "2026-04-11T01:00:00",
-      "duration": 552,
-      "description": "VCS Qualifying Part 2 – Race 1",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 19,
       "name": "Breakfast at Track",
       "start": "2026-04-11T06:45:00",
@@ -219,6 +209,16 @@
       "start": "2026-04-11T09:40:00",
       "duration": 12,
       "description": "VCS Qualifying Part 1 – Race 1",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "VCS Qualifying Part 2 – Race 1",
+      "start": "2026-04-11T10:00:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 1",
       "profiles": [
         "drivers"
       ]

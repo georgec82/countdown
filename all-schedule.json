@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T06:57:09.863986",
+  "lastUpdated": "2026-04-11T08:37:48.477615",
   "teamGroup": "all",
   "eventCount": 50,
   "events": [
@@ -174,16 +174,6 @@
       ]
     },
     {
-      "id": 26,
-      "name": "VCS Qualifying Part 2 – Race 1",
-      "start": "2026-04-11T01:00:00",
-      "duration": 552,
-      "description": "VCS Qualifying Part 2 – Race 1",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 18,
       "name": "Leave Hotel",
       "start": "2026-04-11T06:30:00",
@@ -259,6 +249,16 @@
       "start": "2026-04-11T09:40:00",
       "duration": 12,
       "description": "VCS Qualifying Part 1 – Race 1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "VCS Qualifying Part 2 – Race 1",
+      "start": "2026-04-11T10:00:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 1",
       "profiles": [
         "all"
       ]
