@@ -1,122 +1,12 @@
 {
-  "lastUpdated": "2026-04-16T11:08:46.666710",
+  "lastUpdated": "2026-05-22T10:14:19.277359",
   "teamGroup": "engineers",
-  "eventCount": 73,
+  "eventCount": 45,
   "events": [
     {
-      "id": 2,
-      "name": "Lunch at Track",
-      "start": "2026-04-16T12:30:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Track Walk",
-      "start": "2026-04-16T12:30:00",
-      "duration": 120,
-      "description": "Track Walk",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Competitors Auth Reps and Drivers Briefing",
-      "start": "2026-04-16T15:00:00",
-      "duration": 30,
-      "description": "Competitors Auth Reps and Drivers Briefing",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Driver Safety Briefing + Journey to Signing via Waka",
-      "start": "2026-04-16T16:15:00",
-      "duration": 20,
-      "description": "Driver Safety Briefing + Journey to Signing via Waka",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Signing Session in Town",
-      "start": "2026-04-16T17:00:00",
-      "duration": 50,
-      "description": "Signing Session in Town",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Paddock Closed",
-      "start": "2026-04-16T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Dinner at Track",
-      "start": "2026-04-16T19:00:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Leave Hotel",
-      "start": "2026-04-17T08:00:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Breakfast at Track",
-      "start": "2026-04-17T08:15:00",
-      "duration": null,
-      "description": "Breakfast at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "All Garage Doors Must be Open",
-      "start": "2026-04-17T08:20:00",
-      "duration": null,
-      "description": "All Garage Doors Must be Open",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Paddock Opens",
-      "start": "2026-04-17T08:30:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 15,
+      "id": 1,
       "name": "Pit Stop Practice",
-      "start": "2026-04-17T08:30:00",
+      "start": "2026-05-22T10:20:00",
       "duration": null,
       "description": "Pit Stop Practice",
       "profiles": [
@@ -124,29 +14,49 @@
       ]
     },
     {
-      "id": 16,
-      "name": "Engine Curfew Ends",
-      "start": "2026-04-17T09:00:00",
-      "duration": null,
-      "description": "Engine Curfew Ends",
+      "id": 2,
+      "name": "Event Engineering Briefing",
+      "start": "2026-05-22T11:00:00",
+      "duration": 60,
+      "description": "Event Engineering Briefing",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 17,
+      "id": 3,
+      "name": "Lunch at Track",
+      "start": "2026-05-22T12:30:00",
+      "duration": null,
+      "description": "Lunch at Track",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 5,
       "name": "VCS Practice 1",
-      "start": "2026-04-17T09:35:00",
-      "duration": 45,
+      "start": "2026-05-22T14:05:00",
+      "duration": 25,
       "description": "VCS Practice 1",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 18,
+      "id": 6,
+      "name": "VCS Practice 2",
+      "start": "2026-05-22T14:45:00",
+      "duration": 25,
+      "description": "VCS Practice 2",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 7,
       "name": "VCS Practice Starts",
-      "start": "2026-04-17T10:20:00",
+      "start": "2026-05-22T15:10:00",
       "duration": 5,
       "description": "VCS Practice Starts",
       "profiles": [
@@ -154,129 +64,39 @@
       ]
     },
     {
-      "id": 19,
-      "name": "Team Rep Press Conference",
-      "start": "2026-04-17T11:10:00",
-      "duration": 25,
-      "description": "Team Rep Press Conference",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Event Rides",
-      "start": "2026-04-17T11:40:00",
+      "id": 8,
+      "name": "VCS Event Rides",
+      "start": "2026-05-22T16:15:00",
       "duration": 30,
-      "description": "Event Rides",
+      "description": "VCS Event Rides",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 21,
-      "name": "Ford Activation / Signing",
-      "start": "2026-04-17T12:30:00",
-      "duration": 30,
-      "description": "Ford Activation / Signing",
+      "id": 9,
+      "name": "Driver’s and Team Managers Briefing",
+      "start": "2026-05-22T17:15:00",
+      "duration": 15,
+      "description": "Driver’s and Team Managers Briefing",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 22,
-      "name": "Lunch at Track",
-      "start": "2026-04-17T13:00:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "VCS Qualifying Part 1 – Race 1",
-      "start": "2026-04-17T14:15:00",
-      "duration": 12,
-      "description": "VCS Qualifying Part 1 – Race 1",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "VCS Qualifying Part 2 – Race 1",
-      "start": "2026-04-17T14:37:00",
-      "duration": 8,
-      "description": "VCS Qualifying Part 2 – Race 1",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "15 Minute Signal",
-      "start": "2026-04-17T16:20:00",
-      "duration": null,
-      "description": "15 Minute Signal",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Pit Exit Open",
-      "start": "2026-04-17T16:25:00",
-      "duration": 5,
-      "description": "Pit Exit Open",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "VCS Race 1",
-      "start": "2026-04-17T16:35:00",
-      "duration": 73,
-      "description": "VCS Race 1",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "Dinner at Track",
-      "start": "2026-04-17T18:00:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Engine Curfew Commences",
-      "start": "2026-04-17T18:00:00",
-      "duration": null,
-      "description": "Engine Curfew Commences",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 29,
+      "id": 10,
       "name": "Engineering Debrief",
-      "start": "2026-04-17T18:30:00",
-      "duration": null,
+      "start": "2026-05-22T17:30:00",
+      "duration": 30,
       "description": "Engineering Debrief",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 31,
+      "id": 11,
       "name": "Paddock Closed",
-      "start": "2026-04-17T21:00:00",
+      "start": "2026-05-22T18:15:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -284,9 +104,19 @@
       ]
     },
     {
-      "id": 32,
+      "id": 12,
+      "name": "Dinner at Track",
+      "start": "2026-05-22T18:15:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 13,
       "name": "Leave Hotel",
-      "start": "2026-04-18T06:25:00",
+      "start": "2026-05-23T06:45:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -294,9 +124,9 @@
       ]
     },
     {
-      "id": 33,
+      "id": 14,
       "name": "Breakfast at Track",
-      "start": "2026-04-18T06:45:00",
+      "start": "2026-05-23T07:15:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -304,9 +134,9 @@
       ]
     },
     {
-      "id": 34,
+      "id": 15,
       "name": "Paddock Opens",
-      "start": "2026-04-18T07:00:00",
+      "start": "2026-05-23T07:30:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -314,59 +144,59 @@
       ]
     },
     {
-      "id": 35,
+      "id": 16,
       "name": "Pit Stop Practice",
-      "start": "2026-04-18T07:10:00",
-      "duration": null,
+      "start": "2026-05-23T07:40:00",
+      "duration": 20,
       "description": "Pit Stop Practice",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 36,
-      "name": "Engineering Briefing",
-      "start": "2026-04-18T08:00:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 37,
+      "id": 17,
       "name": "Signing Session – Merch Alley",
-      "start": "2026-04-18T08:35:00",
-      "duration": 30,
+      "start": "2026-05-23T08:15:00",
+      "duration": 45,
       "description": "Signing Session – Merch Alley",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 39,
-      "name": "Engine Curfew Ends",
-      "start": "2026-04-18T09:00:00",
-      "duration": null,
-      "description": "Engine Curfew Ends",
+      "id": 19,
+      "name": "Engineering Briefing",
+      "start": "2026-05-23T09:05:00",
+      "duration": 25,
+      "description": "Engineering Briefing",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 38,
-      "name": "Ford Suite Appearance",
-      "start": "2026-04-18T09:10:00",
-      "duration": 10,
-      "description": "Ford Suite Appearance",
+      "id": 20,
+      "name": "VCS Qualifying Part 1 – Race 1",
+      "start": "2026-05-23T10:00:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 1",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 40,
+      "id": 21,
+      "name": "VCS Qualifying Part 2 – Race 1",
+      "start": "2026-05-23T10:20:00",
+      "duration": 8,
+      "description": "VCS Qualifying Part 2 – Race 1",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 22,
       "name": "VCS Qualifying Part 1 – Race 2",
-      "start": "2026-04-18T10:05:00",
+      "start": "2026-05-23T10:50:00",
       "duration": 12,
       "description": "VCS Qualifying Part 1 – Race 2",
       "profiles": [
@@ -374,39 +204,19 @@
       ]
     },
     {
-      "id": 41,
+      "id": 23,
       "name": "VCS Qualifying Part 2 – Race 2",
-      "start": "2026-04-18T10:25:00",
-      "duration": 12,
+      "start": "2026-05-23T11:10:00",
+      "duration": 8,
       "description": "VCS Qualifying Part 2 – Race 2",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 42,
-      "name": "VCS Qualifying Part 1 – Race 3",
-      "start": "2026-04-18T11:00:00",
-      "duration": 12,
-      "description": "VCS Qualifying Part 1 – Race 3",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 43,
-      "name": "VCS Qualifying Part 2 – Race 3",
-      "start": "2026-04-18T11:20:00",
-      "duration": 12,
-      "description": "VCS Qualifying Part 2 – Race 3",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 44,
+      "id": 26,
       "name": "Lunch at Track",
-      "start": "2026-04-18T11:45:00",
+      "start": "2026-05-23T11:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -414,249 +224,9 @@
       ]
     },
     {
-      "id": 45,
-      "name": "Repco Suite Appearance",
-      "start": "2026-04-18T12:15:00",
-      "duration": 10,
-      "description": "Repco Suite Appearance",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "15 Minute Signal",
-      "start": "2026-04-18T12:30:00",
-      "duration": null,
-      "description": "15 Minute Signal",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 47,
-      "name": "Pit Exit Open",
-      "start": "2026-04-18T12:35:00",
-      "duration": 5,
-      "description": "Pit Exit Open",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 48,
-      "name": "VCS Race 2",
-      "start": "2026-04-18T12:45:00",
-      "duration": 73,
-      "description": "VCS Race 2",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "SVPRT Drivers Suite Visit",
-      "start": "2026-04-18T14:40:00",
-      "duration": 10,
-      "description": "SVPRT Drivers Suite Visit",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 50,
-      "name": "30 Minute Signal",
-      "start": "2026-04-18T15:40:00",
-      "duration": null,
-      "description": "30 Minute Signal",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 51,
-      "name": "Pit Exit Open",
-      "start": "2026-04-18T15:45:00",
-      "duration": 10,
-      "description": "Pit Exit Open",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 52,
-      "name": "VCS Race 3",
-      "start": "2026-04-18T16:10:00",
-      "duration": 73,
-      "description": "VCS Race 3",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 53,
-      "name": "Engineering Debrief",
-      "start": "2026-04-18T19:00:00",
-      "duration": null,
-      "description": "Engineering Debrief",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 54,
-      "name": "Dinner At Track",
-      "start": "2026-04-18T19:30:00",
-      "duration": null,
-      "description": "Dinner At Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 55,
-      "name": "Paddock Closed",
-      "start": "2026-04-18T20:30:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 56,
-      "name": "Leave Hotel",
-      "start": "2026-04-19T07:50:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 57,
-      "name": "Breakfast at Track",
-      "start": "2026-04-19T08:15:00",
-      "duration": null,
-      "description": "Breakfast at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 58,
-      "name": "Paddock Open",
-      "start": "2026-04-19T08:30:00",
-      "duration": null,
-      "description": "Paddock Open",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 59,
-      "name": "Engine Curfew Ends",
-      "start": "2026-04-19T09:00:00",
-      "duration": null,
-      "description": "Engine Curfew Ends",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 60,
-      "name": "Engineering Briefing",
-      "start": "2026-04-19T09:30:00",
-      "duration": 30,
-      "description": "Engineering Briefing",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 61,
-      "name": "Super Fan Experience",
-      "start": "2026-04-19T10:05:00",
-      "duration": 25,
-      "description": "Super Fan Experience",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 62,
-      "name": "Driver’s Parade",
-      "start": "2026-04-19T10:30:00",
-      "duration": 15,
-      "description": "Driver’s Parade",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 63,
-      "name": "Repco Suite Visit Q&A w Gary Reid",
-      "start": "2026-04-19T10:50:00",
-      "duration": 10,
-      "description": "Repco Suite Visit Q&A w Gary Reid",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 64,
-      "name": "VCS Qualifying Part 1 – Race 4",
-      "start": "2026-04-19T11:50:00",
-      "duration": 12,
-      "description": "VCS Qualifying Part 1 – Race 4",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 65,
-      "name": "VCS Qualifying Part 2 – Race 4",
-      "start": "2026-04-19T12:10:00",
-      "duration": 12,
-      "description": "VCS Qualifying Part 2 – Race 4",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 66,
-      "name": "VCS Qualifying Part 3  – Race 4",
-      "start": "2026-04-19T12:45:00",
-      "duration": 30,
-      "description": "VCS Qualifying Part 3  – Race 4",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 67,
-      "name": "Drivers Qualify P13,14,15,16, Paddock Club",
-      "start": "2026-04-19T13:20:00",
-      "duration": 10,
-      "description": "Drivers Qualify P13,14,15,16, Paddock Club",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 68,
-      "name": "Lunch at Track",
-      "start": "2026-04-19T13:30:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 69,
+      "id": 24,
       "name": "SVPRT Suite Visit",
-      "start": "2026-04-19T13:45:00",
+      "start": "2026-05-23T11:45:00",
       "duration": 15,
       "description": "SVPRT Suite Visit",
       "profiles": [
@@ -664,29 +234,39 @@
       ]
     },
     {
-      "id": 70,
-      "name": "Repco Suite Visit",
-      "start": "2026-04-19T13:45:00",
-      "duration": 10,
-      "description": "Repco Suite Visit",
+      "id": 27,
+      "name": "Pit Exit Opens",
+      "start": "2026-05-23T12:50:00",
+      "duration": 5,
+      "description": "Pit Exit Opens",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 71,
-      "name": "30 Minute Signal",
-      "start": "2026-04-19T14:35:00",
-      "duration": null,
-      "description": "30 Minute Signal",
+      "id": 28,
+      "name": "VCS Race 1 – 50 laps",
+      "start": "2026-05-23T13:00:00",
+      "duration": 58,
+      "description": "VCS Race 1 – 50 laps",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 72,
+      "id": 29,
+      "name": "Pit Tours",
+      "start": "2026-05-23T14:15:00",
+      "duration": 20,
+      "description": "Pit Tours",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 30,
       "name": "Pit Exit Open",
-      "start": "2026-04-19T14:40:00",
+      "start": "2026-05-23T15:35:00",
       "duration": 10,
       "description": "Pit Exit Open",
       "profiles": [
@@ -694,41 +274,181 @@
       ]
     },
     {
-      "id": 73,
-      "name": "VCS Race 4",
-      "start": "2026-04-19T15:05:00",
-      "duration": 108,
-      "description": "VCS Race 4",
+      "id": 31,
+      "name": "VCS Race 2 – 50 laps",
+      "start": "2026-05-23T16:00:00",
+      "duration": 58,
+      "description": "VCS Race 2 – 50 laps",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 74,
-      "name": "Volunteers and Officials Party",
-      "start": "2026-04-19T17:30:00",
+      "id": 32,
+      "name": "Engineering Debrief",
+      "start": "2026-05-23T18:00:00",
       "duration": 30,
-      "description": "Volunteers and Officials Party",
+      "description": "Engineering Debrief",
       "profiles": [
         "engineers"
       ]
     },
     {
-      "id": 75,
-      "name": "Pirtek Performance Report with Shayla",
-      "start": "2026-04-19T18:10:00",
-      "duration": 10,
-      "description": "Pirtek Performance Report with Shayla",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 76,
+      "id": 33,
       "name": "Dinner at Track",
-      "start": "2026-04-19T18:30:00",
+      "start": "2026-05-23T18:30:00",
       "duration": null,
       "description": "Dinner at Track",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Paddock Closed",
+      "start": "2026-05-23T20:00:00",
+      "duration": null,
+      "description": "Paddock Closed",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Leave Hotel",
+      "start": "2026-05-24T07:30:00",
+      "duration": null,
+      "description": "Leave Hotel",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Breakfast at Track",
+      "start": "2026-05-24T08:00:00",
+      "duration": null,
+      "description": "Breakfast at Track",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Paddock Opens",
+      "start": "2026-05-24T08:15:00",
+      "duration": null,
+      "description": "Paddock Opens",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Fan Experience Signing Session in Pit Lane",
+      "start": "2026-05-24T09:20:00",
+      "duration": 20,
+      "description": "Fan Experience Signing Session in Pit Lane",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Engineering Briefing",
+      "start": "2026-05-24T10:00:00",
+      "duration": 30,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "VCS Qualifying Part 1 – Race 3",
+      "start": "2026-05-24T11:35:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 3",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "VCS Qualifying Part 2 – Race 3",
+      "start": "2026-05-24T11:55:00",
+      "duration": 10,
+      "description": "VCS Qualifying Part 2 – Race 3",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "VCS Qualifying TTSO – Race 3",
+      "start": "2026-05-24T12:30:00",
+      "duration": 20,
+      "description": "VCS Qualifying TTSO – Race 3",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Drivers who Qualify 13th and 14th",
+      "start": "2026-05-24T12:55:00",
+      "duration": 10,
+      "description": "Drivers who Qualify 13th and 14th",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "SVPRT Suite Visit",
+      "start": "2026-05-24T13:10:00",
+      "duration": 15,
+      "description": "SVPRT Suite Visit",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Lunch at Track",
+      "start": "2026-05-24T13:15:00",
+      "duration": null,
+      "description": "Lunch at Track",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Pit Exit Open",
+      "start": "2026-05-24T14:20:00",
+      "duration": 10,
+      "description": "Pit Exit Open",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "VCS Race 3 – 84 laps",
+      "start": "2026-05-24T14:45:00",
+      "duration": null,
+      "description": "VCS Race 3 – 84 laps",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Pirtek Performance Report",
+      "start": "2026-05-24T17:00:00",
+      "duration": 5,
+      "description": "Pirtek Performance Report",
       "profiles": [
         "engineers"
       ]
