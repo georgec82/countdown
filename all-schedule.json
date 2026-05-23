@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-22T10:14:19.280589",
+  "lastUpdated": "2026-05-23T12:38:53.627320",
   "teamGroup": "all",
-  "eventCount": 49,
+  "eventCount": 52,
   "events": [
     {
       "id": 1,
@@ -265,6 +265,16 @@
     },
     {
       "id": 27,
+      "name": "VCS 15 min Signal – Race 1",
+      "start": "2026-05-23T12:45:00",
+      "duration": null,
+      "description": "VCS 15 min Signal – Race 1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 28,
       "name": "Pit Exit Opens",
       "start": "2026-05-23T12:50:00",
       "duration": 5,
@@ -274,7 +284,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "VCS Race 1 – 50 laps",
       "start": "2026-05-23T13:00:00",
       "duration": 58,
@@ -284,7 +294,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "Pit Tours",
       "start": "2026-05-23T14:15:00",
       "duration": 20,
@@ -294,7 +304,17 @@
       ]
     },
     {
-      "id": 30,
+      "id": 31,
+      "name": "VCS 30 min Signal – Race 2",
+      "start": "2026-05-23T15:30:00",
+      "duration": null,
+      "description": "VCS 30 min Signal – Race 2",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 32,
       "name": "Pit Exit Open",
       "start": "2026-05-23T15:35:00",
       "duration": 10,
@@ -304,7 +324,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "VCS Race 2 – 50 laps",
       "start": "2026-05-23T16:00:00",
       "duration": 58,
@@ -314,7 +334,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "name": "Engineering Debrief",
       "start": "2026-05-23T18:00:00",
       "duration": 30,
@@ -324,7 +344,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "Dinner at Track",
       "start": "2026-05-23T18:30:00",
       "duration": null,
@@ -334,7 +354,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 36,
       "name": "Paddock Closed",
       "start": "2026-05-23T20:00:00",
       "duration": null,
@@ -344,7 +364,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 37,
       "name": "Leave Hotel",
       "start": "2026-05-24T07:30:00",
       "duration": null,
@@ -354,7 +374,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 38,
       "name": "Breakfast at Track",
       "start": "2026-05-24T08:00:00",
       "duration": null,
@@ -364,7 +384,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 39,
       "name": "Paddock Opens",
       "start": "2026-05-24T08:15:00",
       "duration": null,
@@ -374,7 +394,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 40,
       "name": "Fan Experience Signing Session in Pit Lane",
       "start": "2026-05-24T09:20:00",
       "duration": 20,
@@ -384,7 +404,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 41,
       "name": "Engineering Briefing",
       "start": "2026-05-24T10:00:00",
       "duration": 30,
@@ -394,7 +414,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 42,
       "name": "VCS Qualifying Part 1 – Race 3",
       "start": "2026-05-24T11:35:00",
       "duration": 12,
@@ -404,7 +424,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 43,
       "name": "VCS Qualifying Part 2 – Race 3",
       "start": "2026-05-24T11:55:00",
       "duration": 10,
@@ -414,7 +434,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 44,
       "name": "VCS Qualifying TTSO – Race 3",
       "start": "2026-05-24T12:30:00",
       "duration": 20,
@@ -424,7 +444,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 45,
       "name": "Drivers who Qualify 13th and 14th",
       "start": "2026-05-24T12:55:00",
       "duration": 10,
@@ -434,7 +454,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 46,
       "name": "SVPRT Suite Visit",
       "start": "2026-05-24T13:10:00",
       "duration": 15,
@@ -444,7 +464,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 47,
       "name": "Lunch at Track",
       "start": "2026-05-24T13:15:00",
       "duration": null,
@@ -454,7 +474,17 @@
       ]
     },
     {
-      "id": 46,
+      "id": 48,
+      "name": "VCS 30 min Signal – Race 3",
+      "start": "2026-05-24T14:15:00",
+      "duration": null,
+      "description": "VCS 30 min Signal – Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 49,
       "name": "Pit Exit Open",
       "start": "2026-05-24T14:20:00",
       "duration": 10,
@@ -464,7 +494,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 50,
       "name": "VCS Race 3 – 84 laps",
       "start": "2026-05-24T14:45:00",
       "duration": null,
@@ -474,7 +504,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 51,
       "name": "Pirtek Performance Report",
       "start": "2026-05-24T17:00:00",
       "duration": 5,
@@ -484,7 +514,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 52,
       "name": "Crew Return Flight VA1642 LST > BNE",
       "start": "2026-05-24T20:30:00",
       "duration": 150,
