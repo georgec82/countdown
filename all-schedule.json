@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-19T15:03:19.864195",
+  "lastUpdated": "2026-06-19T15:55:51.285842",
   "teamGroup": "all",
-  "eventCount": 57,
+  "eventCount": 63,
   "events": [
     {
       "id": 1,
@@ -195,6 +195,26 @@
     },
     {
       "id": 20,
+      "name": "VCS 15 Minute Signal – Race 1",
+      "start": "2026-06-19T16:45:00",
+      "duration": 5,
+      "description": "VCS 15 Minute Signal – Race 1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "VCS Pit Exit Open – Race 1",
+      "start": "2026-06-19T16:50:00",
+      "duration": 5,
+      "description": "VCS Pit Exit Open – Race 1",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 22,
       "name": "VCS Race 1- 35 Laps",
       "start": "2026-06-19T17:00:00",
       "duration": 58,
@@ -204,7 +224,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 23,
       "name": "Dinner",
       "start": "2026-06-19T19:00:00",
       "duration": null,
@@ -214,7 +234,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 24,
       "name": "Engineering Debrief",
       "start": "2026-06-19T19:15:00",
       "duration": 30,
@@ -224,7 +244,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 25,
       "name": "Paddock Closed",
       "start": "2026-06-19T21:00:00",
       "duration": null,
@@ -234,7 +254,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 26,
       "name": "Leave Hotel",
       "start": "2026-06-20T07:30:00",
       "duration": null,
@@ -244,7 +264,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 27,
       "name": "Breakfast",
       "start": "2026-06-20T07:45:00",
       "duration": null,
@@ -254,7 +274,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 28,
       "name": "Paddock Open",
       "start": "2026-06-20T08:00:00",
       "duration": null,
@@ -264,7 +284,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 29,
       "name": "Pit Stop Practice",
       "start": "2026-06-20T08:00:00",
       "duration": 20,
@@ -274,7 +294,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 30,
       "name": "Signing Session Merch Alley",
       "start": "2026-06-20T08:30:00",
       "duration": 25,
@@ -284,7 +304,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 31,
       "name": "Engineering Briefing",
       "start": "2026-06-20T09:00:00",
       "duration": 30,
@@ -294,7 +314,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 32,
       "name": "VCS Qualifying 2 – Part 1",
       "start": "2026-06-20T10:45:00",
       "duration": 10,
@@ -304,7 +324,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "VCS Qualifying 2 – Part 2",
       "start": "2026-06-20T11:05:00",
       "duration": 12,
@@ -314,7 +334,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "name": "VCS Qualifying 2 – TTSO",
       "start": "2026-06-20T11:30:00",
       "duration": 25,
@@ -324,7 +344,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "Lunch",
       "start": "2026-06-20T12:00:00",
       "duration": null,
@@ -334,7 +354,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 36,
       "name": "SVPRT Suite Visit",
       "start": "2026-06-20T12:45:00",
       "duration": 15,
@@ -344,7 +364,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 37,
       "name": "Drivers who Qualify 12th and 13th",
       "start": "2026-06-20T12:45:00",
       "duration": 15,
@@ -354,7 +374,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 38,
       "name": "Drivers who Qualify 5th and 7th",
       "start": "2026-06-20T13:35:00",
       "duration": 15,
@@ -364,7 +384,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 39,
       "name": "Drivers who Qualify 1st and 2nd",
       "start": "2026-06-20T13:40:00",
       "duration": 10,
@@ -374,7 +394,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 40,
       "name": "VCS Race 2 Strategy Briefing",
       "start": "2026-06-20T14:05:00",
       "duration": 15,
@@ -384,7 +404,27 @@
       ]
     },
     {
-      "id": 39,
+      "id": 41,
+      "name": "VCS 30 Minute Signal – Race 2",
+      "start": "2026-06-20T14:50:00",
+      "duration": 5,
+      "description": "VCS 30 Minute Signal – Race 2",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "VCS Pit Exit Open – Race 2",
+      "start": "2026-06-20T14:55:00",
+      "duration": 10,
+      "description": "VCS Pit Exit Open – Race 2",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 43,
       "name": "VCS Race 2 – 70 Laps",
       "start": "2026-06-20T15:20:00",
       "duration": 98,
@@ -394,7 +434,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 44,
       "name": "Engineering Debrief",
       "start": "2026-06-20T18:00:00",
       "duration": 30,
@@ -404,7 +444,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 45,
       "name": "Dinner",
       "start": "2026-06-20T18:30:00",
       "duration": null,
@@ -414,7 +454,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 46,
       "name": "Paddock Closed",
       "start": "2026-06-20T20:00:00",
       "duration": null,
@@ -424,7 +464,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 47,
       "name": "Leave Hotel",
       "start": "2026-06-21T07:15:00",
       "duration": null,
@@ -434,7 +474,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 48,
       "name": "Breakfast",
       "start": "2026-06-21T07:30:00",
       "duration": null,
@@ -444,7 +484,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 49,
       "name": "Paddock Opens",
       "start": "2026-06-21T07:45:00",
       "duration": null,
@@ -454,7 +494,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 50,
       "name": "Signing Session Pit Lane",
       "start": "2026-06-21T08:00:00",
       "duration": 30,
@@ -464,7 +504,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 51,
       "name": "Engineering Briefing",
       "start": "2026-06-21T08:45:00",
       "duration": 30,
@@ -474,7 +514,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 52,
       "name": "VCS Qualifying 3 – Part 1",
       "start": "2026-06-21T10:45:00",
       "duration": 12,
@@ -484,7 +524,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 53,
       "name": "VCS Qualifying 3 – Part 2",
       "start": "2026-06-21T11:05:00",
       "duration": 12,
@@ -494,7 +534,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 54,
       "name": "VCS Qualifying 3 - TTSO",
       "start": "2026-06-21T11:30:00",
       "duration": 25,
@@ -504,7 +544,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 55,
       "name": "VCS Race 3 Strategy Briefing",
       "start": "2026-06-21T11:55:00",
       "duration": 20,
@@ -514,7 +554,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 56,
       "name": "Lunch",
       "start": "2026-06-21T12:00:00",
       "duration": null,
@@ -524,7 +564,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 57,
       "name": "Pit Tours",
       "start": "2026-06-21T12:30:00",
       "duration": 30,
@@ -534,7 +574,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": 58,
       "name": "Drivers who Qualify 1st and 2nd",
       "start": "2026-06-21T13:00:00",
       "duration": 10,
@@ -544,7 +584,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 59,
       "name": "SVPRT Suite Visit",
       "start": "2026-06-21T13:10:00",
       "duration": 15,
@@ -554,17 +594,37 @@
       ]
     },
     {
-      "id": 56,
-      "name": "VCS Race 3 – 70 Laps",
-      "start": "2026-06-21T14:40:00",
-      "duration": 98,
-      "description": "VCS Race 3 – 70 Laps",
+      "id": 60,
+      "name": "VCS 30 Minute Signal – Race 3",
+      "start": "2026-06-21T14:10:00",
+      "duration": 5,
+      "description": "VCS 30 Minute Signal – Race 3",
       "profiles": [
         "all"
       ]
     },
     {
-      "id": 57,
+      "id": 61,
+      "name": "VCS Pit Exit Opens – Race 3",
+      "start": "2026-06-21T14:15:00",
+      "duration": 10,
+      "description": "VCS Pit Exit Opens – Race 3",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "VCS VCS Race 3 – 70 Laps",
+      "start": "2026-06-21T14:40:00",
+      "duration": 98,
+      "description": "VCS VCS Race 3 – 70 Laps",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 63,
       "name": "Pirtek Performance Report",
       "start": "2026-06-21T17:45:00",
       "duration": 10,
