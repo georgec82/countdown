@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T15:55:51.283332",
+  "lastUpdated": "2026-06-20T10:10:25.242039",
   "teamGroup": "engineers",
   "eventCount": 61,
   "events": [
@@ -307,7 +307,7 @@
       "id": 32,
       "name": "VCS Qualifying 2 – Part 1",
       "start": "2026-06-20T10:45:00",
-      "duration": 10,
+      "duration": 12,
       "description": "VCS Qualifying 2 – Part 1",
       "profiles": [
         "engineers"
