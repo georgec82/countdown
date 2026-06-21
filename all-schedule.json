@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T10:10:25.245280",
+  "lastUpdated": "2026-06-21T12:14:01.329446",
   "teamGroup": "all",
   "eventCount": 63,
   "events": [
@@ -544,16 +544,6 @@
       ]
     },
     {
-      "id": 55,
-      "name": "VCS Race 3 Strategy Briefing",
-      "start": "2026-06-21T11:55:00",
-      "duration": 20,
-      "description": "VCS Race 3 Strategy Briefing",
-      "profiles": [
-        "all"
-      ]
-    },
-    {
       "id": 56,
       "name": "Lunch",
       "start": "2026-06-21T12:00:00",
@@ -589,6 +579,16 @@
       "start": "2026-06-21T13:10:00",
       "duration": 15,
       "description": "SVPRT Suite Visit",
+      "profiles": [
+        "all"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "VCS Race 3 Strategy Briefing",
+      "start": "2026-06-21T13:25:00",
+      "duration": 25,
+      "description": "VCS Race 3 Strategy Briefing",
       "profiles": [
         "all"
       ]
