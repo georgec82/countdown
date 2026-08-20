@@ -1,222 +1,82 @@
 {
-  "lastUpdated": "2026-08-01T09:16:21.673719",
+  "lastUpdated": "2026-08-20T12:34:52.826170",
   "teamGroup": "mechanics",
-  "eventCount": 42,
+  "eventCount": 46,
   "events": [
     {
       "id": 3,
-      "name": "Dinner at Track",
-      "start": "2026-07-30T17:30:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Paddock Closed",
-      "start": "2026-07-30T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Jayden to Open Garages",
-      "start": "2026-07-31T08:00:00",
-      "duration": null,
-      "description": "Jayden to Open Garages",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Leave Hotel",
-      "start": "2026-07-31T08:00:00",
-      "duration": null,
-      "description": "Leave Hotel",
+      "name": "Pit Stop Practice",
+      "start": "2026-08-20T16:00:00",
+      "duration": 30,
+      "description": "Pit Stop Practice",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 7,
-      "name": "Breakfast at Track",
-      "start": "2026-07-31T08:30:00",
+      "name": "Team Dinner @ General Public Ipswich",
+      "start": "2026-08-20T19:00:00",
       "duration": null,
-      "description": "Breakfast at Track",
+      "description": "Team Dinner @ General Public Ipswich",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 8,
-      "name": "Paddock Opens",
-      "start": "2026-07-31T09:00:00",
+      "name": "Paddock Closes",
+      "start": "2026-08-20T19:00:00",
       "duration": null,
-      "description": "Paddock Opens",
+      "description": "Paddock Closes",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 9,
-      "name": "Pit Stop Practice",
-      "start": "2026-07-31T09:00:00",
-      "duration": 30,
-      "description": "Pit Stop Practice",
+      "name": "Leave Hotel",
+      "start": "2026-08-21T07:45:00",
+      "duration": null,
+      "description": "Leave Hotel",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Breakfast at Track",
+      "start": "2026-08-21T08:15:00",
+      "duration": null,
+      "description": "Breakfast at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Paddock Opens",
+      "start": "2026-08-21T08:15:00",
+      "duration": null,
+      "description": "Paddock Opens",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 12,
-      "name": "Lunch at Track",
-      "start": "2026-07-31T12:30:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "VCS Practice 1",
-      "start": "2026-07-31T15:00:00",
-      "duration": 25,
-      "description": "VCS Practice 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "VCS Practice 2",
-      "start": "2026-07-31T15:40:00",
-      "duration": 25,
-      "description": "VCS Practice 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "VCS Event Rides",
-      "start": "2026-07-31T17:05:00",
-      "duration": 30,
-      "description": "VCS Event Rides",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Dinner at Track",
-      "start": "2026-07-31T18:45:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Paddock Closed",
-      "start": "2026-07-31T20:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Leave Hotel",
-      "start": "2026-08-01T06:00:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Breakfast at Track",
-      "start": "2026-08-01T06:30:00",
-      "duration": null,
-      "description": "Breakfast at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Paddock Opens",
-      "start": "2026-08-01T07:00:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 23,
       "name": "Pit Stop Practice",
-      "start": "2026-08-01T07:00:00",
-      "duration": 30,
+      "start": "2026-08-21T10:20:00",
+      "duration": 15,
       "description": "Pit Stop Practice",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 26,
-      "name": "VCS Qualifying 1 – Part 1",
-      "start": "2026-08-01T09:45:00",
-      "duration": 12,
-      "description": "VCS Qualifying 1 – Part 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "VCS Qualifying 1 – Part 2",
-      "start": "2026-08-01T10:05:00",
-      "duration": 8,
-      "description": "VCS Qualifying 1 – Part 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "VCS Qualifying 2 – Part 1",
-      "start": "2026-08-01T10:35:00",
-      "duration": 12,
-      "description": "VCS Qualifying 2 – Part 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "VCS Qualifying 2 – Part 2",
-      "start": "2026-08-01T10:55:00",
-      "duration": 8,
-      "description": "VCS Qualifying 2 – Part 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 33,
+      "id": 17,
       "name": "Lunch at Track",
-      "start": "2026-08-01T12:00:00",
+      "start": "2026-08-21T12:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -224,69 +84,49 @@
       ]
     },
     {
-      "id": 34,
-      "name": "VCS 15min Signal",
-      "start": "2026-08-01T12:30:00",
-      "duration": null,
-      "description": "VCS 15min Signal",
+      "id": 20,
+      "name": "VCS Practice 1",
+      "start": "2026-08-21T14:40:00",
+      "duration": 30,
+      "description": "VCS Practice 1",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 35,
-      "name": "VCS Pit Exit Open",
-      "start": "2026-08-01T12:35:00",
+      "id": 21,
+      "name": "VCS Practice Starts",
+      "start": "2026-08-21T15:10:00",
       "duration": 5,
-      "description": "VCS Pit Exit Open",
+      "description": "VCS Practice Starts",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 36,
-      "name": "VCS Race 1 – 50 Laps",
-      "start": "2026-08-01T12:45:00",
-      "duration": 63,
-      "description": "VCS Race 1 – 50 Laps",
+      "id": 22,
+      "name": "VCS Practice 2",
+      "start": "2026-08-21T15:30:00",
+      "duration": 30,
+      "description": "VCS Practice 2",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 38,
-      "name": "VCS 30min Signal",
-      "start": "2026-08-01T15:50:00",
-      "duration": null,
-      "description": "VCS 30min Signal",
+      "id": 25,
+      "name": "Engineering Debrief",
+      "start": "2026-08-21T17:00:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 39,
-      "name": "VCS Pit Exit Open",
-      "start": "2026-08-01T15:55:00",
-      "duration": 10,
-      "description": "VCS Pit Exit Open",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "VCS Race 2 – 50 Laps",
-      "start": "2026-08-01T16:20:00",
-      "duration": 63,
-      "description": "VCS Race 2 – 50 Laps",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 41,
+      "id": 27,
       "name": "Dinner at Track",
-      "start": "2026-08-01T17:30:00",
+      "start": "2026-08-21T19:00:00",
       "duration": null,
       "description": "Dinner at Track",
       "profiles": [
@@ -294,9 +134,9 @@
       ]
     },
     {
-      "id": 43,
+      "id": 28,
       "name": "Paddock Closed",
-      "start": "2026-08-01T21:00:00",
+      "start": "2026-08-21T19:00:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -304,9 +144,9 @@
       ]
     },
     {
-      "id": 44,
+      "id": 29,
       "name": "Leave Hotel",
-      "start": "2026-08-02T07:00:00",
+      "start": "2026-08-22T06:45:00",
       "duration": null,
       "description": "Leave Hotel",
       "profiles": [
@@ -314,9 +154,9 @@
       ]
     },
     {
-      "id": 45,
+      "id": 30,
       "name": "Breakfast at Track",
-      "start": "2026-08-02T07:30:00",
+      "start": "2026-08-22T07:00:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -324,9 +164,9 @@
       ]
     },
     {
-      "id": 46,
+      "id": 31,
       "name": "Paddock Opens",
-      "start": "2026-08-02T08:00:00",
+      "start": "2026-08-22T07:30:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -334,39 +174,69 @@
       ]
     },
     {
-      "id": 49,
-      "name": "VCS Qualifying 3 – Part 1",
-      "start": "2026-08-02T11:00:00",
-      "duration": 12,
-      "description": "VCS Qualifying 3 – Part 1",
+      "id": 32,
+      "name": "Pit Stop Practice",
+      "start": "2026-08-22T07:30:00",
+      "duration": null,
+      "description": "Pit Stop Practice",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 50,
-      "name": "VCS Qualifying 3 – Part 2",
-      "start": "2026-08-02T11:20:00",
-      "duration": 10,
-      "description": "VCS Qualifying 3 – Part 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 51,
-      "name": "VCS Qualifying 3 - TTSO",
-      "start": "2026-08-02T11:45:00",
+      "id": 33,
+      "name": "Engineering Briefing",
+      "start": "2026-08-22T08:00:00",
       "duration": 30,
-      "description": "VCS Qualifying 3 - TTSO",
+      "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 52,
+      "id": 35,
+      "name": "VCS Qualifying Part 1 – Race 1",
+      "start": "2026-08-22T10:00:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "VCS Qualifying Part 2 – Race 1",
+      "start": "2026-08-22T10:20:00",
+      "duration": 8,
+      "description": "VCS Qualifying Part 2 – Race 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "VCS Qualifying Part 1 – Race 2",
+      "start": "2026-08-22T10:50:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "VCS Qualifying Part 2 – Race 2",
+      "start": "2026-08-22T11:10:00",
+      "duration": 8,
+      "description": "VCS Qualifying Part 2 – Race 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 39,
       "name": "Lunch at Track",
-      "start": "2026-08-02T12:30:00",
+      "start": "2026-08-22T11:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -374,51 +244,221 @@
       ]
     },
     {
-      "id": 57,
-      "name": "VCS 30min Signal",
-      "start": "2026-08-02T14:50:00",
-      "duration": null,
-      "description": "VCS 30min Signal",
+      "id": 40,
+      "name": "VCS Race 1 Strategy Briefing",
+      "start": "2026-08-22T11:45:00",
+      "duration": 15,
+      "description": "VCS Race 1 Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 58,
-      "name": "VCS Pit Exit Open",
-      "start": "2026-08-02T14:55:00",
+      "id": 41,
+      "name": "VCS 15 Minute Signal – Race 1",
+      "start": "2026-08-22T12:30:00",
       "duration": null,
+      "description": "VCS 15 Minute Signal – Race 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "VCS Pit Exit Open – Race 1",
+      "start": "2026-08-22T12:35:00",
+      "duration": 5,
+      "description": "VCS Pit Exit Open – Race 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "VCS Race 1 – 39 Laps",
+      "start": "2026-08-22T12:45:00",
+      "duration": 63,
+      "description": "VCS Race 1 – 39 Laps",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "VCS Race 2 Strategy Briefing",
+      "start": "2026-08-22T15:00:00",
+      "duration": 15,
+      "description": "VCS Race 2 Strategy Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "VCS 30 Minute Signal – Race 2",
+      "start": "2026-08-22T15:45:00",
+      "duration": null,
+      "description": "VCS 30 Minute Signal – Race 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "VCS Pit Exit Open",
+      "start": "2026-08-22T15:50:00",
+      "duration": 10,
       "description": "VCS Pit Exit Open",
       "profiles": [
         "mechanics"
       ]
     },
     {
+      "id": 47,
+      "name": "VCS Race 2 – 39 Laps",
+      "start": "2026-08-22T16:15:00",
+      "duration": 63,
+      "description": "VCS Race 2 – 39 Laps",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Dinner at Track",
+      "start": "2026-08-22T17:45:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Engineering Debrief",
+      "start": "2026-08-22T18:30:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Paddock Closes",
+      "start": "2026-08-22T21:00:00",
+      "duration": null,
+      "description": "Paddock Closes",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Breakfast at Track",
+      "start": "2026-08-23T07:30:00",
+      "duration": null,
+      "description": "Breakfast at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Paddock Opens",
+      "start": "2026-08-23T08:00:00",
+      "duration": null,
+      "description": "Paddock Opens",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "VCS Qualifying Part 1 – Race 3",
+      "start": "2026-08-23T10:55:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 1 – Race 3",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "VCS Qualifying Part 2 – Race 3",
+      "start": "2026-08-23T11:15:00",
+      "duration": 12,
+      "description": "VCS Qualifying Part 2 – Race 3",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 59,
-      "name": "VCS Race 3 – 80 Laps",
-      "start": "2026-08-02T15:20:00",
-      "duration": 93,
-      "description": "VCS Race 3 – 80 Laps",
+      "name": "VCS Qualifying Part 3 – Race 3 – TTSO",
+      "start": "2026-08-23T11:40:00",
+      "duration": 35,
+      "description": "VCS Qualifying Part 3 – Race 3 – TTSO",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Lunch at Track",
+      "start": "2026-08-23T12:20:00",
+      "duration": null,
+      "description": "Lunch at Track",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 62,
-      "name": "Leave Track",
-      "start": "2026-08-02T18:30:00",
-      "duration": null,
-      "description": "Leave Track",
+      "name": "VCS Race 3 Strategy Briefing",
+      "start": "2026-08-23T14:05:00",
+      "duration": 15,
+      "description": "VCS Race 3 Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 63,
-      "name": "Team Dinner",
-      "start": "2026-08-02T19:30:00",
+      "name": "VCS 30 Minute Signal – Race 3",
+      "start": "2026-08-23T14:50:00",
       "duration": null,
-      "description": "Team Dinner",
+      "description": "VCS 30 Minute Signal – Race 3",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "VCS Pit Exit Open",
+      "start": "2026-08-23T14:55:00",
+      "duration": 10,
+      "description": "VCS Pit Exit Open",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "VCS Race 3 – 62 Laps",
+      "start": "2026-08-23T15:20:00",
+      "duration": 93,
+      "description": "VCS Race 3 – 62 Laps",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Dinner at Track",
+      "start": "2026-08-23T17:30:00",
+      "duration": null,
+      "description": "Dinner at Track",
       "profiles": [
         "mechanics"
       ]
