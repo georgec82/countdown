@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T12:34:52.840792",
+  "lastUpdated": "2026-08-20T15:01:55.821885",
   "teamGroup": "all",
   "eventCount": 68,
   "events": [
@@ -26,7 +26,7 @@
     {
       "id": 3,
       "name": "Pit Stop Practice",
-      "start": "2026-08-20T16:00:00",
+      "start": "2026-08-20T15:30:00",
       "duration": 30,
       "description": "Pit Stop Practice",
       "profiles": [
