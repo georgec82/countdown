@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T15:01:55.819169",
+  "lastUpdated": "2026-08-23T07:49:51.245830",
   "teamGroup": "engineers",
-  "eventCount": 60,
+  "eventCount": 62,
   "events": [
     {
       "id": 1,
@@ -469,6 +469,26 @@
       "start": "2026-08-23T08:00:00",
       "duration": null,
       "description": "Paddock Opens",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Engineering Briefing",
+      "start": "2026-08-23T09:00:00",
+      "duration": 25,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "MySupercars Track+ Meet and Greet",
+      "start": "2026-08-23T09:25:00",
+      "duration": 10,
+      "description": "MySupercars Track+ Meet and Greet",
       "profiles": [
         "engineers"
       ]

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T15:01:55.817758",
+  "lastUpdated": "2026-08-23T07:49:51.243975",
   "teamGroup": "mechanics",
-  "eventCount": 46,
+  "eventCount": 47,
   "events": [
     {
       "id": 3,
@@ -369,6 +369,16 @@
       "start": "2026-08-23T08:00:00",
       "duration": null,
       "description": "Paddock Opens",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Engineering Briefing",
+      "start": "2026-08-23T09:00:00",
+      "duration": 25,
+      "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
