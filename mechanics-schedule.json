@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-23T07:49:51.243975",
+  "lastUpdated": "2026-08-23T13:46:17.324655",
   "teamGroup": "mechanics",
-  "eventCount": 47,
+  "eventCount": 46,
   "events": [
     {
       "id": 3,
@@ -419,16 +419,6 @@
       "start": "2026-08-23T12:20:00",
       "duration": null,
       "description": "Lunch at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 62,
-      "name": "VCS Race 3 Strategy Briefing",
-      "start": "2026-08-23T14:05:00",
-      "duration": 15,
-      "description": "VCS Race 3 Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
