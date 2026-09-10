@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T12:04:16.765067",
+  "lastUpdated": "2026-09-11T07:53:40.110993",
   "teamGroup": "engineers",
   "eventCount": 57,
   "events": [
@@ -155,10 +155,10 @@
     },
     {
       "id": 21,
-      "name": "VCS Brake Bedding Session",
+      "name": "VCSPractice Brake Bed",
       "start": "2026-09-11T08:15:00",
       "duration": 20,
-      "description": "VCS Brake Bedding Session",
+      "description": "VCSPractice Brake Bed",
       "profiles": [
         "engineers"
       ]
