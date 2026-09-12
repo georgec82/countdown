@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T07:53:40.114250",
+  "lastUpdated": "2026-09-12T15:20:15.937647",
   "teamGroup": "all",
   "eventCount": 64,
   "events": [
@@ -455,10 +455,10 @@
     },
     {
       "id": 46,
-      "name": "VCS Top Ten Shootout",
+      "name": "VCS Qualifying TTSO",
       "start": "2026-09-12T17:00:00",
       "duration": 30,
-      "description": "VCS Top Ten Shootout",
+      "description": "VCS Qualifying TTSO",
       "profiles": [
         "all"
       ]
