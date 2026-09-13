@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-12T15:20:15.935767",
+  "lastUpdated": "2026-09-13T11:27:55.273861",
   "teamGroup": "engineers",
-  "eventCount": 57,
+  "eventCount": 58,
   "events": [
     {
       "id": 1,
@@ -525,6 +525,16 @@
     },
     {
       "id": 59,
+      "name": "VCS Race Strategy Briefing",
+      "start": "2026-09-13T12:15:00",
+      "duration": 30,
+      "description": "VCS Race Strategy Briefing",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 60,
       "name": "VCS 30 Minute Signal",
       "start": "2026-09-13T13:15:00",
       "duration": null,
@@ -534,7 +544,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 61,
       "name": "VCS Pit Exit Open",
       "start": "2026-09-13T13:20:00",
       "duration": 10,
@@ -544,7 +554,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 62,
       "name": "VCS Race 1 – 147 laps",
       "start": "2026-09-13T13:45:00",
       "duration": null,
@@ -554,7 +564,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": 63,
       "name": "Pirtek Performance Report Filming",
       "start": "2026-09-13T18:00:00",
       "duration": null,
@@ -564,7 +574,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 64,
       "name": "Main Crew Leave for Airport",
       "start": "2026-09-13T18:40:00",
       "duration": null,
