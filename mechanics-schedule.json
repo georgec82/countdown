@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-09-12T15:20:15.934001",
+  "lastUpdated": "2026-10-06T13:32:38.177011",
   "teamGroup": "mechanics",
-  "eventCount": 40,
+  "eventCount": 51,
   "events": [
     {
       "id": 1,
-      "name": "Leave Hotel",
-      "start": "2026-09-10T08:00:00",
+      "name": "Arrive at Track",
+      "start": "2026-10-07T07:00:00",
       "duration": null,
-      "description": "Leave Hotel",
+      "description": "Arrive at Track",
       "profiles": [
         "mechanics"
       ]
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "Breakfast at Track",
-      "start": "2026-09-10T08:30:00",
+      "start": "2026-10-07T07:15:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -24,9 +24,19 @@
       ]
     },
     {
+      "id": 4,
+      "name": "Repco Content Filming",
+      "start": "2026-10-07T09:30:00",
+      "duration": 60,
+      "description": "Repco Content Filming",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 8,
       "name": "Lunch at Track",
-      "start": "2026-09-10T12:00:00",
+      "start": "2026-10-07T12:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -34,9 +44,19 @@
       ]
     },
     {
-      "id": 12,
+      "id": 10,
+      "name": "Event Engineering Briefing",
+      "start": "2026-10-07T14:30:00",
+      "duration": 90,
+      "description": "Event Engineering Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 11,
       "name": "Pit Stop Practice",
-      "start": "2026-09-10T16:30:00",
+      "start": "2026-10-07T16:00:00",
       "duration": 30,
       "description": "Pit Stop Practice",
       "profiles": [
@@ -44,29 +64,9 @@
       ]
     },
     {
-      "id": 14,
-      "name": "Refuellers Briefing",
-      "start": "2026-09-10T17:15:00",
-      "duration": 15,
-      "description": "Refuellers Briefing",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Paddock Closed",
-      "start": "2026-09-10T19:00:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 16,
+      "id": 17,
       "name": "Dinner at Track",
-      "start": "2026-09-10T19:00:00",
+      "start": "2026-10-07T18:00:00",
       "duration": null,
       "description": "Dinner at Track",
       "profiles": [
@@ -75,148 +75,38 @@
     },
     {
       "id": 18,
-      "name": "Breakfast at Track",
-      "start": "2026-09-11T06:30:00",
+      "name": "Paddock Closed",
+      "start": "2026-10-07T19:30:00",
       "duration": null,
-      "description": "Breakfast at Track",
+      "description": "Paddock Closed",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 19,
-      "name": "Paddock Open",
-      "start": "2026-09-11T07:00:00",
+      "name": "Arrive at Track",
+      "start": "2026-10-08T07:00:00",
       "duration": null,
-      "description": "Paddock Open",
+      "description": "Arrive at Track",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 20,
-      "name": "Pit Stop Practice",
-      "start": "2026-09-11T07:00:00",
-      "duration": 30,
-      "description": "Pit Stop Practice",
+      "name": "Paddock Opens",
+      "start": "2026-10-08T07:25:00",
+      "duration": null,
+      "description": "Paddock Opens",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 21,
-      "name": "VCSPractice Brake Bed",
-      "start": "2026-09-11T08:15:00",
-      "duration": 20,
-      "description": "VCSPractice Brake Bed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "VCS Practice 1",
-      "start": "2026-09-11T11:25:00",
-      "duration": 30,
-      "description": "VCS Practice 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "VCS Practice Starts",
-      "start": "2026-09-11T11:55:00",
-      "duration": 5,
-      "description": "VCS Practice Starts",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Lunch at Track",
-      "start": "2026-09-11T12:30:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "VCS Practice 2",
-      "start": "2026-09-11T13:45:00",
-      "duration": 30,
-      "description": "VCS Practice 2",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "VCS Practice Starts",
-      "start": "2026-09-11T14:15:00",
-      "duration": 5,
-      "description": "VCS Practice Starts",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "VCS Practice 3",
-      "start": "2026-09-11T15:40:00",
-      "duration": 30,
-      "description": "VCS Practice 3",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "VCS Event Rides",
-      "start": "2026-09-11T17:20:00",
-      "duration": 30,
-      "description": "VCS Event Rides",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 33,
-      "name": "Paddock Closed",
-      "start": "2026-09-11T19:30:00",
-      "duration": null,
-      "description": "Paddock Closed",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 34,
-      "name": "Dinner at Track",
-      "start": "2026-09-11T19:30:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 35,
-      "name": "Leave Hotel",
-      "start": "2026-09-12T06:30:00",
-      "duration": null,
-      "description": "Leave Hotel",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 36,
       "name": "Breakfast at Track",
-      "start": "2026-09-12T07:00:00",
+      "start": "2026-10-08T07:30:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -224,19 +114,9 @@
       ]
     },
     {
-      "id": 37,
-      "name": "Paddock Opens",
-      "start": "2026-09-12T07:30:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 38,
+      "id": 25,
       "name": "Pit Stop Practice",
-      "start": "2026-09-12T07:30:00",
+      "start": "2026-10-08T11:45:00",
       "duration": 30,
       "description": "Pit Stop Practice",
       "profiles": [
@@ -244,79 +124,59 @@
       ]
     },
     {
-      "id": 39,
-      "name": "Engineering Briefing",
-      "start": "2026-09-12T08:50:00",
+      "id": 26,
+      "name": "VCS Practice 1",
+      "start": "2026-10-08T13:30:00",
+      "duration": 60,
+      "description": "VCS Practice 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "VCS Practice Starts",
+      "start": "2026-10-08T14:30:00",
+      "duration": 5,
+      "description": "VCS Practice Starts",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "VCS Practice 2",
+      "start": "2026-10-08T15:45:00",
+      "duration": 60,
+      "description": "VCS Practice 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "VCS Practice Starts",
+      "start": "2026-10-08T16:45:00",
+      "duration": 5,
+      "description": "VCS Practice Starts",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Engineering Debrief",
+      "start": "2026-10-08T18:30:00",
       "duration": 30,
-      "description": "Engineering Briefing",
+      "description": "Engineering Debrief",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 40,
-      "name": "VCS Practice 4",
-      "start": "2026-09-12T09:50:00",
-      "duration": 40,
-      "description": "VCS Practice 4",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "VCS Practice 5",
-      "start": "2026-09-12T12:00:00",
-      "duration": 40,
-      "description": "VCS Practice 5",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 43,
-      "name": "Lunch at Track",
-      "start": "2026-09-12T12:40:00",
-      "duration": null,
-      "description": "Lunch at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "VCS Qualifying",
-      "start": "2026-09-12T14:45:00",
-      "duration": 30,
-      "description": "VCS Qualifying",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "VCS Qualifying TTSO",
-      "start": "2026-09-12T17:00:00",
-      "duration": 30,
-      "description": "VCS Qualifying TTSO",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "Dinner at Track",
-      "start": "2026-09-12T19:30:00",
-      "duration": null,
-      "description": "Dinner at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 50,
+      "id": 32,
       "name": "Paddock Closed",
-      "start": "2026-09-12T20:30:00",
+      "start": "2026-10-08T19:30:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -324,19 +184,29 @@
       ]
     },
     {
-      "id": 51,
-      "name": "Leave Hotel",
-      "start": "2026-09-13T06:30:00",
+      "id": 33,
+      "name": "Dinner at Track",
+      "start": "2026-10-08T19:30:00",
       "duration": null,
-      "description": "Leave Hotel",
+      "description": "Dinner at Track",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 52,
+      "id": 34,
+      "name": "Arrive at Track",
+      "start": "2026-10-09T06:30:00",
+      "duration": null,
+      "description": "Arrive at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 35,
       "name": "Breakfast at Track",
-      "start": "2026-09-13T07:00:00",
+      "start": "2026-10-09T06:40:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -344,9 +214,9 @@
       ]
     },
     {
-      "id": 54,
+      "id": 36,
       "name": "Paddock Opens",
-      "start": "2026-09-13T07:30:00",
+      "start": "2026-10-09T07:00:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -354,19 +224,239 @@
       ]
     },
     {
-      "id": 55,
-      "name": "Engineering Briefing",
-      "start": "2026-09-13T09:00:00",
+      "id": 37,
+      "name": "Pit Stop Practice",
+      "start": "2026-10-09T07:00:00",
       "duration": 30,
+      "description": "Pit Stop Practice",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Engineering Briefing",
+      "start": "2026-10-09T09:10:00",
+      "duration": 20,
       "description": "Engineering Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
+      "id": 42,
+      "name": "VCS Practice 3",
+      "start": "2026-10-09T10:05:00",
+      "duration": 60,
+      "description": "VCS Practice 3",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Lunch at Track",
+      "start": "2026-10-09T12:00:00",
+      "duration": null,
+      "description": "Lunch at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "VCS Practice 4",
+      "start": "2026-10-09T13:15:00",
+      "duration": 60,
+      "description": "VCS Practice 4",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "VCS Qualifying",
+      "start": "2026-10-09T16:10:00",
+      "duration": 40,
+      "description": "VCS Qualifying",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Partner Dinner",
+      "start": "2026-10-09T18:30:00",
+      "duration": null,
+      "description": "Partner Dinner",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Dinner at Track",
+      "start": "2026-10-09T19:30:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Paddock Closed",
+      "start": "2026-10-09T20:00:00",
+      "duration": null,
+      "description": "Paddock Closed",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Arrive at Track",
+      "start": "2026-10-10T06:30:00",
+      "duration": null,
+      "description": "Arrive at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 56,
+      "name": "Breakfast at Track",
+      "start": "2026-10-10T06:40:00",
+      "duration": null,
+      "description": "Breakfast at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Paddock Opens",
+      "start": "2026-10-10T07:00:00",
+      "duration": null,
+      "description": "Paddock Opens",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Pit Stop Practice",
+      "start": "2026-10-10T07:00:00",
+      "duration": 30,
+      "description": "Pit Stop Practice",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "VCS Practice 5",
+      "start": "2026-10-10T10:05:00",
+      "duration": 60,
+      "description": "VCS Practice 5",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Lunch at Track",
+      "start": "2026-10-10T12:00:00",
+      "duration": null,
+      "description": "Lunch at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "VCS Practice 6",
+      "start": "2026-10-10T13:10:00",
+      "duration": 60,
+      "description": "VCS Practice 6",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "VCS Top Ten Shootout",
+      "start": "2026-10-10T17:05:00",
+      "duration": 45,
+      "description": "VCS Top Ten Shootout",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Dinner at Track",
+      "start": "2026-10-10T19:30:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Paddock Closed",
+      "start": "2026-10-10T20:30:00",
+      "duration": null,
+      "description": "Paddock Closed",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Arrive at Track",
+      "start": "2026-10-11T06:30:00",
+      "duration": null,
+      "description": "Arrive at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Breakfast at Track",
+      "start": "2026-10-11T06:40:00",
+      "duration": null,
+      "description": "Breakfast at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Paddock Opens",
+      "start": "2026-10-11T07:00:00",
+      "duration": null,
+      "description": "Paddock Opens",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Engineering Briefing",
+      "start": "2026-10-11T07:30:00",
+      "duration": 15,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 80,
       "name": "VCS Warm Up",
-      "start": "2026-09-13T10:15:00",
+      "start": "2026-10-11T08:30:00",
       "duration": 20,
       "description": "VCS Warm Up",
       "profiles": [
@@ -374,19 +464,39 @@
       ]
     },
     {
-      "id": 59,
-      "name": "VCS 30 Minute Signal",
-      "start": "2026-09-13T13:15:00",
-      "duration": null,
-      "description": "VCS 30 Minute Signal",
+      "id": 81,
+      "name": "Repco Suite Visit",
+      "start": "2026-10-11T09:25:00",
+      "duration": 10,
+      "description": "Repco Suite Visit",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 60,
+      "id": 82,
+      "name": "VCS Race Strategy Briefing",
+      "start": "2026-10-11T09:40:00",
+      "duration": 30,
+      "description": "VCS Race Strategy Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "VCS Cars On Apron",
+      "start": "2026-10-11T10:45:00",
+      "duration": 5,
+      "description": "VCS Cars On Apron",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 85,
       "name": "VCS Pit Exit Open",
-      "start": "2026-09-13T13:20:00",
+      "start": "2026-10-11T10:50:00",
       "duration": 10,
       "description": "VCS Pit Exit Open",
       "profiles": [
@@ -394,11 +504,11 @@
       ]
     },
     {
-      "id": 61,
-      "name": "VCS Race 1 – 147 laps",
-      "start": "2026-09-13T13:45:00",
+      "id": 86,
+      "name": "VCS Race – 161 Laps",
+      "start": "2026-10-11T11:30:00",
       "duration": null,
-      "description": "VCS Race 1 – 147 laps",
+      "description": "VCS Race – 161 Laps",
       "profiles": [
         "mechanics"
       ]
