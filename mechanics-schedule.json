@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-11T08:09:09.613243",
+  "lastUpdated": "2026-10-11T08:11:33.782789",
   "teamGroup": "mechanics",
-  "eventCount": 50,
+  "eventCount": 49,
   "events": [
     {
       "id": 1,
@@ -459,16 +459,6 @@
       "start": "2026-10-11T08:30:00",
       "duration": 20,
       "description": "VCS Warm Up",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 81,
-      "name": "Repco Suite Visit",
-      "start": "2026-10-11T09:25:00",
-      "duration": 10,
-      "description": "Repco Suite Visit",
       "profiles": [
         "mechanics"
       ]
