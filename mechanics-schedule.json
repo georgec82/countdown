@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-10T13:35:04.450833",
+  "lastUpdated": "2026-10-11T08:09:09.613243",
   "teamGroup": "mechanics",
-  "eventCount": 51,
+  "eventCount": 50,
   "events": [
     {
       "id": 1,
@@ -469,16 +469,6 @@
       "start": "2026-10-11T09:25:00",
       "duration": 10,
       "description": "Repco Suite Visit",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 82,
-      "name": "VCS Race Strategy Briefing",
-      "start": "2026-10-11T09:40:00",
-      "duration": 30,
-      "description": "VCS Race Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
