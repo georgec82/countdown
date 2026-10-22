@@ -531,9 +531,8 @@
 
             // Update upcoming events list - show ALL events, not just main countdown ones
             if (allUpcomingEvents.length > 0) {
-                // If we're showing an upcoming event, skip it in the list (it's already in main display)
-                const listStartIndex = displayMode === 'upcoming' ? 1 : 0;
-                const upcomingList = allUpcomingEvents.slice(listStartIndex, listStartIndex + 5).map(event => `
+                // Leave out the event already in the main countdown (it isn't always the next event overall)
+                const upcomingList = allUpcomingEvents.filter(event => event !== targetEvent).slice(0, 5).map(event => `
                     <div class="event-item">
                         <div class="event-item-name">${event.name}</div>
                         <div class="event-item-time">${formatDateTime(event.start, currentTimezone)}${event.duration ? ` • ${formatDuration(event.duration)}` : ''}</div>
