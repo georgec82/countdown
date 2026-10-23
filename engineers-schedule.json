@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-22T11:19:20.447748",
+  "lastUpdated": "2026-10-23T17:07:14.935388",
   "teamGroup": "engineers",
-  "eventCount": 66,
+  "eventCount": 67,
   "events": [
     {
       "id": 2,
@@ -269,6 +269,16 @@
       "start": "2026-10-23T16:05:00",
       "duration": 30,
       "description": "Qualifying 1",
+      "profiles": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Engineering Debrief",
+      "start": "2026-10-23T18:00:00",
+      "duration": 30,
+      "description": "Engineering Debrief",
       "profiles": [
         "engineers"
       ]
