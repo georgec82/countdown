@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T17:07:14.938766",
+  "lastUpdated": "2026-10-24T07:45:52.338813",
   "teamGroup": "all",
   "eventCount": 70,
   "events": [
@@ -435,10 +435,10 @@
     },
     {
       "id": 71,
-      "name": "Pre-Race Strategy Briefing",
+      "name": "Enginering and Strategy Briefing",
       "start": "2026-10-24T13:50:00",
       "duration": 20,
-      "description": "Pre-Race Strategy Briefing",
+      "description": "Enginering and Strategy Briefing",
       "profiles": [
         "all"
       ]
