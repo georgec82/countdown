@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-24T07:45:52.335342",
+  "lastUpdated": "2026-10-24T13:11:13.239122",
   "teamGroup": "engineers",
-  "eventCount": 67,
+  "eventCount": 65,
   "events": [
     {
       "id": 2,
@@ -394,16 +394,6 @@
       ]
     },
     {
-      "id": 68,
-      "name": "Shell Suite Visit",
-      "start": "2026-10-24T13:45:00",
-      "duration": 15,
-      "description": "Shell Suite Visit",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
       "id": 71,
       "name": "Enginering and Strategy Briefing",
       "start": "2026-10-24T13:50:00",
@@ -599,16 +589,6 @@
       "start": "2026-10-25T13:00:00",
       "duration": null,
       "description": "Lunch at Track",
-      "profiles": [
-        "engineers"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "Shell Suite Visit",
-      "start": "2026-10-25T13:15:00",
-      "duration": 15,
-      "description": "Shell Suite Visit",
       "profiles": [
         "engineers"
       ]

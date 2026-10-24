@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-24T07:45:52.337120",
+  "lastUpdated": "2026-10-24T13:11:13.240347",
   "teamGroup": "drivers",
-  "eventCount": 68,
+  "eventCount": 66,
   "events": [
     {
       "id": 2,
@@ -404,16 +404,6 @@
       ]
     },
     {
-      "id": 68,
-      "name": "Shell Suite Visit",
-      "start": "2026-10-24T13:45:00",
-      "duration": 15,
-      "description": "Shell Suite Visit",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
       "id": 71,
       "name": "Enginering and Strategy Briefing",
       "start": "2026-10-24T13:50:00",
@@ -609,16 +599,6 @@
       "start": "2026-10-25T13:00:00",
       "duration": null,
       "description": "Lunch at Track",
-      "profiles": [
-        "drivers"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "Shell Suite Visit",
-      "start": "2026-10-25T13:15:00",
-      "duration": 15,
-      "description": "Shell Suite Visit",
       "profiles": [
         "drivers"
       ]
