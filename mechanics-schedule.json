@@ -1,32 +1,12 @@
 {
-  "lastUpdated": "2026-10-24T13:11:13.237881",
+  "lastUpdated": "2026-11-05T12:45:41.094255",
   "teamGroup": "mechanics",
-  "eventCount": 46,
+  "eventCount": 43,
   "events": [
     {
-      "id": 2,
-      "name": "Breakfast at Track",
-      "start": "2026-10-22T08:30:00",
-      "duration": null,
-      "description": "Breakfast at Track",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Paddock Opens",
-      "start": "2026-10-22T08:30:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 7,
+      "id": 9,
       "name": "Lunch at Track",
-      "start": "2026-10-22T12:30:00",
+      "start": "2026-11-05T12:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -34,19 +14,19 @@
       ]
     },
     {
-      "id": 9,
-      "name": "Event Engineering Briefing",
-      "start": "2026-10-22T14:30:00",
+      "id": 11,
+      "name": "Engineering Event Briefing",
+      "start": "2026-11-05T15:00:00",
       "duration": 90,
-      "description": "Event Engineering Briefing",
+      "description": "Engineering Event Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 10,
+      "id": 13,
       "name": "Pit Stop Practice",
-      "start": "2026-10-22T16:30:00",
+      "start": "2026-11-05T16:30:00",
       "duration": 30,
       "description": "Pit Stop Practice",
       "profiles": [
@@ -54,19 +34,19 @@
       ]
     },
     {
-      "id": 15,
-      "name": "Team Dinner – Meal Allowance",
-      "start": "2026-10-22T19:00:00",
+      "id": 14,
+      "name": "Team Dinner @ The Rouge Squire",
+      "start": "2026-11-05T19:00:00",
       "duration": null,
-      "description": "Team Dinner – Meal Allowance",
+      "description": "Team Dinner @ The Rouge Squire",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Paddock Closed",
-      "start": "2026-10-22T20:00:00",
+      "start": "2026-11-05T19:00:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -75,10 +55,10 @@
     },
     {
       "id": 17,
-      "name": "Arrive in Pit Lane",
-      "start": "2026-10-23T08:00:00",
+      "name": "Leave Hotel",
+      "start": "2026-11-06T08:15:00",
       "duration": null,
-      "description": "Arrive in Pit Lane",
+      "description": "Leave Hotel",
       "profiles": [
         "mechanics"
       ]
@@ -86,7 +66,7 @@
     {
       "id": 18,
       "name": "Breakfast at Track",
-      "start": "2026-10-23T08:00:00",
+      "start": "2026-11-06T08:30:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -94,49 +74,19 @@
       ]
     },
     {
-      "id": 19,
-      "name": "Paddock Opens",
-      "start": "2026-10-23T08:30:00",
-      "duration": null,
-      "description": "Paddock Opens",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 20,
+      "id": 27,
       "name": "Pit Stop Practice",
-      "start": "2026-10-23T08:30:00",
-      "duration": 30,
+      "start": "2026-11-06T11:25:00",
+      "duration": 35,
       "description": "Pit Stop Practice",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 28,
-      "name": "Practice 1",
-      "start": "2026-10-23T11:45:00",
-      "duration": 25,
-      "description": "Practice 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Practice Starts",
-      "start": "2026-10-23T12:10:00",
-      "duration": 5,
-      "description": "Practice Starts",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 31,
+      "id": 32,
       "name": "Lunch at Track",
-      "start": "2026-10-23T12:30:00",
+      "start": "2026-11-06T12:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -144,9 +94,29 @@
       ]
     },
     {
-      "id": 36,
+      "id": 38,
+      "name": "Practice 1",
+      "start": "2026-11-06T14:40:00",
+      "duration": 25,
+      "description": "Practice 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Practice Starts",
+      "start": "2026-11-06T15:05:00",
+      "duration": 5,
+      "description": "Practice Starts",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 40,
       "name": "Practice 2",
-      "start": "2026-10-23T13:50:00",
+      "start": "2026-11-06T15:25:00",
       "duration": 25,
       "description": "Practice 2",
       "profiles": [
@@ -154,19 +124,19 @@
       ]
     },
     {
-      "id": 42,
-      "name": "Qualifying 1",
-      "start": "2026-10-23T16:05:00",
+      "id": 43,
+      "name": "Event Rides",
+      "start": "2026-11-06T17:15:00",
       "duration": 30,
-      "description": "Qualifying 1",
+      "description": "Event Rides",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "Engineering Debrief",
-      "start": "2026-10-23T18:00:00",
+      "start": "2026-11-06T18:30:00",
       "duration": 30,
       "description": "Engineering Debrief",
       "profiles": [
@@ -174,9 +144,19 @@
       ]
     },
     {
+      "id": 45,
+      "name": "Dinner at Track",
+      "start": "2026-11-06T19:30:00",
+      "duration": null,
+      "description": "Dinner at Track",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
       "id": 46,
       "name": "Paddock Closed",
-      "start": "2026-10-23T19:30:00",
+      "start": "2026-11-06T19:30:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -185,28 +165,18 @@
     },
     {
       "id": 47,
-      "name": "Dinner at Track",
-      "start": "2026-10-23T19:30:00",
+      "name": "Leave Hotel",
+      "start": "2026-11-07T07:00:00",
       "duration": null,
-      "description": "Dinner at Track",
+      "description": "Leave Hotel",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 48,
-      "name": "Arrive in Pit Lane",
-      "start": "2026-10-24T07:30:00",
-      "duration": null,
-      "description": "Arrive in Pit Lane",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 49,
       "name": "Breakfast at Track",
-      "start": "2026-10-24T07:30:00",
+      "start": "2026-11-07T07:15:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -214,9 +184,9 @@
       ]
     },
     {
-      "id": 52,
+      "id": 49,
       "name": "Paddock Opens",
-      "start": "2026-10-24T08:00:00",
+      "start": "2026-11-07T07:45:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -224,9 +194,9 @@
       ]
     },
     {
-      "id": 53,
+      "id": 50,
       "name": "Pit Stop Practice",
-      "start": "2026-10-24T08:00:00",
+      "start": "2026-11-07T07:45:00",
       "duration": 30,
       "description": "Pit Stop Practice",
       "profiles": [
@@ -234,9 +204,59 @@
       ]
     },
     {
-      "id": 64,
+      "id": 51,
+      "name": "Engine Curfew Ends",
+      "start": "2026-11-07T08:00:00",
+      "duration": null,
+      "description": "Engine Curfew Ends",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Engineering Briefing",
+      "start": "2026-11-07T09:00:00",
+      "duration": 30,
+      "description": "Engineering Briefing",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Qualifying 1 – Part 1",
+      "start": "2026-11-07T11:20:00",
+      "duration": 12,
+      "description": "Qualifying 1 – Part 1",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Qualifying 1 – Part 2",
+      "start": "2026-11-07T11:40:00",
+      "duration": 12,
+      "description": "Qualifying 1 – Part 2",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Qualifying 1 – TTSO",
+      "start": "2026-11-07T12:05:00",
+      "duration": 25,
+      "description": "Qualifying 1 – TTSO",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 65,
       "name": "Lunch at Track",
-      "start": "2026-10-24T12:00:00",
+      "start": "2026-11-07T12:30:00",
       "duration": null,
       "description": "Lunch at Track",
       "profiles": [
@@ -244,51 +264,31 @@
       ]
     },
     {
-      "id": 65,
-      "name": "TTSO",
-      "start": "2026-10-24T12:35:00",
-      "duration": 35,
-      "description": "TTSO",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 71,
-      "name": "Enginering and Strategy Briefing",
-      "start": "2026-10-24T13:50:00",
+      "id": 72,
+      "name": "Pre-Race Strategy Briefing",
+      "start": "2026-11-07T14:20:00",
       "duration": 20,
-      "description": "Enginering and Strategy Briefing",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 73,
-      "name": "Cars on Apron",
-      "start": "2026-10-24T14:35:00",
-      "duration": null,
-      "description": "Cars on Apron",
+      "description": "Pre-Race Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 74,
-      "name": "Pit Exit Open",
-      "start": "2026-10-24T14:40:00",
-      "duration": 10,
-      "description": "Pit Exit Open",
+      "name": "30 Minute Signal",
+      "start": "2026-11-07T15:00:00",
+      "duration": null,
+      "description": "30 Minute Signal",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 75,
-      "name": "Race 1 – 85 laps",
-      "start": "2026-10-24T15:15:00",
-      "duration": 123,
-      "description": "Race 1 – 85 laps",
+      "id": 76,
+      "name": "Race 1 – 79 Laps",
+      "start": "2026-11-07T15:30:00",
+      "duration": 113,
+      "description": "Race 1 – 79 Laps",
       "profiles": [
         "mechanics"
       ]
@@ -296,7 +296,7 @@
     {
       "id": 78,
       "name": "Engineering Debrief",
-      "start": "2026-10-24T18:30:00",
+      "start": "2026-11-07T18:30:00",
       "duration": 30,
       "description": "Engineering Debrief",
       "profiles": [
@@ -305,18 +305,8 @@
     },
     {
       "id": 79,
-      "name": "Supercars x Coates Partner Dinner",
-      "start": "2026-10-24T18:30:00",
-      "duration": 60,
-      "description": "Supercars x Coates Partner Dinner",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 80,
       "name": "Dinner at Track",
-      "start": "2026-10-24T19:00:00",
+      "start": "2026-11-07T19:00:00",
       "duration": null,
       "description": "Dinner at Track",
       "profiles": [
@@ -324,9 +314,9 @@
       ]
     },
     {
-      "id": 81,
+      "id": 80,
       "name": "Paddock Closed",
-      "start": "2026-10-24T20:45:00",
+      "start": "2026-11-07T21:00:00",
       "duration": null,
       "description": "Paddock Closed",
       "profiles": [
@@ -334,19 +324,19 @@
       ]
     },
     {
-      "id": 82,
-      "name": "Arrive in Pit Lane",
-      "start": "2026-10-25T08:00:00",
+      "id": 81,
+      "name": "Leave Hotel",
+      "start": "2026-11-08T07:45:00",
       "duration": null,
-      "description": "Arrive in Pit Lane",
+      "description": "Leave Hotel",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 83,
+      "id": 82,
       "name": "Breakfast at Track",
-      "start": "2026-10-25T08:00:00",
+      "start": "2026-11-08T08:00:00",
       "duration": null,
       "description": "Breakfast at Track",
       "profiles": [
@@ -354,9 +344,9 @@
       ]
     },
     {
-      "id": 84,
+      "id": 83,
       "name": "Paddock Opens",
-      "start": "2026-10-25T08:15:00",
+      "start": "2026-11-08T08:15:00",
       "duration": null,
       "description": "Paddock Opens",
       "profiles": [
@@ -364,9 +354,9 @@
       ]
     },
     {
-      "id": 87,
+      "id": 84,
       "name": "Engineering Briefing",
-      "start": "2026-10-25T08:50:00",
+      "start": "2026-11-08T08:20:00",
       "duration": 30,
       "description": "Engineering Briefing",
       "profiles": [
@@ -374,41 +364,31 @@
       ]
     },
     {
-      "id": 95,
-      "name": "Qualifying 2 Part 1",
-      "start": "2026-10-25T11:20:00",
-      "duration": 12,
-      "description": "Qualifying 2 Part 1",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
       "id": 96,
-      "name": "Qualifying 2 Part 2",
-      "start": "2026-10-25T11:40:00",
+      "name": "Qualifying 2 – Part 1",
+      "start": "2026-11-08T11:20:00",
       "duration": 12,
-      "description": "Qualifying 2 Part 2",
+      "description": "Qualifying 2 – Part 1",
       "profiles": [
         "mechanics"
       ]
     },
     {
       "id": 97,
-      "name": "Qualifying 2 TTSO",
-      "start": "2026-10-25T12:05:00",
-      "duration": 35,
-      "description": "Qualifying 2 TTSO",
+      "name": "Qualifying 2 – Part 2",
+      "start": "2026-11-08T11:40:00",
+      "duration": 12,
+      "description": "Qualifying 2 – Part 2",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 101,
-      "name": "Lunch at Track",
-      "start": "2026-10-25T13:00:00",
-      "duration": null,
-      "description": "Lunch at Track",
+      "id": 98,
+      "name": "Qualifying 2 – TTSO",
+      "start": "2026-11-08T12:05:00",
+      "duration": 25,
+      "description": "Qualifying 2 – TTSO",
       "profiles": [
         "mechanics"
       ]
@@ -416,27 +396,27 @@
     {
       "id": 105,
       "name": "Pre-Race Strategy Briefing",
-      "start": "2026-10-25T13:20:00",
-      "duration": 20,
+      "start": "2026-11-08T14:00:00",
+      "duration": 30,
       "description": "Pre-Race Strategy Briefing",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 107,
-      "name": "Cars on Apron",
-      "start": "2026-10-25T14:05:00",
+      "id": 108,
+      "name": "30 Minute Signal",
+      "start": "2026-11-08T15:00:00",
       "duration": null,
-      "description": "Cars on Apron",
+      "description": "30 Minute Signal",
       "profiles": [
         "mechanics"
       ]
     },
     {
-      "id": 108,
+      "id": 109,
       "name": "Pit Exit Open",
-      "start": "2026-10-25T14:10:00",
+      "start": "2026-11-08T15:05:00",
       "duration": 10,
       "description": "Pit Exit Open",
       "profiles": [
@@ -444,21 +424,11 @@
       ]
     },
     {
-      "id": 109,
-      "name": "Race 2 – 85 laps",
-      "start": "2026-10-25T14:45:00",
-      "duration": 123,
-      "description": "Race 2 – 85 laps",
-      "profiles": [
-        "mechanics"
-      ]
-    },
-    {
-      "id": 111,
-      "name": "Dinner at Track",
-      "start": "2026-10-25T18:00:00",
-      "duration": null,
-      "description": "Dinner at Track",
+      "id": 110,
+      "name": "Race 2 – 79 Laps",
+      "start": "2026-11-08T15:30:00",
+      "duration": 113,
+      "description": "Race 2 – 79 Laps",
       "profiles": [
         "mechanics"
       ]
