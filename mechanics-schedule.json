@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T12:45:41.094255",
+  "lastUpdated": "2026-11-07T15:03:23.397812",
   "teamGroup": "mechanics",
-  "eventCount": 43,
+  "eventCount": 44,
   "events": [
     {
       "id": 9,
@@ -279,6 +279,16 @@
       "start": "2026-11-07T15:00:00",
       "duration": null,
       "description": "30 Minute Signal",
+      "profiles": [
+        "mechanics"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Pit Exit Open",
+      "start": "2026-11-07T15:05:00",
+      "duration": 10,
+      "description": "Pit Exit Open",
       "profiles": [
         "mechanics"
       ]
