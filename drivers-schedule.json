@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-25T09:53:12.665820",
+  "lastUpdated": "2026-11-26T16:05:33.307394",
   "teamGroup": "drivers",
-  "eventCount": 83,
+  "eventCount": 84,
   "events": [
     {
       "id": 1,
@@ -249,6 +249,16 @@
       "start": "2026-11-26T15:40:00",
       "duration": 5,
       "description": "Practice Starts",
+      "profiles": [
+        "drivers"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Press Conference",
+      "start": "2026-11-26T16:35:00",
+      "duration": 25,
+      "description": "Press Conference",
       "profiles": [
         "drivers"
       ]
