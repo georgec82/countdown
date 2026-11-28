@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T12:12:40.269960",
+  "lastUpdated": "2026-11-28T12:27:02.880174",
   "teamGroup": "engineers",
   "eventCount": 84,
   "events": [
@@ -596,8 +596,8 @@
     {
       "id": 99,
       "name": "Qualifying 2 – TTSO",
-      "start": "2026-11-28T12:44:00",
-      "duration": 35,
+      "start": "2026-11-28T12:46:00",
+      "duration": 39,
       "description": "Qualifying 2 – TTSO",
       "profiles": [
         "engineers"
